@@ -1,0 +1,33 @@
+// Letras google fonts - poopins
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+
+// Roboto texto de página
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); 
+
+// Roboto subtitulos
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+// variables - colores
+
+$color-titulos: #780000;
+$color-subtitulos: #C1121F;
+$color-principal: #202529;
+$color-base: #ffffff;
+
+// variables - fuentes/family
+
+$font-Title: Poppins ;
+$font-Principal: 'Roboto', sans-serif;
+$font-subtitulos: 'Roboto', sans-serif;
+
+// variables - fuentes/size
+
+$text-Large: 5em ;
+$text-Medium: 3.2em ;
+$text-title: 2em ;
+$text-Base: 1.2em ;
+$text-Small: 1em ;

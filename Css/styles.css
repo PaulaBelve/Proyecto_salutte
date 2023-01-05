@@ -1,0 +1,98 @@
+/* Externos */
+/* Misc */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url(../Img/gray-concrete-wall.jpg);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  width: 100%; }
+
+html {
+  font-size: 62.5%; }
+
+h1 {
+  font-size: 2em;
+  font-family: Poppins;
+  color: #780000; }
+
+p {
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  color: #202529; }
+
+/* Partials */
+.tituloSalutte {
+  font-size: 3.2em;
+  font-family: Poppins;
+  text-align: center;
+  margin-top: 3%; }
+  .tituloSalutte a {
+    text-decoration: none;
+    color: #780000; }
+  .tituloSalutte :hover {
+    color: #780000; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%; }
+  .header .navbar {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    color: #202529; }
+  .header .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    color: #202529;
+    margin: 0 10px;
+    transition: all .3s linear; }
+  .header .dropdown-menu {
+    margin: 0 10px; }
+  .header .dropdown-item {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    color: #202529; }
+  .header .nav-link:hover {
+    color: #ffffff;
+    background: #780000; }
+
+.footer {
+  background-color: #202529;
+  color: #ffffff; }
+
+/* Pages */
+.inicio-pagina {
+  margin-top: 5%; }
+  .inicio-pagina .titulos {
+    color: #780000;
+    font-size: 2em;
+    font-family: Poppins; }
+  .inicio-pagina .texto-inicio {
+    margin-top: 10%;
+    text-align: center; }
+  .inicio-pagina p {
+    margin-top: 2%; }
+  .inicio-pagina button {
+    background-color: #780000; }
+
+.btn-contactanos {
+  margin-top: 2%;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-family: Poppins;
+  border: solid #ffffff;
+  padding: 2%;
+  border-radius: 10px; }
+
+/*.seccion {
+
+    background-image: url(../styles.scss)
+} */
+/* IMG */

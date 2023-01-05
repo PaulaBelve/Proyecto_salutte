@@ -1,0 +1,34 @@
+/* Externos */
+
+/* Misc */
+@import './Misc/Variables.scss' ;
+@import './Misc/Mixins.scss';
+@import './Misc/Normalize.scss' ;
+//@import './Misc/Animations' ;
+
+/* Partials */
+@import './Partials/header.scss';
+@import './Partials/footer.scss' ;
+
+/* Pages */
+@import './Pages/inicio' ;
+//@import './Pages/rPisos' ;
+//@import './Pages/rParedes' ;
+//@import './Pages/fachadas' ;
+//@import './Pages/quienesSomos' ;
+//@import './Pages/Contacto' ;
+
+/* IMG */
+
+@import url(../Img/gray-concrete-wall.jpg);
+
+
+
+
+
+
+
+
+
+
+

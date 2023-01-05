@@ -1,0 +1,72 @@
+
+// LOGO
+
+.tituloSalutte {
+
+
+    font-size: $text-Medium;
+    font-family: $font-Title;
+    text-align: center;
+    margin-top: 3%;
+
+    a {
+
+        text-decoration: none;
+        color: $color-titulos;
+
+    }
+
+    :hover {
+
+        color: $color-titulos;
+
+
+    }
+}
+
+// MENU DE NAVEGACION
+
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+
+    .navbar {
+        font-family: $font-Principal;
+        font-size: $text-Base ;
+        color: $color-principal;
+    }
+
+    .nav-link {
+
+        font-family: $font-Principal;
+        font-size: $text-Small ;
+        color: $color-principal;
+        margin: 0 10px;
+        transition: all .3s linear;
+        
+    }
+
+    .dropdown-menu {
+        margin: 0 10px;
+
+    }
+
+    .dropdown-item {
+
+        font-family: $font-Principal;
+        font-size: $text-Small ;
+        color: $color-principal;
+   }
+
+    .nav-link:hover {
+
+        color: $color-base;
+        background: $color-titulos;
+        
+    }
+
+}
+

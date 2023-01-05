@@ -1,0 +1,50 @@
+
+
+.inicio-pagina {
+
+    margin-top: 5%;
+
+    .titulos {
+
+        color: $color-titulos;
+        font-size: $text-title;
+        font-family: $font-Title;
+       
+      
+    }
+
+    .texto-inicio {
+
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    p {
+
+        
+        margin-top: 2%;
+    }
+
+    button {
+       
+        background-color: $color-titulos;
+        
+    }
+}
+
+.btn-contactanos {
+    
+    margin-top: 2%;
+    
+    color: $color-base;
+    font-size: $text-Base;
+    font-family: $font-Title;
+    border: solid $color-base;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+/*.seccion {
+
+    background-image: url(../styles.scss)
+} */
