@@ -1,7 +1,51 @@
 
 
+/* Footer */
+
 .footer {
 
-    background-color: $color-principal;
-    color: $color-base;
-}
+    background-color: $color-titulos;
+    
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: $font-Principal; 
+
+.divFooter {
+    
+   
+    margin-top: 2%;
+   
+    margin-left: 55%;
+
+   & p {  color: $color-base ;
+    font-size: $text-Small;
+    }
+
+   & .iconos-footer {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   }
+
+
+   & .iconos {
+        
+        gap: 1rem;
+        height: 25px;
+        width: 25px;
+    } }
+    
+
+    .finFooter {
+
+        font-size: 0.7em;
+        margin-top: 3%;
+        align-items: center;
+        
+    p {  color: $color-base} } }

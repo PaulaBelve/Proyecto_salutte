@@ -10,12 +10,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <title>Inicio</title>
+    <title>Inicio | Salutte</title>
 </head>
 
 <body>
 
+    <!-- LOGO -->
+
     <h1 class="tituloSalutte"><a href="/index.html">Salutte</a></h1>
+
+    <!-- HEADER -->
 
     <header class="header">
 
@@ -68,7 +72,7 @@
                             <a class="nav-link" href="#">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
                         </li>
 
 
@@ -79,7 +83,12 @@
         </nav>
 
     </header>
+
+    <!-- MAIN -->
+
     <main>
+
+        <!-- INICIO DE PÁGINA -->
 
         <section class="container-fluid  inicio-pagina">
 
@@ -102,20 +111,16 @@
                     <div id="carouselExampleFade" class="carousel slide carousel-fade">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./Img/Img-inicio1.png" class="d-block w-100"
-                                    alt="...">
+                                <img src="./Img/Img-inicio1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./Img/img-inicio2.png" class="d-block w-100"
-                                    alt="...">
+                                <img src="./Img/img-inicio2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./Img/img-inicio3.png" class="d-block w-100"
-                                    alt="...">
+                                <img src="./Img/img-inicio3.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./Img/img-inicio4.png" class="d-block w-100"
-                                    alt="...">
+                                <img src="./Img/img-inicio4.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -135,29 +140,91 @@
 
         </section>
 
-        <section class="container  seccion">
-            <h1> NUESTROS SERVICIOS </h1>
+        <!-- NUESTROS SERVICIOS -->
 
-            <div>
-                <h2> Ejecución de Obras </h2>
-                <h2>Capacitación en revestimientos y aplicaciones </h2>
-                <button>+ INFO</button>
+        <section class="container-fluid  seccion">
 
+            <h1 class="titulosGenerales"><b> NUESTROS SERVICIOS</b></h1>
 
+            <div class="row inicio-servicios">
+               
+                <div class="col">
+                    <h3> Ejecución de Obras </h3>
+                    <img src="" alt="">
+                </div>
+
+                <div class="col">
+                    <h3>Capacitación en revestimientos y aplicaciones </h3>
+                    <img src="" alt="">
+
+                </div>
+                
+                    <div class="col">
+                        <h3> Venta de materiales </h3>
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="col">
+                        <h3> Cursos y asesoramiento </h3>
+                        <img src="" alt="">
+                    </div>
+
+         
 
             </div>
-</section>
 
-<section>
+            <button class="btn-contactanos">+ INFO</button>
 
-    <h1>MANDANOS TU CONSULTA</h1>
-</section>
+
+        </section>
+
+        <!-- MANDANOS TU CONSULTA -->
+        <section class="container-fluid  asesoramiento">
+            <div class="row">
+                <!--  <h1 class="titulosGenerales"> MANDANOS TU CONSULTA </h1> -->
+                <div class="col info-asesoramiento">
+                    <h3>¿Necesitás asesoramiento?</h3>
+                    <p>Te invitamos a ponerte en contacto para una consulta gratuita.</p>
+                    <p>Dejanos tu consulta y en breves nos pondremos en contacto con vos!</p>
+                    <button class="btn-contactanos"> QUIERO CONTACTARME </button>
+                </div>
+                <div class="col logo-asesoramiento">
+                    <h1 class="tituloSalutte"><a href="/index.html">Salutte</a></h1>
+                </div>
+            </div>
+
+        </section>
 
     </main>
+
+    <section class="separacion"></section>
+
+    <!-- FOOTER -->
     <footer class="footer">
+        <div class="divFooter row">
 
-        <p>Contactanos en nuestras redes</p>
+            <div class="col">
+            <p><b> + info:</b></p>
+            <p> <img class="iconos" src="../IMG/gmail.png" alt=""> Salutte-home&desing@gmail.com</p>
 
+        </div>
+        <div class="col">
+            <p><b> Encontranos en nuestras redes</b></p>
+<div class="iconos-footer">
+            <p><a href=https://www.instagram.com/direct/inbox/?hles-la> <img class="iconos"
+                        src="../IMG/instagram (1).png" alt=""></a></p>
+            <p><a href=https://www.facebook.com> <img class="iconos" src="../IMG/facebook.png" alt=""></a> </p>
+
+        </div>
+        </div>
+        </div>
+
+        <section class="finFooter">
+
+            
+            <p>2023 © Salutte, home & desing.</p>
+        </section>
+    
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

@@ -17,12 +17,12 @@ html {
   font-size: 62.5%; }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: Poppins;
   color: #780000; }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: "Roboto", sans-serif;
   color: #202529; }
 
@@ -49,7 +49,7 @@ p {
     color: #202529; }
   .header .nav-link {
     font-family: "Roboto", sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #202529;
     margin: 0 10px;
     transition: all .3s linear; }
@@ -57,42 +57,114 @@ p {
     margin: 0 10px; }
   .header .dropdown-item {
     font-family: "Roboto", sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #202529; }
   .header .nav-link:hover {
     color: #ffffff;
     background: #780000; }
 
+/* Footer */
 .footer {
-  background-color: #202529;
-  color: #ffffff; }
+  background-color: #780000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif; }
+  .footer .divFooter {
+    margin-top: 2%;
+    margin-left: 55%; }
+    .footer .divFooter p {
+      color: #ffffff;
+      font-size: 1.2em; }
+    .footer .divFooter .iconos-footer {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem; }
+    .footer .divFooter .iconos {
+      gap: 1rem;
+      height: 25px;
+      width: 25px; }
+  .footer .finFooter {
+    font-size: 0.7em;
+    margin-top: 3%;
+    align-items: center; }
+    .footer .finFooter p {
+      color: #ffffff; }
 
 /* Pages */
 .inicio-pagina {
+  background-image: url(../img/gray-concrete-wall.jpg);
   margin-top: 5%; }
   .inicio-pagina .titulos {
     color: #780000;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: Poppins; }
   .inicio-pagina .texto-inicio {
     margin-top: 10%;
     text-align: center; }
   .inicio-pagina p {
-    margin-top: 2%; }
+    margin: 4% 4% 0 4%; }
   .inicio-pagina button {
+    padding: 2%;
+    border-radius: 10px;
     background-color: #780000; }
 
 .btn-contactanos {
-  margin-top: 2%;
+  margin-top: 4%;
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: Poppins;
-  border: solid #ffffff;
-  padding: 2%;
-  border-radius: 10px; }
+  border: solid #780000;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #780000;
+  box-shadow: 0 0 10px #780000; }
 
-/*.seccion {
+.seccion {
+  background-image: url(../img/gray-concrete-wall.jpg);
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center; }
+  .seccion .titulosGenerales {
+    color: #780000;
+    margin-top: 3%; }
+  .seccion .inicio-servicios {
+    margin-top: 3%; }
+  .seccion .button {
+    margin-bottom: 3%; }
 
-    background-image: url(../styles.scss)
-} */
+.asesoramiento {
+  background-color: #202529;
+  margin-top: 3%;
+  margin-bottom: 1%; }
+  .asesoramiento h3 {
+    color: #ffffff;
+    margin-bottom: 3%; }
+  .asesoramiento p {
+    color: #ffffff;
+    font-size: 1.2em; }
+  .asesoramiento .info-asesoramiento {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%; }
+  .asesoramiento .logo-asesoramiento {
+    margin-top: 5%;
+    text-align: center; }
+
+.separacion {
+  background-color: rgba(207, 32, 44, 0.884); }
+
+.inicio-contacto {
+  background-color: #780000;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 3%;
+  height: 100%; }
+  .inicio-contacto h1 {
+    color: #ffffff;
+    margin-top: 3%; }
+  .inicio-contacto h2 {
+    margin-bottom: 3%; }
+
 /* IMG */
