@@ -1,0 +1,54 @@
+
+
+
+.img-servicios {
+
+    margin-top: 2rem;
+    height: 50%;
+  /*  position: absolute; */
+}
+
+
+.titulos-img {
+
+    border: $color-titulos;
+    background: opacity($color: #78000093);
+    color: $color-base;
+    position:relative ;
+}
+
+.card-servicios {
+
+    text-align: center;
+    
+
+.inicio-servicios {
+
+    text-align: center;
+
+
+.col {
+
+    border: $color-principal;
+    border-radius: 10px;
+    box-shadow: 0 0 10px $color-titulos;
+    gap: 2rem;
+    margin: 0 4rem 0 4rem;
+}
+
+h3 {
+
+    margin-top: 1.5rem;
+    font-family: $font-Title;
+    font-size: $text-title;
+}
+
+p {
+
+    margin: 2rem 2rem 1rem 2rem ;
+    font-size: $text-Small;
+    
+}
+
+
+} }

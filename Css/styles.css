@@ -105,13 +105,15 @@ p {
     text-align: center; }
   .inicio-pagina p {
     margin: 4% 4% 0 4%; }
-  .inicio-pagina button {
-    padding: 2%;
-    border-radius: 10px;
-    background-color: #780000; }
+  .inicio-pagina .carousel-fade {
+    /*   padding: 2%;
+        border-radius: 10px;
+       background-color: $color-titulos;*/
+    border: solid #780000 0.63529 10px; }
 
 .btn-contactanos {
-  margin-top: 4%;
+  margin-top: 3%;
+  margin-bottom: 5%;
   color: #ffffff;
   font-size: 1.5em;
   font-family: Poppins;
@@ -126,11 +128,19 @@ p {
   margin-top: 1%;
   margin-bottom: 1%;
   text-align: center; }
-  .seccion .titulosGenerales {
+  .seccion .titulos {
     color: #780000;
-    margin-top: 3%; }
+    font-size: 2.5em;
+    font-family: Poppins;
+    margin-top: 5%; }
+  .seccion .col {
+    margin-top: 5%; }
   .seccion .inicio-servicios {
     margin-top: 3%; }
+  .seccion .img-servicios {
+    width: 60%;
+    border-radius: 21px;
+    margin: 3%; }
   .seccion .button {
     margin-bottom: 3%; }
 
@@ -154,6 +164,35 @@ p {
 
 .separacion {
   background-color: rgba(207, 32, 44, 0.884); }
+
+.img-servicios {
+  margin-top: 2rem;
+  height: 50%;
+  /*  position: absolute; */ }
+
+.titulos-img {
+  border: #780000;
+  background: 0.57647;
+  color: #ffffff;
+  position: relative; }
+
+.card-servicios {
+  text-align: center; }
+  .card-servicios .inicio-servicios {
+    text-align: center; }
+    .card-servicios .inicio-servicios .col {
+      border: #202529;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #780000;
+      gap: 2rem;
+      margin: 0 4rem 0 4rem; }
+    .card-servicios .inicio-servicios h3 {
+      margin-top: 1.5rem;
+      font-family: Poppins;
+      font-size: 2.5em; }
+    .card-servicios .inicio-servicios p {
+      margin: 2rem 2rem 1rem 2rem;
+      font-size: 1.2em; }
 
 .inicio-contacto {
   background: #780000;
