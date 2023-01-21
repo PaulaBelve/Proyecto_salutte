@@ -1,25 +1,44 @@
 
 
+.flyer-servicios {
 
-.img-servicios {
-
+    background-image: url(../img/gray-concrete-wall.jpg);
+    background-position: left center;
+    background-size: cover;
+    height: 300px;
+    width: 35%;
+    text-align: center;
     margin-top: 2rem;
-    height: 50%;
-  /*  position: absolute; */
+
+    .banner {
+        text-align: center;
+    
+    }
+
+    .titulos-img {
+
+        border: $color-titulos;
+        background-color:  #7800005d;
+        padding: 2rem;
+        width: 50%;
+        color: $color-base;
+        margin-left: 25%;
+        
+        
+     
+
+    }
+
+
 }
 
 
-.titulos-img {
 
-    border: $color-titulos;
-    background: opacity($color: #78000093);
-    color: $color-base;
-    position:relative ;
-}
 
 .card-servicios {
 
     text-align: center;
+    margin-top: 5rem;
     
 
 .inicio-servicios {

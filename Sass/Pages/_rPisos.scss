@@ -1,0 +1,33 @@
+.seccion-rPisos {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+
+    img {
+
+        width: 70%;
+        box-shadow: 0 0 15px $color-titulos;
+        border: $color-principal;
+        border-radius: 5px;
+    }
+
+    h3 {
+
+        margin-top: 2rem;
+        font-family: $font-Title;
+
+    }
+
+    p {
+
+
+        font-size: $text-Small;
+        margin: 2rem 3rem 2rem 3rem;
+    }
+
+    a {
+
+        margin-top: 2rem;
+    }
+}

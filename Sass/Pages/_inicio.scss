@@ -1,44 +1,51 @@
-
 // INICIO DE PÁGINA
 
 .inicio-pagina {
-    
-    background-image: url(../img/gray-concrete-wall.jpg);
 
-    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background-position: left center;
+    background-size: cover;
+    height: 850px;
+    width: 100%;
+    background-image: url(../img/gray-concrete-wall.jpg);
+    text-align: center;
+
+    margin-top: 3%;
 
     .titulos {
 
         color: $color-titulos;
         font-size: $text-title;
         font-family: $font-Title;
-       
-      
+
+
     }
 
     .texto-inicio {
 
-        margin-top: 10%;
-        text-align: center;
+        margin-top: 5%;
+
     }
 
     p {
 
-        margin: 4% 4% 0 4%;
+        margin: 4% 5% 0 5%;
     }
 
-    .carousel-fade{
-       
-      /*   padding: 2%;
+    .carousel-fade {
+        width: 50%;
+        padding: 2%;
         border-radius: 10px;
-       background-color: $color-titulos;*/
-       border: solid $color-titulos opacity($color: #780000a2) 10px;
-        
+        margin-left: 25%;
+        background-color: #780000a2;
+      
+
     }
 }
 
 .btn-contactanos {
-    
+
     margin-top: 3%;
     margin-bottom: 5%;
     color: $color-base;
@@ -49,15 +56,19 @@
     border-radius: 10px;
     background-color: $color-titulos;
     box-shadow: 0 0 10px $color-titulos;
-    
+
 }
 
 // SECCION NUESTROS SERVICIOS
 
 .seccion {
 
+    background-position: left center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
     background-image: url(../img/gray-concrete-wall.jpg);
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 1%;
     text-align: center;
 
@@ -67,8 +78,8 @@
         font-size: $text-title;
         font-family: $font-Title;
         margin-top: 5%;
-       
-      
+
+
     }
 
     .col {
@@ -79,39 +90,34 @@
     .inicio-servicios {
 
         margin-top: 3%;
-        
-       }
 
-       .img-servicios {
+    }
 
-        width: 60% ;
+    .img-servicios {
+
+        width: 60%;
         border-radius: 21px;
         margin: 3%;
-       }
-
-    .button {
-
-        margin-bottom: 3%;
     }
-} 
 
 
+}
 
 // ASESORAMIENTO
 
 .asesoramiento {
 
     background-color: $color-principal;
-    margin-top: 3% ;
-    margin-bottom: 1%;
+    margin-top: 3%;
    
+
 
     h3 {
 
         color: $color-base ;
         margin-bottom: 3%;
-       
-    
+
+
     }
 
     p {
@@ -120,9 +126,9 @@
     }
 
     .info-asesoramiento {
-      margin-top: 3%;
-      text-align: center;
-      margin-bottom: 3%;
+        margin-top: 3%;
+        text-align: center;
+        margin-bottom: 3%;
     }
 
     .logo-asesoramiento {
