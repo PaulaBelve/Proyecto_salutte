@@ -1,8 +1,6 @@
-
-
 .flyer-servicios {
 
-    background-image: url(../img/gray-concrete-wall.jpg);
+    background-image: url();
     background-position: left center;
     background-size: cover;
     height: 300px;
@@ -12,20 +10,20 @@
 
     .banner {
         text-align: center;
-    
+
     }
 
     .titulos-img {
 
         border: $color-titulos;
-        background-color:  #7800005d;
+        background-color: #7800005d;
         padding: 2rem;
         width: 50%;
         color: $color-base;
         margin-left: 25%;
-        
-        
-     
+
+
+
 
     }
 
@@ -39,35 +37,36 @@
 
     text-align: center;
     margin-top: 5rem;
-    
-
-.inicio-servicios {
-
-    text-align: center;
 
 
-.col {
+    .inicio-servicios {
 
-    border: $color-principal;
-    border-radius: 10px;
-    box-shadow: 0 0 10px $color-titulos;
-    gap: 2rem;
-    margin: 0 4rem 0 4rem;
+        text-align: center;
+
+
+        .col {
+
+            border: $color-principal;
+            border-radius: 10px;
+            box-shadow: 0 0 10px $color-titulos;
+            gap: 2rem;
+            margin: 0 4rem 0 4rem;
+        }
+
+        h3 {
+
+            margin-top: 1.5rem;
+            font-family: $font-Title;
+            font-size: $text-title;
+        }
+
+        p {
+
+            margin: 2rem 2rem 1rem 2rem;
+            font-size: $text-Small;
+
+        }
+
+
+    }
 }
-
-h3 {
-
-    margin-top: 1.5rem;
-    font-family: $font-Title;
-    font-size: $text-title;
-}
-
-p {
-
-    margin: 2rem 2rem 1rem 2rem ;
-    font-size: $text-Small;
-    
-}
-
-
-} }

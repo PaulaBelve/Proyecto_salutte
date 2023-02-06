@@ -231,6 +231,28 @@ p {
   .seccion-rPisos a {
     margin-top: 2rem; }
 
+.flyer-servicios {
+  background-image: url(../img/gray-concrete-wall.jpg);
+  background-position: left center;
+  background-size: cover;
+  height: 300px;
+  width: 35%;
+  text-align: center;
+  margin-top: 2rem;
+  border: #780000;
+  background-color: #7800005d;
+  padding: 2rem;
+  color: #ffffff;
+  margin-left: 25%; }
+  .flyer-servicios .banner {
+    text-align: center; }
+
+.proyectos-grid {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr)); }
+
 .inicio-contacto {
   background: #780000b7;
   color: #ffffff;
