@@ -1,10 +1,10 @@
 .flyer-servicios {
 
-    background-image: url();
+    background-image: url(../img/181f4647e73a9d369331b4a3bebfe2af.jpg);
     background-position: left center;
     background-size: cover;
-    height: 300px;
-    width: 35%;
+    height: 400px;
+    width: 100%;
     text-align: center;
     margin-top: 2rem;
 
@@ -16,11 +16,13 @@
     .titulos-img {
 
         border: $color-titulos;
-        background-color: #7800005d;
+        background-color: #7800009f;
         padding: 2rem;
         width: 50%;
         color: $color-base;
         margin-left: 25%;
+        margin-top: 8%;
+        font-size: 3rem;
 
 
 
@@ -30,10 +32,84 @@
 
 }
 
+.inicio-servicios {
+
+    .titulos-servicios {
+
+        margin-top: 3%;
+        margin-left: 3%;
+        font-size: $text-Medium;
+
+
+    }
+
+    .textos-servicios {
+
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border: solid 2px $color-titulos;
+        padding: 2%;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+.paso-paso {
+
+
+    .col {
+
+
+        margin: 2%;
+        border: $color-principal;
+
+        box-shadow: 0 0 10px $color-principal;
+        gap: 2rem;
+
+        text-align: center;
+
+        // margin: 0 4rem 0 4rem;
+
+        h5 {
+
+            font-size: $text-Base;
+        }
+    }
+
+
+    .icono-servicios {
+
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 30%;
+        color: $color-principal;
+
+    }
+
+
+}
+
+.servicio-final {
+
+    text-align: center;
+
+    p {
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn-contactanos {
+
+        margin-top: 2%;
+    }
+}
 
 
 
-.card-servicios {
+
+/*.card-servicios {
 
     text-align: center;
     margin-top: 5rem;
@@ -69,4 +145,4 @@
 
 
     }
-}
+} */

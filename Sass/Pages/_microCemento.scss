@@ -1,28 +1,28 @@
-
 .flyer-servicios {
 
-    background-image: url(../img/gray-concrete-wall.jpg);
+    //background-image: url(../img/gray-concrete-wall.jpg);
     background-position: left center;
     background-size: cover;
-    height: 300px;
-    width: 35%;
+    //height: 300px;
+    //width: 35%;
     text-align: center;
     margin-top: 2rem;
     border: $color-titulos;
-    background-color:  #7800005d;
+    background-color: #7800005d;
     padding: 2rem;
     color: $color-base;
     margin-left: 25%;
 
     .banner {
         text-align: center;
-    
-    } }
 
-    .proyectos-grid {
-
-        display: grid;
-        column-gap: 10px;
-        row-gap: 10px;
-        grid-template-rows: repeat(auto-fill, minmax(300px, 1fr)) ;
     }
+}
+
+.proyectos-grid {
+
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+}

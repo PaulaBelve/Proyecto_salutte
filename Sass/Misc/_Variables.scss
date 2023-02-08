@@ -1,15 +1,20 @@
 // Letras google fonts - poopins
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-// Roboto texto de página
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); 
 
-// Roboto subtitulos
+// Monserrat-clasic texto de página
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+// Roboto subtitulos - titulo
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 
 // variables - colores
 
@@ -20,14 +25,15 @@ $color-base: #ffffff;
 
 // variables - fuentes/family
 
-$font-Title: Poppins ;
-$font-Principal: 'Roboto', sans-serif;
-$font-subtitulos: 'Roboto', sans-serif;
+$font-Title: 'Montserrat', sans-serif;
+;
+$font-Principal: 'Montserrat', sans-serif;
+$font-subtitulos: 'Montserrat', sans-serif;
 
 // variables - fuentes/size
 
-$text-Large: 5em ;
-$text-Medium: 3.2em ;
-$text-title: 2.5em ;
-$text-Base: 1.5em ;
-$text-Small: 1.2em ;
+$text-Large: 5em;
+$text-Medium: 3.2em;
+$text-title: 3.5em;
+$text-Base: 1.5em;
+$text-Small: 1.2em;

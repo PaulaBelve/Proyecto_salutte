@@ -1,9 +1,9 @@
 /* Externos */
 /* Misc */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url(../Img/gray-concrete-wall.jpg);
 * {
   margin: 0;
@@ -20,19 +20,19 @@ body {
   min-height: 100vh; }
 
 h1 {
-  font-size: 2.5em;
-  font-family: Poppins;
+  font-size: 3.5em;
+  font-family: "Montserrat", sans-serif;
   color: #780000; }
 
 p {
   font-size: 1.5em;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #202529; }
 
 /* Partials */
 .tituloSalutte {
   font-size: 3.2em;
-  font-family: Poppins;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 3%; }
   .tituloSalutte a {
@@ -47,11 +47,11 @@ p {
   justify-content: center;
   margin-top: 3%; }
   .header .navbar {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
     color: #202529; }
   .header .nav-link {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
     color: #202529;
     margin: 0 10px;
@@ -59,7 +59,7 @@ p {
   .header .dropdown-menu {
     margin: 0 10px; }
   .header .dropdown-item {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
     color: #202529; }
   .header .nav-link:hover {
@@ -73,7 +73,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
   .footer .divFooter {
     margin-top: 2%;
     margin-left: 55%; }
@@ -96,37 +96,54 @@ p {
       color: #ffffff; }
 
 /* Pages */
-.inicio-pagina {
-  display: flex;
-  flex-direction: column;
+.inicio-banner {
   background-position: left center;
   background-size: cover;
-  height: 850px;
+  height: 500px;
   width: 100%;
-  background-image: url(../img/gray-concrete-wall.jpg);
+  background-image: url(../img/hierba-sal-rosa-himalaya-estera.jpg); }
+  .inicio-banner .texto-banner {
+    font-size: 3.2em;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    margin-top: 2%;
+    text-align: center; }
+    .inicio-banner .texto-banner p {
+      color: #ffffff;
+      margin-top: 5%; }
+
+.inicio-pagina {
+  height: 400px;
+  width: 100%;
   text-align: center;
-  margin-top: 3%; }
+  margin-top: 3%;
+  /*   .carousel-fade {
+        width: 50%;
+        padding: 2%;
+        border-radius: 10px;
+        margin-left: 25%;
+        background-color: #780000a2;
+
+
+    } */ }
   .inicio-pagina .titulos {
     color: #780000;
-    font-size: 2.5em;
-    font-family: Poppins; }
+    font-size: 3.5em;
+    font-family: "Montserrat", sans-serif; }
   .inicio-pagina .texto-inicio {
     margin-top: 5%; }
-  .inicio-pagina p {
-    margin: 4% 5% 0 5%; }
-  .inicio-pagina .carousel-fade {
-    width: 50%;
+  .inicio-pagina .p-Quienes-Somos {
+    margin: 4% 8% 0 8%;
+    border: #780000;
+    background-color: #7800005d;
     padding: 2%;
-    border-radius: 10px;
-    margin-left: 25%;
-    background-color: #780000a2; }
+    width: 85%; }
 
 .btn-contactanos {
   margin-top: 3%;
-  margin-bottom: 5%;
   color: #ffffff;
   font-size: 1.5em;
-  font-family: Poppins;
+  font-family: "Montserrat", sans-serif;
   border: solid #780000;
   padding: 1%;
   border-radius: 10px;
@@ -136,25 +153,29 @@ p {
 .seccion {
   background-position: left center;
   background-size: cover;
-  height: 600px;
+  height: 450px;
   width: 100%;
   background-image: url(../img/gray-concrete-wall.jpg);
-  margin-top: 2%;
-  margin-bottom: 1%;
   text-align: center; }
   .seccion .titulos {
     color: #780000;
-    font-size: 2.5em;
-    font-family: Poppins;
-    margin-top: 5%; }
+    font-size: 3.5em;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5%;
+    margin-left: 8%;
+    text-align: justify; }
   .seccion .col {
-    margin-top: 5%; }
-  .seccion .inicio-servicios {
     margin-top: 3%; }
+  .seccion .inicio-servicios {
+    margin-top: 1%; }
   .seccion .img-servicios {
+    width: 25%;
+    border-radius: 21px; }
+  .seccion .img-productos {
     width: 60%;
-    border-radius: 21px;
-    margin: 3%; }
+    border-radius: 21px; }
+  .seccion a {
+    margin-top: 2%; }
 
 .asesoramiento {
   background-color: #202529;
@@ -177,42 +198,99 @@ p {
   background-color: rgba(207, 32, 44, 0.884); }
 
 .flyer-servicios {
-  background-image: url(../img/gray-concrete-wall.jpg);
+  background-image: url(../img/181f4647e73a9d369331b4a3bebfe2af.jpg);
   background-position: left center;
   background-size: cover;
-  height: 300px;
-  width: 35%;
+  height: 400px;
+  width: 100%;
   text-align: center;
   margin-top: 2rem; }
   .flyer-servicios .banner {
     text-align: center; }
   .flyer-servicios .titulos-img {
     border: #780000;
-    background-color: #7800005d;
+    background-color: #7800009f;
     padding: 2rem;
     width: 50%;
     color: #ffffff;
-    margin-left: 25%; }
+    margin-left: 25%;
+    margin-top: 8%;
+    font-size: 3rem; }
 
-.card-servicios {
+.inicio-servicios .titulos-servicios {
+  margin-top: 3%;
+  margin-left: 3%;
+  font-size: 3.2em; }
+
+.inicio-servicios .textos-servicios {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: solid 2px #780000;
+  padding: 2%;
   text-align: center;
-  margin-top: 5rem; }
-  .card-servicios .inicio-servicios {
-    text-align: center; }
-    .card-servicios .inicio-servicios .col {
-      border: #202529;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #780000;
-      gap: 2rem;
-      margin: 0 4rem 0 4rem; }
-    .card-servicios .inicio-servicios h3 {
-      margin-top: 1.5rem;
-      font-family: Poppins;
-      font-size: 2.5em; }
-    .card-servicios .inicio-servicios p {
-      margin: 2rem 2rem 1rem 2rem;
-      font-size: 1.2em; }
+  width: 50%;
+  margin: auto; }
 
+.paso-paso .col {
+  margin: 2%;
+  border: #202529;
+  box-shadow: 0 0 10px #202529;
+  gap: 2rem;
+  text-align: center; }
+  .paso-paso .col h5 {
+    font-size: 1.5em; }
+
+.paso-paso .icono-servicios {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 30%;
+  color: #202529; }
+
+.servicio-final {
+  text-align: center; }
+  .servicio-final p {
+    margin-top: 2%;
+    margin-bottom: 3%; }
+  .servicio-final .btn-contactanos {
+    margin-top: 2%; }
+
+/*.card-servicios {
+
+    text-align: center;
+    margin-top: 5rem;
+
+
+    .inicio-servicios {
+
+        text-align: center;
+
+
+        .col {
+
+            border: $color-principal;
+            border-radius: 10px;
+            box-shadow: 0 0 10px $color-titulos;
+            gap: 2rem;
+            margin: 0 4rem 0 4rem;
+        }
+
+        h3 {
+
+            margin-top: 1.5rem;
+            font-family: $font-Title;
+            font-size: $text-title;
+        }
+
+        p {
+
+            margin: 2rem 2rem 1rem 2rem;
+            font-size: $text-Small;
+
+        }
+
+
+    }
+} */
 .seccion-rPisos {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -224,7 +302,7 @@ p {
     border-radius: 5px; }
   .seccion-rPisos h3 {
     margin-top: 2rem;
-    font-family: Poppins; }
+    font-family: "Montserrat", sans-serif; }
   .seccion-rPisos p {
     font-size: 1.2em;
     margin: 2rem 3rem 2rem 3rem; }
@@ -232,11 +310,8 @@ p {
     margin-top: 2rem; }
 
 .flyer-servicios {
-  background-image: url(../img/gray-concrete-wall.jpg);
   background-position: left center;
   background-size: cover;
-  height: 300px;
-  width: 35%;
   text-align: center;
   margin-top: 2rem;
   border: #780000;
@@ -260,7 +335,7 @@ p {
   height: 200px;
   width: 100%; }
   .inicio-contacto .texto-inicio-contacto {
-    font-family: Poppins;
+    font-family: "Montserrat", sans-serif;
     margin-top: 3rem; }
     .inicio-contacto .texto-inicio-contacto h1 {
       color: #ffffff; }
@@ -278,13 +353,13 @@ p {
   background-image: url(../img/gray-concrete-wall.jpg); }
   .contacto h1 {
     color: #202529;
-    font-family: Poppins;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-top: 3rem; }
   .contacto h2 {
     text-align: center;
     margin-bottom: 2rem;
-    font-family: Poppins; }
+    font-family: "Montserrat", sans-serif; }
   .contacto .consulta-contacto {
     margin-top: 5%;
     text-align: center; }
@@ -300,7 +375,7 @@ p {
     margin-top: 4%;
     color: #202529;
     font-size: 1.5em;
-    font-family: Poppins;
+    font-family: "Montserrat", sans-serif;
     border: solid #202529;
     padding: 1%;
     border-radius: 10px;
@@ -331,7 +406,7 @@ p {
     margin-top: 2rem; }
 
 .form-label {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 1rem;
   font-size: 1.5em; }
 
@@ -345,7 +420,7 @@ p {
   margin-top: 2rem;
   color: #ffffff;
   background-color: #202529;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   border-radius: 10px;
   border: solid 1px #202529;
