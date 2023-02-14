@@ -52,22 +52,163 @@
     .p-Quienes-Somos {
 
         margin: 4% 8% 0 8%;
-        border: $color-titulos;
-        background-color: #7800005d;
-        padding: 2%;
+        padding: 1%;
         width: 85%;
+
     }
 
-    /*   .carousel-fade {
-        width: 50%;
-        padding: 2%;
-        border-radius: 10px;
-        margin-left: 25%;
-        background-color: #780000a2;
+    p {
+
+        color: $color-titulos;
+
+    }
 
 
-    } */
 }
+
+
+
+// SECCION NUESTROS SERVICIOS
+
+.seccion-servicios {
+
+
+    //height: 450px;
+    //width: 100%;
+    text-align: center;
+
+    .titulos {
+
+
+        color: $color-principal;
+        font-size: $text-title;
+        font-family: $font-Title;
+        text-align: center;
+        margin-bottom: 5%;
+        font-weight: 600
+    }
+
+
+}
+
+.cardServicios {
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 5rem;
+
+    .boxServicios {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 2%;
+
+
+    }
+
+    h3 {
+
+        font-family: $font-subtitulos;
+        font-weight: 600
+    }
+
+    .boxServicios__img {
+
+
+        width: 90%;
+        height: 90%;
+        position: relative;
+
+    }
+
+    .boxServicios__info {
+
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 90%;
+        background-color: $color-base;
+        text-align: center;
+        font-size: 1.1em;
+        padding: 3%;
+        font-family: $font-Principal;
+        color: $color-principal;
+
+
+    }
+
+
+
+}
+
+// SECCION NUESTROS SERVICIOS
+
+.seccion-productos {
+
+    text-align: center;
+
+    .titulos {
+
+
+        color: $color-principal;
+        font-size: $text-title;
+        font-family: $font-Title;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        font-weight: 600
+    }
+}
+
+.box-productos {
+    text-align: justify;
+
+    h2 {
+
+        font-family: $font-subtitulos;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+
+    .btn-productos {
+
+        text-align: justify;
+        margin-left: 3%;
+        margin-top: 5%;
+        color: $color-base;
+        font-size: $text-Base;
+        font-family: $font-Title;
+        border: solid $color-titulos;
+        padding: 1%;
+        border-radius: 10px;
+        background-color: $color-titulos;
+        box-shadow: 0 0 10px $color-titulos;
+        text-decoration: none;
+    }
+
+    img {
+
+        margin: auto;
+        margin-top: 2%;
+        width: 100%;
+    }
+
+
+}
+
+
+
+// BOTON DE CONTACTO
 
 .btn-contactanos {
 
@@ -84,67 +225,13 @@
 
 }
 
-// SECCION NUESTROS SERVICIOS
-
-.seccion {
-
-    background-position: left center;
-    background-size: cover;
-    height: 450px;
-    width: 100%;
-    background-image: url(../img/gray-concrete-wall.jpg);
-    text-align: center;
-
-    .titulos {
-
-
-        color: $color-titulos;
-        font-size: $text-title;
-        font-family: $font-Title;
-        margin-top: 5%;
-        margin-left: 8%;
-        text-align: justify;
-
-
-    }
-
-    .col {
-
-        margin-top: 3%;
-    }
-
-    .inicio-servicios {
-
-        margin-top: 1%;
-
-    }
-
-    .img-servicios {
-
-        width: 25%;
-        border-radius: 21px;
-
-    }
-
-    .img-productos {
-        width: 60%;
-        border-radius: 21px;
-
-    }
-
-    a {
-        margin-top: 2%;
-    }
-
-
-}
-
 // ASESORAMIENTO
 
 .asesoramiento {
 
     background-color: $color-principal;
-    margin-top: 3%;
+    width: 100%;
+    margin-top: 1%;
 
 
 
@@ -172,9 +259,4 @@
         margin-top: 5%;
         text-align: center;
     }
-}
-
-.separacion {
-
-    background-color: $color-subtitulos;
 }

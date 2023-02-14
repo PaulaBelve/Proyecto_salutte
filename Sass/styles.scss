@@ -1,36 +1,25 @@
 /* Externos */
 
 /* Misc */
-@import './Misc/Variables.scss' ;
+@import './Misc/Variables.scss';
 @import './Misc/Mixins.scss';
-@import './Misc/Normalize.scss' ;
+@import './Misc/Normalize.scss';
 //@import './Misc/Animations' ;
 
 /* Partials */
 @import './Partials/header.scss';
-@import './Partials/footer.scss' ;
+@import './Partials/footer.scss';
 
 /* Pages */
-@import './Pages/inicio' ;
-@import './Pages/servicios' ;
-@import './Pages/rPisos' ;
+@import './Pages/inicio';
+@import './Pages/servicios';
+@import './Pages/rPisos';
 @import './Pages/microCemento';
-//@import './Pages/rParedes' ;
+@import './Pages/rParedes';
 //@import './Pages/fachadas' ;
 //@import './Pages/quienesSomos' ;
-  @import './Pages/contacto' ;
+@import './Pages/contacto';
 
 /* IMG */
 
 @import url(../Img/gray-concrete-wall.jpg);
-
-
-
-
-
-
-
-
-
-
-
