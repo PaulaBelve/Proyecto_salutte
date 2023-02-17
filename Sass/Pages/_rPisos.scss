@@ -1,10 +1,27 @@
-.seccion-rPisos {
+#sectionPisos {
 
     margin-top: 5%;
     margin-bottom: 2%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    img {
+    p {
+
+        font-size: $text-Base;
+    }
+
+
+    .boxPisos {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .boxPisos__img {
 
         width: 100%;
         box-shadow: 0 0 10px $color-principal;
@@ -13,24 +30,27 @@
 
     }
 
-    h3 {
+
+
+    .boxPisos__info {
+
+        margin-top: 10rem;
+    }
+
+    .boxPisos__title {
 
 
         font-family: $font-subtitulos;
+        font-size: $text-Medium;
         font-weight: 600;
         text-align: justify;
         margin-left: 3.5rem;
     }
 
-    .info-productos {
-
-        margin-top: 10rem;
-    }
-
-    p {
+    .boxPisos__text {
 
 
-        font-size: $text-Small;
+        font-size: $text-Base;
         margin: 3rem 3rem 5rem 3rem;
     }
 
@@ -39,12 +59,56 @@
         margin-top: 4rem;
         color: $color-base;
         font-size: $text-Base;
-        font-family: $font-Title;
+        font-family: $font-Principal;
         border: solid $color-titulos;
         padding: 1%;
         border-radius: 10px;
         background-color: $color-titulos;
         box-shadow: 0 0 10px $color-titulos;
         text-decoration: none;
+        cursor: pointer;
     }
+}
+
+// modal
+
+.tituloRevestimientos {
+
+    font-size: $text-title !important;
+    font-family: $font-Title !important;
+}
+
+.textoRevestimientos {
+
+    h3 {
+        font-family: $font-subtitulos;
+        font-size: $text-subtitle;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    p {
+
+        margin-top: 2rem;
+    }
+}
+
+.botones-modal {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.icon-wsp {
+
+
+    height: 60px;
+    width: 60px;
+
+    margin-top: 2rem;
 }
