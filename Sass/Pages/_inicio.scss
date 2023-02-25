@@ -5,33 +5,51 @@
 
     background-position: left center;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-image:
         url(../img/hierba-sal-rosa-himalaya-estera.jpg);
 
+    margin-top: 2rem;
+
+
+
+
+
+    .parrafoBanner {
+
+        font-family: $font-Title;
+
+
+
+        p {
+            font-weight: 600;
+            text-align: start;
+            margin-left: 25px;
+            color: $color-base;
+            font-size: 8rem;
+            padding: 2rem;
+
+
+        }
+
+
+
+
+    }
+
 
 
 
 
 }
 
-.parrafoBanner {
-    color: $color-base;
-    font-size: $text-title;
-    font-family: $font-Title;
-    color: $color-base;
-    margin-top: 10rem;
-    padding: 10%;
-    text-align: justify;
 
-
-}
 
 .inicio-pagina {
 
 
-    height: 400px;
+    height: 850px;
     width: 100%;
     text-align: center;
     margin-top: 3%;
@@ -39,7 +57,7 @@
     .titulos {
 
         color: $color-titulos;
-        font-size: $text-title;
+        font-size: $text-subtitle;
         font-family: $font-Title;
 
 
@@ -56,6 +74,7 @@
         margin: 4% 8% 0 8%;
         padding: 1%;
         width: 85%;
+        font-size: $text-uniforme;
 
     }
 
@@ -74,25 +93,30 @@
 
 .seccion-servicios {
 
-
-    text-align: center;
-
-    .titulos {
+    background-color: $color-principal;
+    height: 900px;
 
 
-        color: $color-principal;
+    .titulo-servicios {
+
+
+        color: $color-base;
         font-size: $text-title;
         font-family: $font-Title;
         text-align: center;
-        margin-bottom: 5%;
-        font-weight: 600
+        padding: 5rem;
+        margin: auto;
+
+
+        font-weight: 600;
     }
 
 
 }
 
 .cardServicios {
-    margin-top: 3%;
+    margin-top: 3rem;
+
     width: 100%;
     height: 100%;
     display: flex;
@@ -113,7 +137,10 @@
     h3 {
 
         font-family: $font-subtitulos;
-        font-weight: 600
+        font-weight: 600;
+        margin: 1rem 1rem 0 1rem;
+
+
     }
 
     .boxServicios__img {
@@ -135,16 +162,20 @@
         right: 0;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 90%;
+        margin-top: 93%;
         background-color: rgba(255, 255, 255, 0.856);
-        height: 40%;
-        text-align: center;
+        height: 23%;
+        text-align: justify;
         font-size: 1.1em;
         padding: 3%;
         font-family: $font-Principal;
         color: $color-principal;
 
 
+    }
+
+    .boxServicios__text {
+        margin: 1rem 1rem 1rem 1rem;
     }
 
 
@@ -155,68 +186,99 @@
 
 .seccion-productos {
 
-    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
 
-    .titulos {
 
 
-        color: $color-principal;
-        font-size: $text-title;
-        font-family: $font-Title;
+    .info-boxProductos {
+
         text-align: center;
-        margin-top: 10rem;
-        margin-bottom: 3%;
-        font-weight: 600
-    }
-}
+        margin-top: 15rem;
 
-.box-productos {
-    text-align: justify;
-    margin-top: 10rem;
+
+    }
+
 
     h2 {
-
+        text-align: justify;
         font-family: $font-subtitulos;
         font-size: $text-Medium;
-        //font-weight: 600;
-        margin-left: 3%;
-        margin-top: 5%;
+        margin-left: 3rem;
+        font-weight: 600
     }
 
-    .boxParedes {
+    p {
 
-
-        text-align: end;
+        text-align: center;
+        margin: 5rem 5rem 5rem 5rem;
     }
 
     .btn-productos {
 
-        text-align: justify;
+
         margin-left: 3%;
         margin-top: 5%;
-        color: $color-base;
+        color: $color-principal;
         font-size: $text-Base;
         font-family: $font-Title;
-        border: solid $color-titulos;
-        padding: 1%;
-        border-radius: 10px;
-        background-color: $color-titulos;
-        box-shadow: 0 0 10px $color-titulos;
+        border: solid 1px $color-principal;
+        padding: 2%;
         text-decoration: none;
+        font-weight: 600;
     }
 
     img {
 
-        margin: auto;
 
-        width: 90%;
-        height: 80%;
+        display: flex;
+        align-items: center;
+
+
+
     }
+
 
 
 }
 
+// Cierre de inicio estetica imagen
 
+.fin-banner {
+
+    background-position: left center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-image:
+        url(../img/hierba-sal-rosa-himalaya-estera.jpg);
+
+
+
+
+
+
+
+}
+
+.parrafoBannerFin {
+    color: $color-base;
+
+    padding: 5%;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: $text-Large;
+
+    p {
+        color: $color-base ;
+        font-size: $text-title;
+        font-family: $font-Title;
+        font-size: $text-Large;
+    }
+
+
+}
 
 // BOTON DE CONTACTO
 
@@ -241,7 +303,6 @@
 
     background-color: $color-principal;
     width: 100%;
-    margin-top: 1%;
 
 
 

@@ -1,10 +1,27 @@
-.seccion-rParedes {
+#seccion-rParedes {
 
     margin-top: 5%;
     margin-bottom: 2%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    img {
+    p {
+
+        font-size: $text-Base;
+    }
+
+
+    .boxParedes {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .boxParedes__img {
 
         width: 100%;
         box-shadow: 0 0 10px $color-principal;
@@ -13,38 +30,42 @@
 
     }
 
-    h3 {
+
+
+    .boxParedes__info {
+
+        margin-top: 10rem;
+    }
+
+    .boxParedes__title {
 
 
         font-family: $font-subtitulos;
+        font-size: $text-Medium;
         font-weight: 600;
         text-align: justify;
         margin-left: 3.5rem;
     }
 
-    .info-productos {
-
-        margin-top: 10rem;
-    }
-
-    p {
+    .boxParedes__text {
 
 
-        font-size: $text-Small;
+        font-size: $text-Base;
         margin: 3rem 3rem 5rem 3rem;
     }
 
-    .btn-rPisos {
+    .btn-rParedes {
 
         margin-top: 4rem;
         color: $color-base;
         font-size: $text-Base;
-        font-family: $font-Title;
+        font-family: $font-Principal;
         border: solid $color-titulos;
         padding: 1%;
         border-radius: 10px;
         background-color: $color-titulos;
         box-shadow: 0 0 10px $color-titulos;
         text-decoration: none;
+        cursor: pointer;
     }
 }

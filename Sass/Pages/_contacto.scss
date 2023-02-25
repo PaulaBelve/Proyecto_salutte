@@ -1,45 +1,45 @@
 .inicio-contacto {
 
-    background: #780000b7;
+    background-color: $color-titulos;
     color: $color-base;
     text-align: center;
-    height: 200px;
-    width: 100%;
+    height: 300px;
+
+    font-family: $font-Title ;
+    margin-top: 5rem;
 
     .texto-inicio-contacto {
 
-        font-family: $font-Title ;
-        margin-top: 3rem;
-
         h1 {
-        color: $color-base ;
-        
-       
+            color: $color-base ;
+
+
+
+        }
+
+
+        h2 {
+
+
+            margin-top: 2rem;
+
+        }
+
+        a {
+
+
+            color: $color-base ;
+        }
+
+        .icon-wsp {
+
+            height: 30px;
+            width: 30px;
+            color: $color-base;
+            margin-top: 1rem;
+
+        }
     }
-    
-
-    h2 {
-
-        
-        margin-top: 2rem;
-        
-    }
-
-    a {
-
-
-        color: $color-base ;
-    }
-
-    .icon-wsp {
-
-        height: 30px;
-        width: 30px;
-        color: $color-base;
-        margin-top: 2rem;
-
-    }
-}
 
 }
 
@@ -71,7 +71,7 @@
 
     .parrafoProp {
 
-        
+
         margin-left: 5rem;
         background: $color-principal;
         color: $color-base;
@@ -82,7 +82,7 @@
     .contacto-llamada {
 
         margin-top: 5rem;
-       
+
     }
 
     .btn-numero {
@@ -106,23 +106,23 @@
         align-items: center;
         margin-top: 1rem;
         justify-content: center;
-        
+
     }
 
     .icon-wsp {
 
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
         color: $color-base;
-      
+
 
     }
 
     p {
 
         margin-top: 1rem;
-        text-decoration: none;
-        color: $color-principal
+
+        color: $color-principal;
     }
 }
 

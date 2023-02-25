@@ -1,22 +1,24 @@
+// REVESTIMIENTO PARA PAREDES 
+
 // VER COMO DARLE EL ESTILO QUE YO QUIERO 
 
-const mostrarCardsRevestimientoPisos = (revestimientosPisos) => {
+const mostrarCardsRevestimientoParedes = (revestimientosParedes) => {
 
-    const contenedorPisos = document.getElementById(`sectionPisos`)
+    const contenedorParedes = document.getElementById(`seccion-rParedes`);
 
-    revestimientosPisos.forEach((piso) => {
+    revestimientosParedes.forEach((pared) => {
 
         const div = document.createElement(`div`);
 
-        div.classList.add(`boxPisos`);
+        div.classList.add(`boxParedes`);
 
-        div.innerHTML += `   <picture class="boxPisos__img">
-                       <img  src=${piso.img}>
+        div.innerHTML += `   <picture class="boxParedes__img">
+                       <img  src=${pared.img}>
                                  </picture>
-                    <article class="boxPisos__info">
-                    <h3 class="boxPisos__title"> ${piso.nombre} </h3>
-                    <p class="boxPisos__text">${piso.texto} </p>
-                    <b><a id="boxPisos__boton${piso.id}" class="btn-rPisos"> Ver más >> </a></b>
+                    <article class="boxParedes__info">
+                    <h3 class="boxParedes__title"> ${pared.nombre} </h3>
+                    <p class="boxParedes__text">${pared.texto} </p>
+                    <b><a id="boxParedes__boton${pared.id}" class="btn-rPared"> Ver más >> </a></b>
 
                     
                     
@@ -25,21 +27,16 @@ const mostrarCardsRevestimientoPisos = (revestimientosPisos) => {
                    ` ;
 
 
-
-
-
-
-
-        contenedorPisos.appendChild(div);
+        contenedorParedes.appendChild(div);
 
         // Evento para que el boton de ver más muestre el modal
 
 
-        const botonPisos = document.getElementById(`boxPisos__boton${piso.id}`)
-        botonPisos.addEventListener('click', e => {
+        const botonParedes = document.getElementById(`boxParedes__boton${pared.id}`)
+        botonParedes.addEventListener('click', e => {
             e.preventDefault();
 
-            modalPisos(piso);
+            modalPared(pared);
 
         })
 
@@ -47,9 +44,15 @@ const mostrarCardsRevestimientoPisos = (revestimientosPisos) => {
 
 }
 
-// MODAL PISOS
+// Llamar funcion de paredes
 
-function modalPisos(piso) {
+mostrarCardsRevestimientoParedes(revestimientosParedes)
+
+
+
+// MODAL PAREDES
+
+function modalPared(pared) {
 
 
     Swal.fire({
@@ -118,12 +121,3 @@ function modalPisos(piso) {
 
     })
 }
-
-// FUNCIÓN DONDE SE MUESTRAN LAS CARDS
-
-mostrarCardsRevestimientoPisos(revestimientosPisos);
-
-
-
-
-

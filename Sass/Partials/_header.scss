@@ -1,26 +1,38 @@
-
 // LOGO
 
-.tituloSalutte {
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+
+    .tituloSalutte {
+
+        display: flex;
+        justify-content: flex-start;
+        font-size: $text-Medium;
+        font-family: $font-Title;
+        margin-top: 3%;
+
+        a {
+
+            text-decoration: none;
+            color: $color-titulos;
+
+        }
+
+        :hover {
+
+            color: $color-titulos;
 
 
-    font-size: $text-Medium;
-    font-family: $font-Title;
-    text-align: center;
-    margin-top: 3%;
-
-    a {
-
-        text-decoration: none;
-        color: $color-titulos;
-
-    }
-
-    :hover {
-
-        color: $color-titulos;
-
-
+        }
     }
 }
 
@@ -46,7 +58,7 @@
         color: $color-principal;
         margin: 0 10px;
         transition: all .3s linear;
-        
+
     }
 
     .dropdown-menu {
@@ -59,14 +71,15 @@
         font-family: $font-Principal;
         font-size: $text-Small ;
         color: $color-principal;
-   }
+        padding: 2rem;
+    }
 
     .nav-link:hover {
 
         color: $color-base;
         background: $color-titulos;
-        
+        padding: 2rem;
+
     }
 
 }
-

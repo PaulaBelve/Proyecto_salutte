@@ -10,79 +10,88 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <title>Inicio | Salutte</title>
+    <title> Inicio | Salutte </title>
 </head>
 
 <body>
 
-    <!-- LOGO -->
 
-    <h1 class="tituloSalutte"><a href="/index.html">Salutte</a></h1>
 
     <!-- HEADER -->
 
     <header class="header">
 
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <h1 class="tituloSalutte"><a href="/index.html">Salutte</a></h1>
+
+        </div>
+
+        <div class="menuNav">
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
 
 
-            <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Paginas/servicios.html">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./Paginas/rPisos.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="true">
+                                    OBRAS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./Paginas/microCemento.html">Revestimiento para
+                                            pisos</a></li>
+                                    <li><a class="dropdown-item" href="./Paginas/porcelanatoLiquido.html">Revestimiento
+                                            para
+                                            paredes
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./Paginas/rParedes.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="true">
+                                    PRODUCTOS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./Paginas/rPisos.html">Revestimiento para
+                                            pisos</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./Paginas/rParedes.html">Revestimiento para
+                                            paredes</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Paginas/haceloTuMismo.html">HACELO VOS <br>MISMO</br></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Paginas/contacto.html">CONTACTO</a>
+                            </li>
 
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Paginas/servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./Paginas/rPisos.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="true">
-                                Obras
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./Paginas/microCemento.html">Revestimiento para
-                                        pisos</a></li>
-                                <li><a class="dropdown-item" href="./Paginas/porcelanatoLiquido.html">Revestimiento para
-                                        paredes
-                                    </a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./Paginas/rParedes.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="true">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./Paginas/rPisos.html">Revestimiento para pisos</a>
-                                </li>
-                                <li><a class="dropdown-item" href="./Paginas/rParedes.html">Revestimiento para
-                                        paredes</a></li>
+                        </ul>
 
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Paginas/contacto.html">Hacelo vos mismo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
-                        </li>
-
-
-                    </ul>
-
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
 
     </header>
 
@@ -96,11 +105,10 @@
 
 
 
-            <div class="parrafoBanner">El bienestar de estar en tu casa</div>
-            <!-- <button class="btn-contactanos">CONTACTANOS</button>-->
+            <div class="parrafoBanner">
+                <p>El bienestar de <br>estar en tu casa.</br></p>
 
-
-
+            </div>
         </section>
 
         <section class="container-fluid  inicio-pagina">
@@ -134,10 +142,11 @@
 
         <section class="container-fluid seccion-servicios">
 
-            <h1 class="titulos">SERVICIOS</h1>
+            <h1 class="titulo-servicios">SERVICIOS</h1>
 
             <div class="cardServicios">
                 <!-- BOX EJECUCIÓN DE OBRAS -->
+
 
                 <article class="boxServicios">
 
@@ -147,7 +156,7 @@
 
                         <div class="boxServicios__info">
 
-                            <h3 class="boxServicios__title">Ejecución de obras</h3>
+                            <h3 class="boxServicios__title">EJECUCIÓN DE OBRAS</h3>
 
                             <p class="boxServicios__text">
 
@@ -177,7 +186,7 @@
 
 
                         <div class="boxServicios__info">
-                            <h3 class="boxServicios__title"> Capacitaciones </h3>
+                            <h3 class="boxServicios__title"> CAPACITACIONES </h3>
                             <p class="boxServicios__text">Capacitaciones prácticas y teóricas sobre la aplicación de
                                 diferentes
                                 revestimientos. </p>
@@ -199,10 +208,10 @@
 
 
                         <div class="boxServicios__info">
-                            <h3 class="boxServicios__title">Venta de materiales</h3>
+                            <h3 class="boxServicios__title">VENTA DE MATERIALES</h3>
 
 
-                            <p class="boxServicios__text">Nuestro servicio de venta de materiales consta de mas de 2000
+                            <p class="boxServicios__text">Nuestro servicio de venta de materiales consta de más de 2000
                                 productos!
 
                             </p>
@@ -221,11 +230,11 @@
         <section class="conteiner-fluid seccion-productos">
 
 
-            <h1 class="titulos">PRODUCTOS</h1>
+            <!--    <h1 class="titulos">PRODUCTOS</h1> -->
 
             <!-- REVESTIMIENTO PISOS -->
 
-            <div class="box-productos">
+            <div class="box-pisos">
 
                 <div class="row">
 
@@ -239,75 +248,76 @@
 
                     </div>
 
-                    <div class="col">
+                    <div class="col info-boxProductos">
 
 
 
-                        <h2> Revestimientos para pisos </h2>
-                        <p></p>
-                        <a href="./Paginas/rPisos.html" class="btn-productos">Más información
+                        <h2> Revestimientos para <br>pisos</br> </h2>
+                        <p>Conocé todas las alternativas para lograr el piso que siempre soñaste! Desde pisos continuos
+                            hasta alternativas con resinas! Para conocer más sobre nuestros revestimientos hacé click
+                            acá</p>
+                        <a href="./Paginas/rPisos.html" class="btn-productos">+ INFO
                             <!-- ICONO DE FLECHA --></a>
                     </div>
 
-
-
                 </div>
-
-                <!-- REVESTIMIENTO PAREDES -->
-
-                <div class="row boxParedes">
-
-                    <div class="col">
-
-
-
-                        <h2> Revestimientos para paredes </h2>
-                        <p></p>
-                        <a href="./Paginas/rParedes.html" class="btn-productos">Más información
-                            <!-- ICONO DE FLECHA --></a>
-
-
-                    </div>
-
-                    <div class="col">
-
-
-                        <img class="img-productos" src="./Img/microCementoParedes.jpg" alt="">
-
-
-
-                    </div>
-
-
-
-                </div>
-
 
             </div>
+
+            <!-- REVESTIMIENTO PAREDES -->
+            <div class="box-Paredes">
+                <div class="row ">
+
+                    <div class="col info-boxProductos">
+
+
+
+                        <h2> Revestimientos para <br>paredes</br> </h2>
+                        <p>Divertite, jugá e imaginá todas las alternativas posibles para tu hogar, tu baño o tu
+                            fachada! Para conocer más sobre todas nuestras opciones de productos para paredes hacé click
+                            acá</p>
+                        <a href="./Paginas/rParedes.html" class="btn-productos">+ INFO
+                            <!-- ICONO DE FLECHA --></a>
+
+
+                    </div>
+
+                    <div class="col">
+
+
+                        <img class="img-productos-paredes" src="./Img/microCementoParedes.jpg" alt="">
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container-fluid  fin-banner">
+
+
+
+            <div class="parrafoBannerFin">
+                <p>Creamos la casa que siempre soñaste!</p>
+
+
+                <a href="./Paginas/contacto.html"> <button class="btn-contactanos"> CONTACTANOS </button></a>
+            </div>
+
+            <!-- <button class="btn-contactanos">CONTACTANOS</button>-->
+
 
 
         </section>
 
-        <!-- MANDANOS TU CONSULTA -->
-        <section class="container-fluid  asesoramiento">
-            <div class="row">
-                <!--  <h1 class="titulosGenerales"> MANDANOS TU CONSULTA </h1> -->
-                <div class="col info-asesoramiento">
-                    <h3>¿Necesitás asesoramiento?</h3>
-                    <p>Te invitamos a ponerte en contacto para una primer consulta gratuita.</p>
-                    <p>Dejanos tu consulta y en breves nos pondremos en contacto con vos!</p>
-                    <button class="btn-contactanos"> QUIERO CONTACTARME </button>
-                </div>
-                <div class="col logo-asesoramiento">
-                    <h1 class="tituloSalutte"><a href="/index.html">Salutte</a></h1>
-                </div>
-            </div>
 
-        </section>
 
     </main>
 
-    <section class="separacion"></section>
 
     <!-- FOOTER -->
     <footer class="footer">
