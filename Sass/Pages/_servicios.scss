@@ -1,31 +1,22 @@
 .flyer-servicios {
 
-    background-image: url(../../Img/microcemento4.jpg);
+    background: url('../../Img/microcemento4.jpg');
     background-position: left center;
     background-size: cover;
     height: 400px;
     width: 100%;
-    text-align: center;
     margin-top: 2rem;
 
-    .banner {
-        text-align: center;
-
-    }
-
     .titulos-img {
-
+        text-align: center;
         border: $color-titulos;
         background-color: #7800009f;
         padding: 2rem;
         width: 50%;
         color: $color-base;
         margin-left: 25%;
-        margin-top: 8%;
-        font-size: 3rem;
-
-
-
+        font-size: $text-Medium;
+        margin-top: 5rem;
 
     }
 

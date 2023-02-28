@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-@import url(../Img/gray-concrete-wall.jpg);
 * {
   margin: 0;
   padding: 0;
@@ -104,7 +103,7 @@ a {
 
 /* Pages */
 .inicio-banner {
-  background-image: url(../../Img/Homeimg.png);
+  background: url("../../Img/Homeimg.png");
   background-position: left center;
   background-size: cover;
   height: 600px;
@@ -229,7 +228,7 @@ a {
   background-size: cover;
   height: 600px;
   width: 100%;
-  background-image: url(../../Img/Homeimg.png); }
+  background-image: url("../../Img/Homeimg.png"); }
 
 .parrafoBannerFin {
   color: #ffffff;
@@ -270,24 +269,22 @@ a {
     text-align: center; }
 
 .flyer-servicios {
-  background-image: url(../../Img/microcemento4.jpg);
+  background: url("../../Img/microcemento4.jpg");
   background-position: left center;
   background-size: cover;
   height: 400px;
   width: 100%;
-  text-align: center;
   margin-top: 2rem; }
-  .flyer-servicios .banner {
-    text-align: center; }
   .flyer-servicios .titulos-img {
+    text-align: center;
     border: #780000;
     background-color: #7800009f;
     padding: 2rem;
     width: 50%;
     color: #ffffff;
     margin-left: 25%;
-    margin-top: 8%;
-    font-size: 3rem; }
+    font-size: 3.2em;
+    margin-top: 5rem; }
 
 .inicio-servicios .titulos-servicios {
   margin-top: 4%;
@@ -465,19 +462,6 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem; }
 
-.flyer-servicios {
-  background-position: left center;
-  background-size: cover;
-  text-align: center;
-  margin-top: 2rem;
-  border: #780000;
-  background-color: #7800005d;
-  padding: 2rem;
-  color: #ffffff;
-  margin-left: 25%; }
-  .flyer-servicios .banner {
-    text-align: center; }
-
 .proyectos-grid {
   display: grid;
   column-gap: 10px;
@@ -622,5 +606,3 @@ a {
   border: solid 1px #202529;
   margin: 2rem;
   padding: 1rem; }
-
-/* IMG */
