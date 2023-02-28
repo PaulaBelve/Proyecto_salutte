@@ -97,8 +97,8 @@ function modalPisos(piso) {
        <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-column">
-      <a href=" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
-      <a href=" class="button-obras"><p>OBRAS</p></a>
+      <a href="../Paginas/obrasPisos.html" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
+      <a href="../Paginas/obrasPisos.html" class="button-obras"><p>OBRAS</p></a>
       </div>
 
         </div>
