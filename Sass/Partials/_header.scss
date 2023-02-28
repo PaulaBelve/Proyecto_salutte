@@ -1,14 +1,4 @@
-/*header {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 25%;
-}*/
-
-
-
-// MENU DE NAVEGACION
+// HEADER
 
 .header {
 
@@ -17,6 +7,7 @@
     justify-content: space-between;
     gap: 25%;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     font-size: $text-header;
     color: $color-principal;
 
@@ -29,7 +20,7 @@
         display: flex;
         justify-content: flex-start;
         margin-left: 5%;
-        font-size: $text-header ;
+        font-size: $text-Small ;
 
 
 
@@ -53,6 +44,8 @@
         transition: all .3s linear;
 
     }
+
+    // MENU DE NAVEGACION
 
     .dropdown-menu {
         margin: 0 10px;

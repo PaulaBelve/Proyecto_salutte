@@ -32,26 +32,20 @@ a {
   text-decoration: none !important; }
 
 /* Partials */
-/*header {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 25%;
-}*/
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 25%;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   font-size: 1.2em;
   color: #202529; }
   .header .logo {
     display: flex;
     justify-content: flex-start;
     margin-left: 5%;
-    font-size: 1.2em; }
+    font-size: 1.5em; }
   .header .navbar {
     font-family: "Montserrat", sans-serif; }
   .header .nav-link {
@@ -272,7 +266,7 @@ a {
   background: url("../../Img/microcemento4.jpg");
   background-position: left center;
   background-size: cover;
-  height: 400px;
+  height: 600px;
   width: 100%;
   margin-top: 2rem; }
   .flyer-servicios .titulos-img {
@@ -283,7 +277,7 @@ a {
     width: 50%;
     color: #ffffff;
     margin-left: 25%;
-    font-size: 3.2em; }
+    font-size: 8em; }
 
 .inicio-servicios .titulos-servicios {
   margin-top: 4%;
