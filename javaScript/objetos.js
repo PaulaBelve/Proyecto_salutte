@@ -3,13 +3,13 @@
 const revestimientosPisos = [
     {
         id: '1',
-        nombre: ' MICRO CEMENTO ',
+        nombre: ' MICROCEMENTO ',
         texto: 'Se puede colocar tanto en paredes como pisos, producto de estilo industrial y minimalista. Cada piso tiene la impronta del aplicador ya que se realiza de forma artesanal! Distintos tipos de resistencia dependiendo del tipo de laca de terminación.',
-        caracteristica1: 'Funcional, estético y adaptable',
+        caracteristica1: 'FUNCIONAL, ESTÉTICO Y ADAPTABLE',
         descripcion1: 'Su aplicación deja como resultado una superficie continua con una estética moderna, minimalista y sofisticada. Se puede adaptar a casi todo tipo de superficies, aplicándose sobre porcelanato, cerámica, baldosa, carpetas de cemento, azulejos y demás',
-        caracteristica2: 'Esquema completo, sistema Anti Fisuras ',
+        caracteristica2: 'ESQUEMA COMPLETO, SISTEMA ANTIFISURAS',
         descripcion2: 'Los pisos de Microcemento logran una mayor durabilidad evitando fisuras y desgastes gracias a la gran resistencia de su nuevo Esquema Completo de Aplicación. Consiste en una malla de fibra de vidrio, bases de nivelación elásticas y por último el microcemento con su respectiva laca. De esta forma, se evitan microfisuras que suelen ser poco estéticas.',
-        caracteristica3: 'Cero escombro',
+        caracteristica3: 'CERO ESCOMBRO',
         descripcion3: 'No hace falta levantar el revestimiento actual. El microcemento es un producto que, gracias a su esquema completo puede aplicarse prácticamente sobre cualquier superficie.',
         img: '../Img/microCementoPiso.png',
         // imgM1: '../Img/microcemento1 (1).jpg"',
@@ -20,6 +20,11 @@ const revestimientosPisos = [
 
     },
 
+]
+
+console.log(revestimientosPisos);
+
+const porcelanatoLiquido = [
     {
         id: '2',
         nombre: 'PORCELANATO LIQUIDO',
@@ -38,11 +43,11 @@ const revestimientosPisos = [
 
     },
 
-
-
 ]
 
-console.log(revestimientosPisos);
+console.log(porcelanatoLiquido);
+
+
 
 // Array revestimiento para paredes
 

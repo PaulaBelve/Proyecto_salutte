@@ -1,60 +1,53 @@
-// LOGO
-
-header {
+/*header {
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 35%;
-}
-
-.logo {
-    display: flex;
-    justify-content: flex-start;
-
-    .tituloSalutte {
-
-        display: flex;
-        justify-content: flex-start;
-        font-size: $text-Medium;
-        font-family: $font-Title;
-        margin-top: 3%;
-
-        a {
-
-            text-decoration: none;
-            color: $color-titulos;
-
-        }
-
-        :hover {
-
-            color: $color-titulos;
+    gap: 25%;
+}*/
 
 
-        }
-    }
-}
 
 // MENU DE NAVEGACION
 
 .header {
 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25%;
+    margin-top: 3rem;
+    font-size: $text-header;
+    color: $color-principal;
+
+
+    // LOGO
+
+    .logo {
+
+
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 5%;
+        font-size: $text-header ;
+
+
+
+    }
+
+    // NAVBAR
 
     .navbar {
+
         font-family: $font-Principal;
-        font-size: $text-Small ;
-        color: $color-principal;
+
+
     }
 
     .nav-link {
 
         font-family: $font-Principal;
-        font-size: $text-Small ;
+        font-size: $text-header ;
         color: $color-principal;
         margin: 0 10px;
         transition: all .3s linear;

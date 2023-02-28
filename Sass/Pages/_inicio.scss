@@ -2,33 +2,33 @@
 
 
 .inicio-banner {
-
+    background-image:
+        url(../../Img/Homeimg.png);
     background-position: left center;
     background-size: cover;
     height: 600px;
     width: 100%;
-    background-image:
-        url(../img/hierba-sal-rosa-himalaya-estera.jpg);
+
+
+    text-align: start;
 
     margin-top: 2rem;
 
 
+    .Banner {
 
+        text-align: start;
 
-
-    .parrafoBanner {
-
-        font-family: $font-Title;
-
-
-
-        p {
+        .parrafoBanner {
             font-weight: 600;
-            text-align: start;
+
             margin-left: 25px;
             color: $color-base;
-            font-size: 8rem;
+            font-size: $text-Large;
+            font-family: $font-Title;
+            //margin-top: 10rem;
             padding: 2rem;
+            width: 50%;
 
 
         }
@@ -71,16 +71,17 @@
 
     .p-Quienes-Somos {
 
-        margin: 4% 8% 0 8%;
+
         padding: 1%;
-        width: 85%;
-        font-size: $text-uniforme;
+
+        font-size: $text-Base;
 
     }
 
     p {
 
         color: $color-titulos;
+        margin: 4% 8% 4% 8%;
 
     }
 
@@ -147,7 +148,7 @@
 
 
         width: 90%;
-        height: 90%;
+        height: 100%;
         position: relative;
 
     }
@@ -162,12 +163,12 @@
         right: 0;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 93%;
+        margin-top: 80%;
         background-color: rgba(255, 255, 255, 0.856);
-        height: 23%;
-        text-align: justify;
+        height: 25%;
+        text-align: left;
         font-size: 1.1em;
-        padding: 3%;
+        padding: 2%;
         font-family: $font-Principal;
         color: $color-principal;
 
@@ -182,7 +183,7 @@
 
 }
 
-// SECCION NUESTROS SERVICIOS
+// SECCION NUESTROS PRODUCTOS
 
 .seccion-productos {
 
@@ -198,6 +199,7 @@
         margin-top: 15rem;
 
 
+
     }
 
 
@@ -211,8 +213,8 @@
 
     p {
 
-        text-align: center;
-        margin: 5rem 5rem 5rem 5rem;
+        text-align: left;
+        margin: 5rem 20rem 5rem 10rem;
     }
 
     .btn-productos {
@@ -224,7 +226,9 @@
         font-size: $text-Base;
         font-family: $font-Title;
         border: solid 1px $color-principal;
+
         padding: 2%;
+        text-align: left;
         text-decoration: none;
         font-weight: 600;
     }
@@ -249,32 +253,25 @@
 
     background-position: left center;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-image:
-        url(../img/hierba-sal-rosa-himalaya-estera.jpg);
-
-
-
-
-
-
-
+        url(../../Img/Homeimg.png)
 }
 
 .parrafoBannerFin {
     color: $color-base;
-
+    font-weight: 600;
     padding: 5%;
     text-align: center;
     margin-bottom: 5rem;
-    font-size: $text-Large;
+    font-size: $text-title;
+    //font-size: $text-Base;
 
     p {
         color: $color-base ;
-        font-size: $text-title;
-        font-family: $font-Title;
-        font-size: $text-Large;
+
+
     }
 
 
@@ -284,16 +281,16 @@
 
 .btn-contactanos {
 
-    margin-top: 3%;
+    margin-top: 5%;
 
     color: $color-base;
     font-size: $text-Base;
     font-family: $font-Title;
     border: solid $color-titulos;
     padding: 1%;
-    border-radius: 10px;
-    background-color: $color-titulos;
-    box-shadow: 0 0 10px $color-titulos;
+    border-radius: 5px;
+    background-color: hsla(0, 100%, 24%, 0.521);
+    box-shadow: 0 0 5px $color-titulos;
 
 }
 

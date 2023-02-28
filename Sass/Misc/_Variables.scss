@@ -21,6 +21,7 @@
 $color-titulos: #780000;
 $color-subtitulos: hsla(356, 73%, 47%, 0.884);
 $color-principal: #202529;
+$color-border: #A7ADAF;
 $color-base: #ffffff;
 
 // variables - fuentes/family
@@ -32,10 +33,11 @@ $font-subtitulos: 'Montserrat', sans-serif;
 
 // variables - fuentes/size
 
-$text-Large: 2.5em;
+$text-Large: 8em;
 $text-Medium: 3.2em;
 $text-title: 3.5em;
 $text-uniforme: 2.5em;
 $text-subtitle: 2em;
-$text-Base: 1.5em;
-$text-Small: 1.2em;
+$text-Base: 1.8em;
+$text-Small: 1.5em;
+$text-header: 1.2em;

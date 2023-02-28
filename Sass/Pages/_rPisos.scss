@@ -1,14 +1,13 @@
 #sectionPisos {
-
+    text-align: center;
+    width: 100%;
+    height: 100%;
     margin-top: 5%;
-    margin-bottom: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     p {
 
-        font-size: $text-Base;
+        font-size: $text-subtitle;
+
     }
 
 
@@ -16,56 +15,131 @@
 
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    .boxPisos__img {
-
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: end;
+        margin-top: 3%;
         width: 100%;
-        box-shadow: 0 0 10px $color-principal;
-        border: $color-principal;
-        margin-top: 2%;
+        height: 70%;
 
+
+        .boxPisos__img {
+
+            width: 50%;
+            border: $color-principal;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+
+        .boxPisos__info {
+
+            margin-top: 10rem;
+            text-align: center;
+            width: 50%;
+        }
+
+        .boxPisos__title {
+
+
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            font-weight: 600;
+            text-align: justify;
+            margin-left: 3.5rem;
+        }
+
+        .boxPisos__text {
+
+
+            font-size: $text-Base;
+            margin: 3rem 5rem 5rem 5rem;
+        }
+
+        .btn-rPisos {
+
+            margin-left: 3%;
+            margin-top: 5%;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+            padding: 2%;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+        }
     }
 
 
 
-    .boxPisos__info {
+    .boxPisosPorcelanato {
 
-        margin-top: 10rem;
-    }
-
-    .boxPisos__title {
-
-
-        font-family: $font-subtitulos;
-        font-size: $text-Medium;
-        font-weight: 600;
-        text-align: justify;
-        margin-left: 3.5rem;
-    }
-
-    .boxPisos__text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: start;
 
 
-        font-size: $text-Base;
-        margin: 3rem 3rem 5rem 3rem;
-    }
 
-    .btn-rPisos {
 
-        margin-left: 3%;
-        margin-top: 5%;
-        color: $color-principal;
-        font-size: $text-Base;
-        font-family: $font-Title;
-        border: solid 1px $color-principal;
-        padding: 2%;
-        text-decoration: none;
-        font-weight: 600;
-        cursor: pointer;
+
+
+        .boxPisos__img {
+
+            width: 50%;
+            border: $color-principal;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+
+        .boxPisos__info {
+
+            margin: 10rem 5rem 5rem 5rem;
+            text-align: center;
+            width: 50%;
+        }
+
+        .boxPisos__title {
+
+
+            font-family: $font-subtitulos;
+            font-size: $text-Medium ;
+            font-weight: 600;
+            text-align: justify;
+            margin-left: 2rem;
+
+        }
+
+        .boxPisos__text {
+
+
+            font-size: $text-Base;
+            margin: 3rem 5rem 5rem 5rem;
+            text-align: center;
+        }
+
+        .btn-rPisos {
+
+            margin-left: 3%;
+            margin-top: 5%;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+            padding: 2%;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+
     }
 }
 
@@ -81,20 +155,22 @@
 
     h3 {
         font-family: $font-subtitulos;
-        font-size: $text-subtitle;
+        font-size: $text-Base;
         font-weight: 600;
         text-align: center;
         margin-top: 5rem;
-        border: $color-titulos;
-        background-color: #7800007c;
+        border: solid 1px $color-border;
         padding: 2rem;
-        width: 50%;
-        margin-left: 25%;
+        width: 100%;
+        color: $color-border;
     }
 
     p {
 
         margin-top: 2rem;
+        text-align: justify;
+        font-size: $text-Small;
+
     }
 }
 
