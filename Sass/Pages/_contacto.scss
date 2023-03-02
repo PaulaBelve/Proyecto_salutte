@@ -2,16 +2,29 @@
 
     background-color: $color-titulos;
     color: $color-base;
-    text-align: center;
+
     height: 300px;
 
     font-family: $font-Title ;
+
+
     margin-top: 5rem;
 
     .texto-inicio-contacto {
 
+
+        position: absolute;
+        text-align: center;
+        margin-left: 25%;
+
+
         h1 {
+
             color: $color-base ;
+            text-align: center;
+            margin-top: 5rem;
+            font-weight: 600;
+
 
 
 

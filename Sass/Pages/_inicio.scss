@@ -8,7 +8,7 @@
     background-color: transparent;
     background-position: left center;
     background-size: cover;
-    font-size: $text-Medium;
+    font-size: $text-Large;
     font-family: $font-Title;
     height: 600px;
     width: 100%;
@@ -21,12 +21,13 @@
 
         .parrafoBanner {
             font-weight: 600;
-
+            width: 100%;
             margin-left: 25px;
             color: $color-base;
-            //margin-top: 10rem;
-            //padding: 2rem;
-            //width: 50%;
+            position: absolute;
+            margin-top: 30rem;
+            padding: 1rem;
+
 
 
         }
@@ -193,7 +194,8 @@
 
     .info-boxProductos {
 
-        text-align: center;
+
+        text-align: left;
         margin-top: 15rem;
 
 
@@ -218,8 +220,7 @@
     .btn-productos {
 
 
-        margin-left: 3%;
-        margin-top: 5%;
+        margin: 5rem 20rem 5rem 10rem;
         color: $color-principal;
         font-size: $text-Base;
         font-family: $font-Title;
@@ -237,11 +238,7 @@
         display: flex;
         align-items: center;
 
-
-
     }
-
-
 
 }
 
@@ -254,7 +251,7 @@
     height: 600px;
     width: 100%;
     background-image:
-        url('../../Img/Homeimg.png')
+        url('../Img/Homeimg.png')
 }
 
 .parrafoBannerFin {

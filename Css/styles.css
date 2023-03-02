@@ -102,7 +102,7 @@ a {
   background-color: transparent;
   background-position: left center;
   background-size: cover;
-  font-size: 3.2em;
+  font-size: 5em;
   font-family: "Montserrat", sans-serif;
   height: 600px;
   width: 100%;
@@ -111,8 +111,12 @@ a {
     text-align: start; }
     .inicio-banner .Banner .parrafoBanner {
       font-weight: 600;
+      width: 100%;
       margin-left: 25px;
-      color: #ffffff; }
+      color: #ffffff;
+      position: absolute;
+      margin-top: 30rem;
+      padding: 1rem; }
 
 .inicio-pagina {
   height: 850px;
@@ -190,7 +194,7 @@ a {
   width: 100%;
   height: 70%; }
   .seccion-productos .info-boxProductos {
-    text-align: center;
+    text-align: left;
     margin-top: 15rem; }
   .seccion-productos h2 {
     text-align: justify;
@@ -202,8 +206,7 @@ a {
     text-align: left;
     margin: 5rem 20rem 5rem 10rem; }
   .seccion-productos .btn-productos {
-    margin-left: 3%;
-    margin-top: 5%;
+    margin: 5rem 20rem 5rem 10rem;
     color: #202529;
     font-size: 1.8em;
     font-family: "Montserrat", sans-serif;
@@ -221,7 +224,7 @@ a {
   background-size: cover;
   height: 600px;
   width: 100%;
-  background-image: url("../../Img/Homeimg.png"); }
+  background-image: url("../Img/Homeimg.png"); }
 
 .parrafoBannerFin {
   color: #ffffff;
@@ -269,6 +272,7 @@ a {
   width: 100%;
   margin-top: 2rem; }
   .flyer-servicios .titulos-img {
+    position: absolute;
     text-align: center;
     border: #780000;
     background-color: #7800009f;
@@ -276,7 +280,8 @@ a {
     width: 50%;
     color: #ffffff;
     margin-left: 25%;
-    font-size: 8em; }
+    font-size: 5em;
+    margin-top: 25rem; }
 
 .inicio-servicios .titulos-servicios {
   margin-top: 4%;
@@ -481,9 +486,10 @@ a {
     position: relative;
     width: 80%;
     margin: 50px auto;
-    margin-top: 3rem;
+    margin-top: 8rem;
     font-size: 3.2em;
-    margin-bottom: 3rem; }
+    margin-bottom: 8rem;
+    font-weight: 600; }
   .card-obras body {
     background-color: #ecf4fb; }
 
@@ -573,21 +579,27 @@ a {
 .inicio-contacto {
   background-color: #780000;
   color: #ffffff;
-  text-align: center;
   height: 300px;
   font-family: "Montserrat", sans-serif;
   margin-top: 5rem; }
-  .inicio-contacto .texto-inicio-contacto h1 {
-    color: #ffffff; }
-  .inicio-contacto .texto-inicio-contacto h2 {
-    margin-top: 2rem; }
-  .inicio-contacto .texto-inicio-contacto a {
-    color: #ffffff; }
-  .inicio-contacto .texto-inicio-contacto .icon-wsp {
-    height: 30px;
-    width: 30px;
-    color: #ffffff;
-    margin-top: 1rem; }
+  .inicio-contacto .texto-inicio-contacto {
+    position: absolute;
+    text-align: center;
+    margin-left: 25%; }
+    .inicio-contacto .texto-inicio-contacto h1 {
+      color: #ffffff;
+      text-align: center;
+      margin-top: 5rem;
+      font-weight: 600; }
+    .inicio-contacto .texto-inicio-contacto h2 {
+      margin-top: 2rem; }
+    .inicio-contacto .texto-inicio-contacto a {
+      color: #ffffff; }
+    .inicio-contacto .texto-inicio-contacto .icon-wsp {
+      height: 30px;
+      width: 30px;
+      color: #ffffff;
+      margin-top: 1rem; }
 
 .contacto {
   background-image: url(../img/gray-concrete-wall.jpg); }
