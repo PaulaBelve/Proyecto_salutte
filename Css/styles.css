@@ -31,6 +31,9 @@ p {
 a {
   text-decoration: none !important; }
 
+li {
+  list-style: none; }
+
 /* Partials */
 .header {
   display: flex;
@@ -196,6 +199,9 @@ a {
   align-items: center;
   width: 100%;
   height: 70%; }
+  .seccion-productos img {
+    display: flex;
+    align-items: center; }
   .seccion-productos .info-boxProductos {
     text-align: left;
     margin-top: 15rem; }
@@ -218,9 +224,6 @@ a {
     text-align: left;
     text-decoration: none;
     font-weight: 600; }
-  .seccion-productos img {
-    display: flex;
-    align-items: center; }
 
 .fin-banner {
   background-position: left center;
@@ -340,7 +343,8 @@ a {
   text-align: center;
   width: 100%;
   height: 100%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-bottom: 1rem; }
   #sectionPisos .subtitle-productos {
     font-weight: 600; }
   #sectionPisos p {
@@ -360,29 +364,42 @@ a {
       display: flex;
       align-items: center; }
     #sectionPisos .boxPisos .boxPisos__info {
+      text-align: left;
       margin-top: 10rem;
-      text-align: center;
       width: 50%; }
     #sectionPisos .boxPisos .boxPisos__title {
+      text-align: justify;
       font-family: "Montserrat", sans-serif;
       font-size: 3.2em;
-      font-weight: 600;
-      text-align: justify;
-      margin-left: 3.5rem; }
+      margin-left: 3rem;
+      font-weight: 600; }
     #sectionPisos .boxPisos .boxPisos__text {
-      font-size: 1.8em;
-      margin: 3rem 5rem 5rem 5rem; }
+      text-align: left;
+      margin: 5rem 20rem 5rem 10rem;
+      /*
+            font-size: $text-Base;
+            margin: 3rem 5rem 5rem 5rem; */ }
     #sectionPisos .boxPisos .btn-rPisos {
-      margin-left: 3%;
-      margin-top: 5%;
+      margin: 5rem 20rem 5rem 10rem;
       color: #202529;
       font-size: 1.8em;
       font-family: "Montserrat", sans-serif;
       border: solid 1px #202529;
       padding: 2%;
+      text-align: left;
       text-decoration: none;
       font-weight: 600;
-      cursor: pointer; }
+      /*
+            margin-left: 3%;
+            margin-top: 5%;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+            padding: 2%;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;*/ }
   #sectionPisos .boxPisosPorcelanato {
     display: flex;
     flex-direction: row;
@@ -395,30 +412,28 @@ a {
       display: flex;
       align-items: center; }
     #sectionPisos .boxPisosPorcelanato .boxPisos__info {
-      margin: 10rem 5rem 5rem 5rem;
-      text-align: center;
+      text-align: left;
+      margin-top: 10rem;
       width: 50%; }
     #sectionPisos .boxPisosPorcelanato .boxPisos__title {
+      text-align: justify;
       font-family: "Montserrat", sans-serif;
       font-size: 3.2em;
-      font-weight: 600;
-      text-align: justify;
-      margin-left: 2rem; }
+      margin-left: 3rem;
+      font-weight: 600; }
     #sectionPisos .boxPisosPorcelanato .boxPisos__text {
-      font-size: 1.8em;
-      margin: 3rem 5rem 5rem 5rem;
-      text-align: center; }
+      text-align: left;
+      margin: 5rem 20rem 5rem 10rem; }
     #sectionPisos .boxPisosPorcelanato .btn-rPisos {
-      margin-left: 3%;
-      margin-top: 5%;
+      margin: 5rem 20rem 5rem 10rem;
       color: #202529;
       font-size: 1.8em;
       font-family: "Montserrat", sans-serif;
       border: solid 1px #202529;
       padding: 2%;
+      text-align: left;
       text-decoration: none;
-      font-weight: 600;
-      cursor: pointer; }
+      font-weight: 600; }
 
 .tituloRevestimientos {
   font-size: 3.5em !important;
@@ -539,47 +554,206 @@ a {
     max-width: 600px; }
 
 #seccion-rParedes {
-  margin-top: 5%;
-  margin-bottom: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  #seccion-rParedes p {
-    font-size: 1.8em; }
-  #seccion-rParedes .boxParedes {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 20rem;
+  margin-bottom: 1rem;
+  /*   .subtitle-productos {
+        font-weight: 600;
+
+
+    } */ }
+  #seccion-rParedes .boxParedes-microCemento {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 5%; }
-  #seccion-rParedes .boxParedes__img {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: end;
     width: 100%;
-    box-shadow: 0 0 10px #202529;
+    height: 70%; }
+    #seccion-rParedes .boxParedes-microCemento .boxParedes__img {
+      width: 50%;
+      border: #202529;
+      display: flex;
+      align-items: center; }
+    #seccion-rParedes .boxParedes-microCemento .boxParedes__info {
+      text-align: left;
+      margin-top: 8rem;
+      font-size: 1.2em;
+      width: 50%; }
+    #seccion-rParedes .boxParedes-microCemento .boxParedes__title {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3.2em;
+      margin-left: 3rem;
+      font-weight: 600; }
+    #seccion-rParedes .boxParedes-microCemento .boxParedes__text {
+      text-align: left;
+      margin: 5rem 20rem 5rem 10rem; }
+    #seccion-rParedes .boxParedes-microCemento .btn-paredes {
+      margin: 5rem 20rem 5rem 10rem;
+      color: #202529;
+      font-size: 1.8em;
+      font-family: "Montserrat", sans-serif;
+      border: solid 1px #202529;
+      padding: 2%;
+      text-align: left;
+      text-decoration: none;
+      font-weight: 600; }
+  #seccion-rParedes .boxParedes-stuccoVeleziano {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: end;
+    width: 100%;
+    height: 70%; }
+    #seccion-rParedes .boxParedes-stuccoVeleziano .boxParedes__img {
+      width: 50%;
+      border: #202529;
+      display: flex;
+      align-items: center; }
+    #seccion-rParedes .boxParedes-stuccoVeleziano .boxParedes__info {
+      text-align: left;
+      margin-top: 8rem;
+      font-size: 1.2em;
+      width: 50%; }
+    #seccion-rParedes .boxParedes-stuccoVeleziano .boxParedes__title {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3.2em;
+      margin-left: 3rem;
+      font-weight: 600; }
+    #seccion-rParedes .boxParedes-stuccoVeleziano .boxParedes__text {
+      text-align: left;
+      margin: 5rem 20rem 5rem 10rem; }
+    #seccion-rParedes .boxParedes-stuccoVeleziano .btn-paredes {
+      margin: 5rem 20rem 5rem 10rem;
+      color: #202529;
+      font-size: 1.8em;
+      font-family: "Montserrat", sans-serif;
+      border: solid 1px #202529;
+      padding: 2%;
+      text-align: left;
+      text-decoration: none;
+      font-weight: 600; }
+  #seccion-rParedes .boxParedes-pedraFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: end;
+    width: 100%;
+    height: 70%; }
+    #seccion-rParedes .boxParedes-pedraFlex .boxParedes__img {
+      width: 50%;
+      border: #202529;
+      display: flex;
+      align-items: center; }
+    #seccion-rParedes .boxParedes-pedraFlex .boxParedes__info {
+      text-align: left;
+      margin-top: 8rem;
+      font-size: 1.2em;
+      width: 50%; }
+    #seccion-rParedes .boxParedes-pedraFlex .boxParedes__title {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3.2em;
+      margin-left: 3rem;
+      font-weight: 600; }
+    #seccion-rParedes .boxParedes-pedraFlex .boxParedes__text {
+      text-align: left;
+      margin: 5rem 20rem 5rem 10rem; }
+    #seccion-rParedes .boxParedes-pedraFlex .btn-paredes {
+      margin: 5rem 20rem 5rem 10rem;
+      color: #202529;
+      font-size: 1.8em;
+      font-family: "Montserrat", sans-serif;
+      border: solid 1px #202529;
+      padding: 2%;
+      text-align: left;
+      text-decoration: none;
+      font-weight: 600; }
+  #seccion-rParedes .boxParedes-tarquini {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: end;
+    width: 100%;
+    height: 70%; }
+    #seccion-rParedes .boxParedes-tarquini .boxParedes__img {
+      width: 50%;
+      border: #202529;
+      display: flex;
+      align-items: center; }
+    #seccion-rParedes .boxParedes-tarquini .boxParedes__info {
+      text-align: left;
+      margin-top: 8rem;
+      font-size: 1.2em;
+      width: 50%; }
+    #seccion-rParedes .boxParedes-tarquini .boxParedes__title {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3.2em;
+      margin-left: 3rem;
+      font-weight: 600; }
+    #seccion-rParedes .boxParedes-tarquini .boxParedes__text {
+      text-align: left;
+      margin: 5rem 20rem 5rem 10rem; }
+    #seccion-rParedes .boxParedes-tarquini .btn-paredes {
+      margin: 5rem 20rem 5rem 10rem;
+      color: #202529;
+      font-size: 1.8em;
+      font-family: "Montserrat", sans-serif;
+      border: solid 1px #202529;
+      padding: 2%;
+      text-align: left;
+      text-decoration: none;
+      font-weight: 600; }
+
+.seccion-kits {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 1rem; }
+  .seccion-kits .boxKit-microCemento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: end; }
+  .seccion-kits .kit__img {
+    width: 50%;
     border: #202529;
-    margin-top: 2%; }
-  #seccion-rParedes .boxParedes__info {
-    margin-top: 10rem; }
-  #seccion-rParedes .boxParedes__title {
+    display: flex;
+    align-items: center; }
+  .seccion-kits .kit__info {
+    text-align: left;
+    margin-top: 10rem;
+    width: 50%; }
+  .seccion-kits h3 {
+    text-align: justify;
     font-family: "Montserrat", sans-serif;
     font-size: 3.2em;
-    font-weight: 600;
+    margin-left: 3rem;
+    font-weight: 600; }
+  .seccion-kits .kit__text {
+    text-align: left;
+    margin: 5rem 20rem 5rem 10rem; }
+  .seccion-kits .kit__subtitle {
     text-align: justify;
-    margin-left: 3.5rem; }
-  #seccion-rParedes .boxParedes__text {
-    font-size: 1.8em;
-    margin: 3rem 3rem 5rem 3rem; }
-
-.btn-rPared {
-  margin-left: 3%;
-  margin-top: 5%;
-  color: #202529;
-  font-size: 1.8em;
-  font-family: "Montserrat", sans-serif;
-  border: solid 1px #202529;
-  padding: 2%;
-  text-decoration: none;
-  font-weight: 600;
-  cursor: pointer; }
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    margin-left: 3rem;
+    font-weight: 600; }
+  .seccion-kits .kit__list {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    margin-left: 3rem; }
 
 .inicio-contacto {
   background-color: #780000;

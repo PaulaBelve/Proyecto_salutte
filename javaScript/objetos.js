@@ -12,9 +12,7 @@ const revestimientosPisos = [
         caracteristica3: 'CERO ESCOMBRO',
         descripcion3: 'No hace falta levantar el revestimiento actual. El microcemento es un producto que, gracias a su esquema completo puede aplicarse prácticamente sobre cualquier superficie.',
         img: '../Img/microCementoPiso.png',
-        // imgM1: '../Img/microcemento1 (1).jpg"',
-        // imgM2: '../Img/microcemento1 (2).jpg',
-        // imgM3: '../Img/microcemento1 (3).jpg'
+
 
 
 
@@ -37,9 +35,7 @@ const porcelanatoLiquido = [
         descripcion3: 'Tené tu piso terminado en menos de una semana. Gracias al rápido tiempo de secado y a la adaptabilidad de poder aplicarse sin necesidad de levantar el revestimiento anterior, el tiempo de obra se reduce considerablemente. ',
 
         img: '../Img/porcelanato.png',
-        //    imgM1: '../Img/porcelanato1.jpeg',
-        //    imgM2: '../Img/porcelanato2.jpeg',
-        //    imgM3: '../Img/porcelanato3.jpeg'
+
 
     },
 

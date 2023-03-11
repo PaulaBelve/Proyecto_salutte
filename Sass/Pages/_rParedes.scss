@@ -1,72 +1,259 @@
 #seccion-rParedes {
 
-    margin-top: 5%;
-    margin-bottom: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 20rem;
+    margin-bottom: 1rem;
 
-    p {
-
-        font-size: $text-Base;
-    }
+    /*   .subtitle-productos {
+        font-weight: 600;
 
 
-    .boxParedes {
+    } */
+
+    .boxParedes-microCemento {
 
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    .boxParedes__img {
-
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: end;
         width: 100%;
-        box-shadow: 0 0 10px $color-principal;
-        border: $color-principal;
-        margin-top: 2%;
+        height: 70%;
+
+
+        .boxParedes__img {
+
+            width: 50%;
+            border: $color-principal;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+
+        .boxParedes__info {
+            text-align: left;
+
+            margin-top: 8rem;
+            font-size: $text-header;
+            width: 50%;
+        }
+
+        .boxParedes__title {
+
+            text-align: justify;
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            margin-left: 3rem;
+            font-weight: 600
+        }
+
+        .boxParedes__text {
+
+            text-align: left;
+            margin: 5rem 20rem 5rem 10rem;
+        }
+
+        .btn-paredes {
+            margin: 5rem 20rem 5rem 10rem;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+
+            padding: 2%;
+            text-align: left;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
 
     }
 
+    .boxParedes-stuccoVeleziano {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: end;
+        width: 100%;
+        height: 70%;
 
 
-    .boxParedes__info {
+        .boxParedes__img {
 
-        margin-top: 10rem;
+            width: 50%;
+            border: $color-principal;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+
+        .boxParedes__info {
+            text-align: left;
+
+            margin-top: 8rem;
+            font-size: $text-header;
+            width: 50%;
+        }
+
+        .boxParedes__title {
+
+            text-align: justify;
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            margin-left: 3rem;
+            font-weight: 600
+        }
+
+        .boxParedes__text {
+
+            text-align: left;
+            margin: 5rem 20rem 5rem 10rem;
+        }
+
+        .btn-paredes {
+            margin: 5rem 20rem 5rem 10rem;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+
+            padding: 2%;
+            text-align: left;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
     }
 
-    .boxParedes__title {
+    .boxParedes-pedraFlex {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: end;
+        width: 100%;
+        height: 70%;
 
 
-        font-family: $font-subtitulos;
-        font-size: $text-Medium;
-        font-weight: 600;
-        text-align: justify;
-        margin-left: 3.5rem;
+        .boxParedes__img {
+
+            width: 50%;
+            border: $color-principal;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+
+        .boxParedes__info {
+            text-align: left;
+
+            margin-top: 8rem;
+            font-size: $text-header;
+            width: 50%;
+        }
+
+        .boxParedes__title {
+
+            text-align: justify;
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            margin-left: 3rem;
+            font-weight: 600
+        }
+
+        .boxParedes__text {
+
+            text-align: left;
+            margin: 5rem 20rem 5rem 10rem;
+        }
+
+        .btn-paredes {
+            margin: 5rem 20rem 5rem 10rem;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+
+            padding: 2%;
+            text-align: left;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
     }
 
-    .boxParedes__text {
+    .boxParedes-tarquini {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: end;
+        width: 100%;
+        height: 70%;
 
 
-        font-size: $text-Base;
-        margin: 3rem 3rem 5rem 3rem;
+        .boxParedes__img {
+
+            width: 50%;
+            border: $color-principal;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+
+        .boxParedes__info {
+            text-align: left;
+
+            margin-top: 8rem;
+
+            font-size: $text-header;
+            width: 50%;
+        }
+
+        .boxParedes__title {
+
+            text-align: justify;
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            margin-left: 3rem;
+            font-weight: 600
+        }
+
+        .boxParedes__text {
+
+            text-align: left;
+            margin: 5rem 20rem 5rem 10rem;
+        }
+
+        .btn-paredes {
+            margin: 5rem 20rem 5rem 10rem;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+
+            padding: 2%;
+            text-align: left;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
     }
-
-
-}
-
-.btn-rPared {
-
-    margin-left: 3%;
-    margin-top: 5%;
-    color: $color-principal;
-    font-size: $text-Base;
-    font-family: $font-Title;
-    border: solid 1px $color-principal;
-    padding: 2%;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: pointer;
 }

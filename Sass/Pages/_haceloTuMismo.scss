@@ -1,0 +1,79 @@
+.seccion-kits {
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 1rem;
+
+    .boxKit-microCemento {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: end;
+    }
+
+    .kit__img {
+
+        width: 50%;
+        border: $color-principal;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .kit__info {
+
+        text-align: left;
+        margin-top: 10rem;
+
+        width: 50%;
+    }
+
+    h3 {
+
+        text-align: justify;
+        font-family: $font-subtitulos;
+        font-size: $text-Medium;
+        margin-left: 3rem;
+        font-weight: 600
+    }
+
+    .kit__text {
+
+        text-align: left;
+        margin: 5rem 20rem 5rem 10rem;
+    }
+
+    .kit__subtitle {
+
+        text-align: justify;
+        font-family: $font-subtitulos;
+        font-size: $text-subtitle;
+        margin-left: 3rem;
+        font-weight: 600
+    }
+
+    .kit__list {
+
+        text-align: justify;
+        font-family: $font-subtitulos;
+        font-size: $text-Small;
+        margin-left: 3rem;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

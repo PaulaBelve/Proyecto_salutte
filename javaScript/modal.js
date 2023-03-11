@@ -30,7 +30,7 @@ const mostrarCardsRevestimientoPisos = (revestimientosPisos) => {
 
 
 
-        //contenedorPisos.appendChild(div);
+        contenedorPisos.appendChild(div);
 
         // Evento para que el boton de ver más muestre el modal
 
