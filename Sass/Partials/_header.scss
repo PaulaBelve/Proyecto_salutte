@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 25%;
-    margin-top: 3rem;
+    gap: 20%;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     font-size: $text-header;
     color: $color-principal;
@@ -31,6 +31,7 @@
     .navbar {
 
         font-family: $font-Principal;
+        margin-top: 2rem;
 
 
     }
@@ -39,9 +40,12 @@
 
         font-family: $font-Principal;
         font-size: $text-header ;
+        letter-spacing: 2px;
         color: $color-principal;
         margin: 0 10px;
         transition: all .3s linear;
+
+
 
     }
 
@@ -57,7 +61,8 @@
         font-family: $font-Principal;
         font-size: $text-Small ;
         color: $color-principal;
-        padding: 2rem;
+        padding: 1rem;
+
     }
 
     .nav-link:hover {

@@ -1,33 +1,36 @@
 // REVESTIMIENTO PARA PAREDES 
 
-// VER COMO DARLE EL ESTILO QUE YO QUIERO 
+// NO MUESTRA LOS MODALES
 
 const mostrarCardsRevestimientoParedes = (revestimientosParedes) => {
 
-    const contenedorParedes = document.getElementById(`seccion-rParedes`);
+    const eventoParedes = document.getElementById(`boxParedes__boton`);
 
     revestimientosParedes.forEach((pared) => {
 
-        const div = document.createElement(`div`);
-
-        div.classList.add(`boxParedes`);
-
-        div.innerHTML += `   <picture class="boxParedes__img">
-                       <img  src=${pared.img}>
-                                 </picture>
-                    <article class="boxParedes__info">
-                    <h3 class="boxParedes__title"> ${pared.nombre} </h3>
-                    <p class="boxParedes__text">${pared.texto} </p>
-                    <b><a id="boxParedes__boton${pared.id}" class="btn-rPared"> Ver más >> </a></b>
-
-                    
-                    
-                    </article>
-                   
-                   ` ;
+        /*    const div = document.createElement(`div`);
+    
+            div.classList.add(`btn`); */
 
 
-        contenedorParedes.appendChild(div);
+        eventoParedes.innerHTML += ``/* ` <!--   <picture class="boxParedes__img">
+                          <img  src=${pared.img}>
+                                    </picture>
+                       <article class="boxParedes__info">
+                       <h3 class="boxParedes__title"> ${pared.nombre} </h3>
+                       <p class="boxParedes__text">${pared.texto} </p>  </article>-->
+                       
+                       
+                       <b><a id="boxParedes__boton${pared.id}" class="btn-rPared"> + INFO </a></b>
+    
+                       
+                       
+                      
+                      
+                      ` ;
+
+
+        //eventoParedes.appendChild(div); */
 
         // Evento para que el boton de ver más muestre el modal
 
@@ -40,17 +43,13 @@ const mostrarCardsRevestimientoParedes = (revestimientosParedes) => {
 
         })
 
+
+
     })
 
 }
 
-// Llamar funcion de paredes
-
-mostrarCardsRevestimientoParedes(revestimientosParedes)
-
-
-
-// MODAL PAREDES
+// MODAL PISOS
 
 function modalPared(pared) {
 
@@ -58,7 +57,7 @@ function modalPared(pared) {
     Swal.fire({
 
         width: `70%`,
-        title: `${piso.nombre}`,
+        title: `${pared.nombre}`,
         grow: `column`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown'
@@ -70,27 +69,27 @@ function modalPared(pared) {
         html: `<span class="sectionRevestimientos">
    
         
-       <h3><b>${piso.caracteristica1}</b></h3>
+       <h3><b>${pared.caracteristica1}</b></h3>
         
-       <p>${piso.descripcion1}</p>
+       <p>${pared.descripcion1}</p>
      
         
      
 
    
-        <h3>${piso.caracteristica2}</h3>
+        <h3>${pared.caracteristica2}</h3>
 
         
-        <p>${piso.descripcion2}</p>
+        <p>${pared.descripcion2}</p>
 
        
 
     
         
-        <h3>${piso.caracteristica3}</h3>
+        <h3>${pared.caracteristica3}</h3>
 
        
-        <p>${piso.descripcion3}</p>
+        <p>${pared.descripcion3}</p>
 
         </span>
 
@@ -100,8 +99,8 @@ function modalPared(pared) {
        <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-column">
-      <a href=" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
-      <a href=" class="button-obras"><p>OBRAS</p></a>
+      <a href="../Paginas/obrasParedes.html" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
+      <a href="../Paginas/obrasParedes.html" class="button-obras"><p>OBRAS</p></a>
       </div>
 
         </div>
@@ -121,3 +120,7 @@ function modalPared(pared) {
 
     })
 }
+
+// Llamar funcion de paredes
+
+mostrarCardsRevestimientoParedes(revestimientosParedes)

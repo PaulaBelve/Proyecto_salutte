@@ -30,7 +30,7 @@ const mostrarCardsRevestimientoPisos = (revestimientosPisos) => {
 
 
 
-        contenedorPisos.appendChild(div);
+        //contenedorPisos.appendChild(div);
 
         // Evento para que el boton de ver más muestre el modal
 
@@ -137,7 +137,7 @@ const mostrarCardsPorcelanato = (porcelanatoLiquido) => {
 
         div.innerHTML += ` 
         <article class="boxPisos__info">
-        <h3 class="boxPisos__title"> ${porcelanato.nombre} </h3>
+        <h3 class="boxPisos__title">${porcelanato.nombre}</h3>
         <p class="boxPisos__text">${porcelanato.texto} </p>
         <b><a id="boxPisos__boton${porcelanato.id}" class="btn-rPisos"> + INFO </a></b>
         </article>
