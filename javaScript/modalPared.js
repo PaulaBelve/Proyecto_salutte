@@ -123,8 +123,8 @@ function modalPared(pared) {
        <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-column">
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><p>OBRAS</p></a>
+      <a href="../Paginas/obrasParedes.html#microCementoPared" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
+      <a href="../Paginas/obrasParedes.html#microCementoPared" class="button-obras"><p>OBRAS</p></a>
       </div>
 
         </div>
@@ -249,8 +249,8 @@ function modalPared(pared) {
        <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-column">
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><p>OBRAS</p></a>
+      <a href="../Paginas/obrasParedes.html#stuccoVeleziano" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
+      <a href="../Paginas/obrasParedes.html#stuccoVeleziano" class="button-obras"><p>OBRAS</p></a>
       </div>
 
         </div>
@@ -373,8 +373,8 @@ function modalPared(pared) {
        <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-column">
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><p>OBRAS</p></a>
+      <a href="../Paginas/obrasParedes.html#pedraFlex" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
+      <a href="../Paginas/obrasParedes.html#pedraFlex" class="button-obras"><p>OBRAS</p></a>
       </div>
 
         </div>
@@ -500,8 +500,8 @@ function modalPared(pared) {
        <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-column">
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
-      <a href="../Paginas/obrasParedes.html" class="button-obras"><p>OBRAS</p></a>
+      <a href="../Paginas/obrasParedes.html#tarquini" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
+      <a href="../Paginas/obrasParedes.html#tarquini" class="button-obras"><p>OBRAS</p></a>
       </div>
 
         </div>

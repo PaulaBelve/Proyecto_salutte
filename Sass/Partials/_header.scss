@@ -4,8 +4,8 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 20%;
+    justify-content: space-around;
+    gap: 15%;
     margin-top: 2rem;
     margin-bottom: 3rem;
     font-size: $text-header;
@@ -31,7 +31,7 @@
     .navbar {
 
         font-family: $font-Principal;
-        margin-top: 2rem;
+        //margin-top: 2rem;
 
 
     }
@@ -43,6 +43,8 @@
         letter-spacing: 2px;
         color: $color-principal;
         margin: 0 10px;
+        gap: 5rem;
+        padding: 2rem;
         transition: all .3s linear;
 
 
@@ -69,7 +71,8 @@
 
         color: $color-base;
         background: $color-titulos;
-        padding: 2rem;
+
+
 
     }
 

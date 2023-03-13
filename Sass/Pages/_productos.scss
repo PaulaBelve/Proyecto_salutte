@@ -1,0 +1,154 @@
+.flyer-productos {
+
+    background: url('../Img/banner4.png');
+    background-position: left center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 2rem;
+
+    .titulos-img {
+        position: absolute;
+        text-align: center;
+
+        padding: 2rem;
+        width: 50%;
+        color: $color-base;
+        margin-left: 25%;
+        font-size: $text-Large;
+        margin-top: 25rem;
+        letter-spacing: 10px;
+
+
+    }
+
+
+}
+
+// SECCION NUESTROS PRODUCTOS
+
+.seccion-productos {
+
+    width: 100%;
+
+    .box-pisos {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: end;
+        width: 100%;
+        height: 50%;
+
+        .img-productos {
+
+            width: 50%;
+            border: $color-principal;
+            display: flex;
+            align-items: center;
+        }
+
+
+        .info-boxProductos {
+
+
+            text-align: left;
+            width: 50%;
+        }
+
+
+        h2 {
+            text-align: justify;
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            margin-left: 3rem;
+            font-weight: 600
+        }
+
+        p {
+
+            text-align: left;
+            margin: 5rem 20rem 5rem 10rem;
+        }
+
+        .btn-productos {
+
+
+            margin: 5rem 20rem 5rem 10rem;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+
+            padding: 2%;
+            text-align: left;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer
+        }
+
+    }
+
+    .box-Paredes {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+
+
+        .img-productos-paredes {
+            width: 50%;
+
+        }
+
+
+        .info-boxProductosParedes {
+
+
+            text-align: left;
+
+            width: 50%;
+
+
+
+
+        }
+
+
+        h2 {
+            text-align: justify;
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            margin-left: 3rem;
+            font-weight: 600
+        }
+
+        p {
+
+            text-align: left;
+            margin: 5rem 20rem 5rem 10rem;
+        }
+
+        .btn-productos {
+
+
+            margin: 5rem 20rem 5rem 10rem;
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+
+            padding: 2%;
+            text-align: left;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer
+        }
+
+
+    }
+
+
+}

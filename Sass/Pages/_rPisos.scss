@@ -56,11 +56,6 @@
             font-size: $text-Medium;
             margin-left: 3rem;
             font-weight: 600
-                /*  font-family: $font-subtitulos;
-            font-size: $text-Medium;
-            font-weight: 600;
-            text-align: justify;
-            margin-left: 3.5rem; */
         }
 
         .boxPisos__text {
@@ -85,17 +80,7 @@
             text-align: left;
             text-decoration: none;
             font-weight: 600;
-            /*
-            margin-left: 3%;
-            margin-top: 5%;
-            color: $color-principal;
-            font-size: $text-Base;
-            font-family: $font-Title;
-            border: solid 1px $color-principal;
-            padding: 2%;
-            text-decoration: none;
-            font-weight: 600;
-            cursor: pointer;*/
+            cursor: pointer
         }
     }
 
@@ -158,6 +143,7 @@
             text-align: left;
             text-decoration: none;
             font-weight: 600;
+            cursor: pointer
         }
 
 
