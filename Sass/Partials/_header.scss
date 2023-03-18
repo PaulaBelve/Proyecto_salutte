@@ -7,7 +7,7 @@
     justify-content: space-around;
     gap: 15%;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-size: $text-header;
     color: $color-principal;
 
@@ -19,7 +19,8 @@
 
         display: flex;
         justify-content: flex-start;
-        margin-left: 5%;
+        margin-left: 1rem;
+        width: 250px;
         font-size: $text-Small ;
 
 
@@ -31,7 +32,6 @@
     .navbar {
 
         font-family: $font-Principal;
-        //margin-top: 2rem;
 
 
     }
@@ -42,7 +42,7 @@
         font-size: $text-header ;
         letter-spacing: 2px;
         color: $color-principal;
-        margin: 0 10px;
+        margin: 0 5px;
         gap: 5rem;
         padding: 2rem;
         transition: all .3s linear;
@@ -54,7 +54,7 @@
     // MENU DE NAVEGACION
 
     .dropdown-menu {
-        margin: 0 10px;
+        margin: 0 5px;
 
     }
 
@@ -76,4 +76,62 @@
 
     }
 
+}
+
+//REVISAR PORQUE SE VA DE COSTADO
+
+.navbar-toggler-icon {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: $color-nosotros;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar-toggler-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: $color-nosotros;
+
+
+    }
+
+    // LOGO
+
+    .header {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 15%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: $text-header;
+        color: $color-principal;
+
+
+        // LOGO
+
+        .logo {
+
+
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 0.1rem;
+            width: 120px;
+            font-size: $text-Small ;
+
+
+
+        }
+
+    }
 }

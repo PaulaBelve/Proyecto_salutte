@@ -2,45 +2,38 @@
 
 
 .inicio-banner {
+    position: relative;
     background-image:
         url('../Img/Homeimg.png');
-    background-attachment: fixed;
-    background-color: transparent;
-    background-position: left center;
+    background-position: center;
     background-size: cover;
-    font-size: $text-Large;
-    font-family: $font-Title;
+    overflow: hidden;
     height: 600px;
-    width: 100%;
-    margin-top: 2rem;
 
 
-    .Banner {
+    .section-banner {
 
         text-align: start;
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        font-family: $font-Title;
+        font-size: $text-banner;
 
-        .parrafoBanner {
-            font-weight: 600;
-            width: 100%;
-            margin-left: 25px;
+
+        p {
+
             color: $color-base;
-            position: absolute;
-            margin-top: 30rem;
-            padding: 1rem;
+            margin: 0;
             line-height: 100%;
-
+            font-weight: 600;
+            padding: 1rem;
+            display: inline-block;
 
 
         }
-
-
-
-
     }
-
-
-
-
 
 }
 
@@ -191,16 +184,20 @@
 
 // SECCION NUESTROS PRODUCTOS
 
+.seccionProductos-responsivo {
+
+    display: none
+}
+
 .seccion-productos {
 
-    width: 100%;
 
     .box-pisos {
 
         display: flex;
         flex-direction: row;
-        justify-content: center !important;
-        align-items: center !important;
+        justify-content: center;
+        align-items: center;
         text-align: end;
         width: 100%;
         height: 50%;
@@ -208,9 +205,8 @@
         .img-productos {
 
             width: 50%;
-            border: $color-principal;
-            display: flex;
-            align-items: center;
+
+
         }
 
 
@@ -254,12 +250,14 @@
 
     }
 
+
+
     .box-Paredes {
 
         display: flex;
         flex-direction: row;
-        justify-content: center !important;
-        align-items: center !important;
+        justify-content: center;
+        align-items: center;
 
 
         .img-productos-paredes {
@@ -274,10 +272,6 @@
             text-align: left;
 
             width: 50%;
-
-
-
-
         }
 
 
@@ -321,7 +315,7 @@
 
 .fin-banner {
 
-    background-position: left center;
+    background-position: center;
     background-size: cover;
     height: 600px;
     width: 100%;
@@ -347,3 +341,264 @@
 
 
 }
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 768px) {
+
+    .inicio-banner {
+
+        height: 400px;
+
+    }
+
+
+
+
+
+    .inicio-pagina {
+
+
+        height: 650px;
+        width: 100%;
+        text-align: center;
+        margin-top: 6%;
+
+        .titulos {
+
+            font-size: $text-uniforme;
+        }
+
+        .texto-inicio {
+
+            margin-top: 5%;
+
+        }
+
+        .p-Quienes-Somos {
+
+
+            padding: 1%;
+
+            font-size: 1rem;
+
+        }
+
+        p {
+
+            color: $color-nosotros;
+            margin: 4% 8% 2% 8%;
+
+        }
+
+
+    }
+
+    .seccion-servicios {
+
+        background-color: $color-principal;
+        height: 170rem;
+        width: 100%;
+
+        .cardServicios {
+            margin-top: 5rem;
+
+
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            .boxServicios {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h3 {
+
+                font-family: $font-Principal;
+                font-weight: 600;
+                margin: 1rem 1rem 0 1rem;
+
+
+            }
+
+            .boxServicios__img {
+
+
+                position: relative;
+                margin-bottom: 2rem;
+
+            }
+
+            .boxServicios__info {
+
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin-left: 2%;
+                margin-right: 2%;
+                margin-top: 80%;
+                background-color: rgba(255, 255, 255, 0.856);
+                height: 38%;
+                text-align: left;
+                font-size: 1em;
+                padding: 2%;
+                font-family: $font-Principal;
+                color: $color-principal;
+
+
+            }
+
+            .boxServicios__text {
+                margin: 1rem 1rem 1rem 1rem;
+            }
+
+        }
+    }
+
+    // SECCIÓN PRODUCTOS NONE
+
+    .seccion-productos {
+
+        display: none;
+    }
+
+    // SECCIÓN PRODUCTOS RESPONSIVO
+
+    .seccionProductos-responsivo {
+
+        display: block;
+
+
+        .box-pisosResponsivo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .img-productosResponsivo {
+
+                img {
+                    width: 430px;
+                    margin-bottom: 3rem;
+                }
+
+
+            }
+
+
+            .info-boxProductosResponsivo {
+
+
+                text-align: right;
+                width: 350px;
+                margin-bottom: 4rem;
+
+                h2 {
+                    text-align: left;
+                    font-family: $font-subtitulos;
+                    font-size: $text-uniforme;
+                    font-weight: 600
+                }
+
+                p {
+
+                    text-align: justify;
+                    margin: 2rem 0rem 3rem 0rem;
+                }
+
+                .btn-productosResponsivo {
+
+
+                    margin: 2rem 0rem 4rem 0rem;
+                    color: $color-principal;
+                    font-size: $text-Base;
+                    font-family: $font-Title;
+                    border: solid 1px $color-principal;
+
+                    padding: 2%;
+                    text-align: center;
+                    text-decoration: none;
+                    font-weight: 600;
+                    cursor: pointer
+                }
+
+            }
+
+        }
+
+        .box-ParedesResponsivo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .img-productos-paredesResponsivo {
+
+                img {
+                    width: 430px;
+                    margin-bottom: 3rem;
+                }
+
+
+            }
+
+
+            .info-boxProductosParedesResponsivo {
+
+
+                text-align: right;
+                width: 350px;
+                margin-bottom: 4rem;
+
+                h2 {
+                    text-align: left;
+                    font-family: $font-subtitulos;
+                    font-size: $text-uniforme;
+                    font-weight: 600
+                }
+
+                p {
+
+                    text-align: justify;
+                    margin: 2rem 0rem 3rem 0rem;
+                }
+
+                .btn-productosResponsivo {
+
+
+                    margin: 2rem 0rem 4rem 0rem;
+                    color: $color-principal;
+                    font-size: $text-Base;
+                    font-family: $font-Title;
+                    border: solid 1px $color-principal;
+
+                    padding: 2%;
+                    text-align: center;
+                    text-decoration: none;
+                    font-weight: 600;
+                    cursor: pointer
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+/*@media screen and (max-width: 768px) {
+
+    
+}*/
