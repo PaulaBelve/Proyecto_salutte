@@ -1,4 +1,3 @@
-// VER COMO DARLE EL ESTILO QUE YO QUIERO 
 
 const mostrarCardsRevestimientoPisos = (revestimientosPisos) => {
 
@@ -23,12 +22,6 @@ const mostrarCardsRevestimientoPisos = (revestimientosPisos) => {
                     </article>
                    
                    ` ;
-
-
-
-
-
-
 
         contenedorPisos.appendChild(div);
 

@@ -52,6 +52,7 @@
         color: $color-nosotros;
         font-size: $text-subtitle;
         font-family: $font-Title;
+        letter-spacing: 10px;
 
 
     }
@@ -130,6 +131,7 @@
         justify-content: center;
         margin-left: 5%;
         margin-right: 5%;
+        transition: all 0.3s linear;
 
 
 
@@ -174,8 +176,21 @@
 
     }
 
+    .boxServicios__info:hover {
+
+        opacity: .6;
+    }
+
+
+
     .boxServicios__text {
         margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .boxServicios:hover {
+
+        transform: scale(1.1, 1.1);
+
     }
 
 
@@ -342,7 +357,6 @@
 
 }
 
-@media screen and (max-width: 480px) {}
 
 @media screen and (max-width: 768px) {
 
@@ -350,10 +364,16 @@
 
         height: 400px;
 
+        .section-banner {
+
+
+            font-size: $text-Medium;
+            margin-left: 3rem;
+
+        }
+
+
     }
-
-
-
 
 
     .inicio-pagina {
@@ -362,16 +382,18 @@
         height: 650px;
         width: 100%;
         text-align: center;
-        margin-top: 6%;
+        margin-top: 4rem;
+
 
         .titulos {
 
             font-size: $text-uniforme;
+            margin-bottom: 4rem;
         }
 
         .texto-inicio {
 
-            margin-top: 5%;
+            margin-top: 8rem;
 
         }
 
@@ -397,11 +419,11 @@
     .seccion-servicios {
 
         background-color: $color-principal;
-        height: 170rem;
+        height: 185rem;
         width: 100%;
 
         .cardServicios {
-            margin-top: 5rem;
+            margin-top: 3rem;
 
 
             width: 100%;
@@ -478,6 +500,7 @@
         display: block;
 
 
+
         .box-pisosResponsivo {
             display: flex;
             flex-direction: column;
@@ -486,8 +509,11 @@
 
             .img-productosResponsivo {
 
+
                 img {
-                    width: 430px;
+
+
+
                     margin-bottom: 3rem;
                 }
 
@@ -544,7 +570,7 @@
             .img-productos-paredesResponsivo {
 
                 img {
-                    width: 430px;
+
                     margin-bottom: 3rem;
                 }
 
@@ -595,10 +621,3 @@
     }
 
 }
-
-
-
-/*@media screen and (max-width: 768px) {
-
-    
-}*/

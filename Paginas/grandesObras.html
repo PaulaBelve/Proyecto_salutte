@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Css/styles.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../Css/styles.css">
-    <title>Contacto | salutte </title>
+    <title>Salutte | Grandes Obras</title>
 </head>
 
 <body>
 
-
-
     <!-- HEADER -->
+
+
+
     <header class="header">
 
         <!-- LOGO -->
@@ -29,10 +31,7 @@
         <!-- NAV BAR -->
 
         <div class="menuNav">
-
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-
-
                 <div class="container-fluid">
 
 
@@ -90,100 +89,58 @@
                 </div>
             </nav>
         </div>
+
+
     </header>
 
     <!-- MAIN -->
 
     <main>
 
-        <section class="container-fluid">
-            <div class="row contacto">
+        <section class="container-fluid flyer-servicios">
 
-                <div class="col consulta-contacto">
+            <div class="banner">
 
-                    <h2>¡PROGRAMA TU CONSULTA AHORA!</h2>
-
-                    <p class="parrafoProp"> Para mas información, contactanos y estaremos respondiendo a la brevedad con
-                        toda la info para que puedas reservar una cita.</p>
-
-                    <div class="contacto-llamada">
-
-                        <h2> ¡Estamos acá para ayudar! <h2>
-                                <h3> ¡Llamanos hoy! </h3>
-                                <a href="https://wa.me/1162914596"><button class="btn-numero">1234567890</button></a>
-                                <div class="chat">
-                                    <a href="https://wa.me/1162914596"><img class="icon-wsp"
-                                            src="../Img/whatsapp (1).png" alt=""></a>
-                                    <!--<p> <a href="https://wa.me/1162914596">Iniciar chat </a></p>-->
-                                </div>
+                <h1 class="titulos-img"><b> OBRAS PARA PAREDES</b></h1>
 
 
-                    </div>
-
-                </div>
-
-
-
-                <div class="col">
-                    <a name="contactanos" />
-
-                    <h1><b>CONTACTANOS</b></h1>
-
-                    <form class="containerContacto mt-4">
-                        <div class="mb-3">
-
-
-                            <label for="exampleInputName" placeholder="NOMBRE Y APELLIDO" class="form-label"></label>
-                            <input placeholder="NOMBRE Y APELLIDO" type="Name" class="form-control"
-                                id="exampleInputName" aria-describedby="Nombre">
-
-
-                            <label for="exampleInputEmail1" class="form-label"></label>
-                            <input placeholder="EMAIL" type="email" class="form-control" id="exampleInputEmail1">
-
-                            <label for="exampleInputTel" class="form-label"></label>
-                            <input placeholder="TÉLEFONO" type="telefono" class="form-control" id="exampleInputTel">
-
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>METROS CUADRADOS</option>
-
-                                <option value="1">+ 50 m2</option>
-                                <option value="2">+ 100 m2</option>
-                                <option value="3">+ 200 m2</option>
-                            </select>
-
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>ZONA</option>
-                                <option value="2">CABA</option>
-                                <option value="1">ZONA SUR</option>
-                                <option value="2">ZONA NORTE</option>
-
-                            </select>
-
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>MATERIAL</option>
-                                <option value="1">Porcelanato liquido</option>
-                                <option value="2">Microcemento</option>
-                                <option value="3">Stuco Veneziano</option>
-                                <option value="3">Texturado/tarquini</option>
-                                <option value="3">Pedra flex</option>
-
-                            </select>
-
-                            <textarea placeholder="DEJANOS TU CONSULTA" class="form-control"
-                                id="exampleFormControlTextarea1" rows="10"></textarea>
-                            <button type="submit" class="btn btn-secondary">Enviar</button>
-                        </div>
-                    </form>
-
-                    <h2>GRACIAS POR ELEGIRNOS!</h2>
-
-                </div>
             </div>
         </section>
 
+        <section class="container-fluid card-obras">
+
+            <div class="ful-img" id="fulImgBox">
+                <img src="../Img/carrouselmc1.png" alt="" id="fulImg">
+                <span onclick="closeImg()">X</span>
+            </div>
+            <a name="microCementoPared" />
+            <h1> GALERIA DE NUESTRAS GRANDES OBRAS</h1>
+            <div class="img-gallery">
+
+                <img src="../Img/carrouselmc1.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc2.png.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc3.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc4.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc1.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc2.png.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc3.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc4.png" onclick="openFullImg(this.src)" alt="">
+
+
+
+            </div>
+            <a href="./contacto.html#contactanos" class="btn-contactanos-servicios">+ INFORMACIÓN</a>
+
+
+
+        </section>
+
+
+
+
 
     </main>
+
     <!-- FOOTER -->
 
     <footer>
@@ -246,11 +203,17 @@
 
     </footer>
 
+    <!-- FIN FOOTER -->
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+
+    <script src="../javaScript/script.js"></script>
+
 </body>
 
 </html>

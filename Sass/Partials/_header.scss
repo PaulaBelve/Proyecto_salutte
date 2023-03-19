@@ -126,9 +126,18 @@
             display: flex;
             justify-content: flex-start;
             margin-left: 0.1rem;
-            width: 120px;
+            width: 150px;
             font-size: $text-Small ;
 
+
+
+        }
+
+
+        .navbar {
+
+            font-family: $font-Principal;
+            text-align: start;
 
 
         }

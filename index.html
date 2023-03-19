@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./Css/styles.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
@@ -110,7 +113,8 @@
             <section class="container section-banner">
 
 
-                <p class="banner">Todo para el bienestar<br>de tu hogar.</br></p>
+                <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="banner">Todo para
+                    el bienestar<br>de tu hogar.</br></p>
 
             </section>
 
@@ -121,7 +125,7 @@
         <section class="container-fluid  inicio-pagina">
 
             <div>
-                <div class="texto-inicio">
+                <div data-aos="fade-right" class="texto-inicio">
 
                     <h1 class="titulos"><b>NOSOTROS</b></h1>
                     <div class="p-Quienes-Somos">
@@ -147,7 +151,7 @@
 
         <!-- NUESTROS SERVICIOS -->
 
-        <section class="container-fluid seccion-servicios">
+        <section data-aos="fade-left" class="container-fluid seccion-servicios">
 
             <h1 class="titulo-servicios">SERVICIOS</h1>
 
@@ -170,10 +174,7 @@
 
 
                                     Ofrecemos soluciones que resuelvan la necesidad de cada cliente.
-                                    <!-- Ofrecemos
-                                    soluciones diferentes para cada situación porque sabemos que cada obra es diferente. y
-                                    cada
-                                    cliente merece una atención personalizada.-->
+
                                 </p>
 
 
@@ -354,7 +355,8 @@
 
 
 
-            <div class="parrafoBannerFin">
+            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                class="parrafoBannerFin">
                 <p>Creamos la casa que siempre soñaste!</p>
 
             </div>
@@ -428,6 +430,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

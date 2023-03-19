@@ -1,61 +1,3 @@
-.inicio-contacto {
-
-    background-color: $color-titulos;
-    color: $color-base;
-
-    height: 300px;
-
-    font-family: $font-Title ;
-
-
-    margin-top: 5rem;
-
-    .texto-inicio-contacto {
-
-
-        position: absolute;
-        text-align: center;
-        margin-left: 25%;
-
-
-        h1 {
-
-            color: $color-base ;
-            text-align: center;
-            margin-top: 5rem;
-            font-weight: 600;
-
-
-
-
-        }
-
-
-        h2 {
-
-
-            margin-top: 2rem;
-
-        }
-
-        a {
-
-
-            color: $color-base ;
-        }
-
-        .icon-wsp {
-
-            height: 30px;
-            width: 30px;
-            color: $color-base;
-            margin-top: 1rem;
-
-        }
-    }
-
-}
-
 .contacto {
 
 
@@ -67,6 +9,7 @@
         font-family: $font-Title;
         text-align: center;
         margin-top: 3rem;
+        font-weight: 600;
     }
 
     h2 {
@@ -74,6 +17,8 @@
         text-align: center;
         margin-bottom: 2rem;
         font-family: $font-Title;
+        font-size: $text-Base;
+        font-weight: 600;
     }
 
     .consulta-contacto {
@@ -88,13 +33,13 @@
         margin-left: 5rem;
         background: $color-principal;
         color: $color-base;
-        height: 20%;
+        height: 30%;
         padding: 2%;
     }
 
     .contacto-llamada {
 
-        margin-top: 5rem;
+        margin-top: 3rem;
 
     }
 
@@ -107,9 +52,9 @@
         font-family: $font-Title;
         border: solid $color-principal;
         padding: 1%;
-        border-radius: 10px;
 
-        box-shadow: 0 0 10px $color-principal;
+
+        box-shadow: 0 0 5px $color-principal;
     }
 
     .chat {
@@ -185,10 +130,59 @@
     background-color: $color-principal;
     font-family: $font-Principal;
     font-size: $text-Base;
-    border-radius: 10px;
     border: solid 1px $color-principal;
     margin: 2rem;
     padding: 1rem;
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .contacto {
+
+        .parrafoProp {
+
+
+            margin-left: 0;
+            background: $color-principal;
+            color: $color-base;
+            margin-top: 2rem;
+            font-size: $text-Small;
+
+        }
+
+    }
+
+
+    /* FORMULARIO */
+
+
+    .mb-3 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .form-select {
+
+            width: 38rem;
+            margin-top: 2rem;
+            font-family: $font-Principal;
+            font-size: $text-Small;
+        }
+    }
+
+    .form-control {
+
+        width: 38rem;
+
+
+    }
+
 
 
 
