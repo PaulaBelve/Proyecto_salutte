@@ -92,8 +92,8 @@ function modalParedesResponsive(paredResponsive) {
        <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-columnResponsive">
-      <a href="../Paginas/obrasPisos.html#microCementoPiso" class="button-obrasResponsive"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
-      <a href="../Paginas/obrasPisos.html#microCementoPiso" class="button-obrasResponsive"><p>OBRAS</p></a>
+      <a href="../Paginas/obrasParedes.html#microCementoPared" class="button-obrasResponsive"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
+      <a href="../Paginas/obrasParedes.html#microCementoPared" class="button-obrasResponsive"><p>OBRAS</p></a>
       </div>
 
         </div>
