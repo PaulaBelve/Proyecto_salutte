@@ -314,7 +314,7 @@ footer {
   .cardServicios .boxServicios:hover {
     transform: scale(1.1, 1.1); }
 
-.seccionProductos-responsivo {
+.seccionProductosInicio-responsivo {
   display: none; }
 
 .seccion-productos .box-pisos {
@@ -467,28 +467,28 @@ footer {
         margin: 1rem 1rem 1rem 1rem; }
   .seccion-productos {
     display: none; }
-  .seccionProductos-responsivo {
+  .seccionProductosInicio-responsivo {
     display: block; }
-    .seccionProductos-responsivo .box-pisosResponsivo {
+    .seccionProductosInicio-responsivo .box-pisosResponsivo {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center; }
-      .seccionProductos-responsivo .box-pisosResponsivo .img-productosResponsivo img {
+      .seccionProductosInicio-responsivo .box-pisosResponsivo .img-productosResponsivo img {
         margin-bottom: 3rem; }
-      .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo {
+      .seccionProductosInicio-responsivo .box-pisosResponsivo .info-boxProductosResponsivo {
         text-align: right;
         width: 350px;
         margin-bottom: 4rem; }
-        .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo h2 {
+        .seccionProductosInicio-responsivo .box-pisosResponsivo .info-boxProductosResponsivo h2 {
           text-align: left;
           font-family: "Montserrat", sans-serif;
           font-size: 2.5em;
           font-weight: 600; }
-        .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo p {
+        .seccionProductosInicio-responsivo .box-pisosResponsivo .info-boxProductosResponsivo p {
           text-align: justify;
           margin: 2rem 0rem 3rem 0rem; }
-        .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo .btn-productosResponsivo {
+        .seccionProductosInicio-responsivo .box-pisosResponsivo .info-boxProductosResponsivo .btn-productosResponsivo {
           margin: 2rem 0rem 4rem 0rem;
           color: #202529;
           font-size: 1.8em;
@@ -499,26 +499,26 @@ footer {
           text-decoration: none;
           font-weight: 600;
           cursor: pointer; }
-    .seccionProductos-responsivo .box-ParedesResponsivo {
+    .seccionProductosInicio-responsivo .box-ParedesResponsivo {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center; }
-      .seccionProductos-responsivo .box-ParedesResponsivo .img-productos-paredesResponsivo img {
+      .seccionProductosInicio-responsivo .box-ParedesResponsivo .img-productos-paredesResponsivo img {
         margin-bottom: 3rem; }
-      .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo {
+      .seccionProductosInicio-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo {
         text-align: right;
         width: 350px;
         margin-bottom: 4rem; }
-        .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo h2 {
+        .seccionProductosInicio-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo h2 {
           text-align: left;
           font-family: "Montserrat", sans-serif;
           font-size: 2.5em;
           font-weight: 600; }
-        .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo p {
+        .seccionProductosInicio-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo p {
           text-align: justify;
           margin: 2rem 0rem 3rem 0rem; }
-        .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo .btn-productosResponsivo {
+        .seccionProductosInicio-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo .btn-productosResponsivo {
           margin: 2rem 0rem 4rem 0rem;
           color: #202529;
           font-size: 1.8em;
@@ -541,7 +541,7 @@ footer {
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 35%;
     transform: translate(-50%, -50%);
     font-family: "Montserrat", sans-serif; }
     .flyer-servicios .section-flyers h1 {
@@ -616,7 +616,7 @@ footer {
       width: 50%;
       background-color: #545E62;
       color: #ffffff;
-      height: 759px; }
+      height: 764px; }
     .inicio-servicios .boxServicios-capacitaciones .titulos-servicios {
       text-align: left;
       margin-left: 10rem;
@@ -947,7 +947,7 @@ footer {
       #sectionPisos-Responsive .boxPisosResponsivo .boxPisos__titleResponsivo {
         text-align: left;
         font-family: "Montserrat", sans-serif;
-        font-size: 3.2em;
+        font-size: 2.5em;
         font-weight: 600; }
       #sectionPisos-Responsive .boxPisosResponsivo .boxPisos__textResponsivo {
         text-align: justify;
@@ -979,19 +979,6 @@ footer {
     margin-top: 2rem;
     text-align: justify;
     font-size: 1.5em; }
-  /*.section-modal {
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .img-modal {
-    
-        height: 60px;
-        width: 60px;
-    } */
   .botones-modalResponsive {
     display: flex;
     flex-direction: row;
@@ -1009,6 +996,54 @@ footer {
     width: 70px;
     margin-top: 2rem;
     margin-bottom: 1rem; } }
+
+.flyer-obras {
+  background: url("../Img/Banner5.png");
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  height: 600px;
+  margin-top: 2rem; }
+  .flyer-obras .section-flyers {
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    top: 40%;
+    left: 40%; }
+    .flyer-obras .section-flyers h1 {
+      font-size: 4em;
+      position: absolute;
+      text-align: center;
+      padding: 2rem;
+      color: #ffffff;
+      font-weight: 600;
+      display: inline-block;
+      letter-spacing: 10px; }
+
+.flyer-obrasParedes {
+  background: url("../Img/Banner5.png");
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  height: 600px;
+  margin-top: 2rem; }
+  .flyer-obrasParedes .section-flyers {
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    top: 40%;
+    left: 35%; }
+    .flyer-obrasParedes .section-flyers h1 {
+      font-size: 4em;
+      position: absolute;
+      text-align: center;
+      padding: 2rem;
+      color: #ffffff;
+      font-weight: 600;
+      display: inline-block;
+      letter-spacing: 10px; }
 
 .card-obras {
   text-align: center;
@@ -1067,6 +1102,20 @@ footer {
   .ful-img img {
     width: 90%;
     max-width: 600px; }
+
+@media screen and (max-width: 768px) {
+  .flyer-obras {
+    height: 400px; }
+    .flyer-obras .section-flyers {
+      left: 10rem; }
+      .flyer-obras .section-flyers h1 {
+        font-size: 3.2em; }
+  .flyer-obrasParedes {
+    height: 400px; }
+    .flyer-obrasParedes .section-flyers {
+      left: 7rem; }
+      .flyer-obrasParedes .section-flyers h1 {
+        font-size: 3.2em; } }
 
 .flyer-revestimientoParedes {
   background: url("../Img/banner4.png");
@@ -1263,28 +1312,28 @@ footer {
     width: 100%;
     height: 100%;
     margin-top: 2rem; }
-    #sectionParedes-Responsive .boxPisosResponsivo {
+    #sectionParedes-Responsive .boxParedesResponsivo {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center; }
-      #sectionParedes-Responsive .boxPisosResponsivo .boxPisos__imgResponsivo {
+      #sectionParedes-Responsive .boxParedesResponsivo .boxParedes__imgResponsivo {
         width: 400px; }
-      #sectionParedes-Responsive .boxPisosResponsivo .boxPisos__infoResponsivo {
+      #sectionParedes-Responsive .boxParedesResponsivo .boxParedes__infoResponsivo {
         text-align: right;
         margin-top: 3rem;
         margin-bottom: 3rem;
         width: 300px; }
-      #sectionParedes-Responsive .boxPisosResponsivo .boxPisos__titleResponsivo {
+      #sectionParedes-Responsive .boxParedesResponsivo .boxParedes__titleResponsivo {
         text-align: left;
         font-family: "Montserrat", sans-serif;
-        font-size: 3.2em;
+        font-size: 2.5em;
         font-weight: 600; }
-      #sectionParedes-Responsive .boxPisosResponsivo .boxPisos__textResponsivo {
+      #sectionParedes-Responsive .boxParedesResponsivo .boxParedes__textResponsivo {
         text-align: justify;
         margin: 3rem 0 3rem 0; }
-      #sectionParedes-Responsive .boxPisosResponsivo .btn-rPisosResponsivo {
+      #sectionParedes-Responsive .boxParedesResponsivo .btn-rParedesResponsivo {
         margin: 3rem 0 3rem 0;
         color: #202529;
         font-size: 1.8em;
@@ -1429,34 +1478,34 @@ footer {
   .flyer-productos {
     height: 400px; }
     .flyer-productos .section-flyers {
-      left: 8rem; }
+      left: 3rem; }
       .flyer-productos .section-flyers h1 {
         font-size: 3.2em; }
   .seccion-productos {
     display: none; }
   .seccionProductos-responsivo {
-    display: block; }
-    .seccionProductos-responsivo .box-pisosResponsivo {
+    display: block;
+    margin-top: 3rem; }
+    .seccionProductos-responsivo .boxProductos-pisosResponsivo {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center; }
-      .seccionProductos-responsivo .box-pisosResponsivo .img-productosResponsivo img {
-        width: 450px;
-        margin-bottom: 3rem; }
-      .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo {
+      .seccionProductos-responsivo .boxProductos-pisosResponsivo .img-productosResponsivo img {
+        width: 450px; }
+      .seccionProductos-responsivo .boxProductos-pisosResponsivo .info-boxProductosResponsivo {
         text-align: right;
         width: 350px;
         margin-bottom: 4rem; }
-        .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo h2 {
+        .seccionProductos-responsivo .boxProductos-pisosResponsivo .info-boxProductosResponsivo h2 {
           text-align: left;
           font-family: "Montserrat", sans-serif;
           font-size: 2.5em;
           font-weight: 600; }
-        .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo p {
+        .seccionProductos-responsivo .boxProductos-pisosResponsivo .info-boxProductosResponsivo p {
           text-align: justify;
           margin: 2rem 0rem 3rem 0rem; }
-        .seccionProductos-responsivo .box-pisosResponsivo .info-boxProductosResponsivo .btn-productosResponsivo {
+        .seccionProductos-responsivo .boxProductos-pisosResponsivo .info-boxProductosResponsivo .btn-productosResponsivo {
           margin: 2rem 0rem 4rem 0rem;
           color: #202529;
           font-size: 1.8em;
@@ -1467,27 +1516,27 @@ footer {
           text-decoration: none;
           font-weight: 600;
           cursor: pointer; }
-    .seccionProductos-responsivo .box-ParedesResponsivo {
+    .seccionProductos-responsivo .boxProductos-ParedesResponsivo {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center; }
-      .seccionProductos-responsivo .box-ParedesResponsivo .img-productos-paredesResponsivo img {
-        width: 450px;
-        margin-bottom: 3rem; }
-      .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo {
+      .seccionProductos-responsivo .boxProductos-ParedesResponsivo .img-productos-paredesResponsivo img {
+        width: 450px; }
+      .seccionProductos-responsivo .boxProductos-ParedesResponsivo .info-boxProductosParedesResponsivo {
         text-align: right;
         width: 350px;
-        margin-bottom: 4rem; }
-        .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo h2 {
+        margin-top: 3rem;
+        margin-bottom: 3rem; }
+        .seccionProductos-responsivo .boxProductos-ParedesResponsivo .info-boxProductosParedesResponsivo h2 {
           text-align: left;
           font-family: "Montserrat", sans-serif;
           font-size: 2.5em;
           font-weight: 600; }
-        .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo p {
+        .seccionProductos-responsivo .boxProductos-ParedesResponsivo .info-boxProductosParedesResponsivo p {
           text-align: justify;
           margin: 2rem 0rem 3rem 0rem; }
-        .seccionProductos-responsivo .box-ParedesResponsivo .info-boxProductosParedesResponsivo .btn-productosResponsivo {
+        .seccionProductos-responsivo .boxProductos-ParedesResponsivo .info-boxProductosParedesResponsivo .btn-productosResponsivo {
           margin: 2rem 0rem 4rem 0rem;
           color: #202529;
           font-size: 1.8em;
@@ -1500,7 +1549,7 @@ footer {
           cursor: pointer; } }
 
 .flyer-kits {
-  background: url("../Img/banner3.png");
+  background: url("../Img/banner4.png");
   background-position: center;
   background-size: cover;
   height: 600px;
@@ -1526,10 +1575,8 @@ footer {
 
 .texto-kits {
   text-align: center;
-  width: 100%;
-  height: 100%;
-  margin-top: 5%;
-  margin-bottom: 2%; }
+  margin: 5rem 10rem 5rem 10rem;
+  font-size: 1.8em; }
 
 .seccion-kitsResponsivo {
   display: none; }
@@ -1551,6 +1598,8 @@ footer {
       border: #202529;
       display: flex;
       align-items: center; }
+      .seccion-kits .boxKit-microCemento .kit__img img {
+        width: 500px; }
     .seccion-kits .boxKit-microCemento .kit__info {
       text-align: left;
       margin-top: 10rem;
@@ -1604,7 +1653,7 @@ footer {
     text-align: center;
     width: 100%;
     height: 100%;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 4%; }
     .seccion-kitsResponsivo .boxKit-microCementoResponsivo {
       display: flex;
@@ -1613,7 +1662,8 @@ footer {
       align-items: center;
       text-align: center; }
       .seccion-kitsResponsivo .boxKit-microCementoResponsivo .kit__imgResponsivo {
-        width: 300px; }
+        width: 300px;
+        margin-top: 5rem; }
       .seccion-kitsResponsivo .boxKit-microCementoResponsivo .kit__infoResponsivo {
         text-align: right;
         margin-top: 2rem;
@@ -1672,8 +1722,7 @@ footer {
     margin-left: 5rem;
     background-color: #A85A4B !important;
     color: #ffffff;
-    height: 30%;
-    padding: 2%; }
+    padding: 3%; }
   .contacto .contacto-llamada {
     margin-top: 3rem; }
   .contacto .btn-numero {

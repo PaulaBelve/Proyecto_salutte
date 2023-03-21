@@ -29,7 +29,7 @@ const revestimientoStuccoVeleziano = [{
     descripcion2: 'El stucco veneciano tiene una altísima durabilidad, el mismo producto habla por sí solo debido a que ya hace varios siglos que se utilizaba este producto y aún queda intacto en ruinas sin haberle dado mantenimiento. Con un mínimo espesor se puede colocar encima de paredes que tienen un fino realizado, o se encuentran pintadas. ',
     caracteristica3: '',
     descripcion3: '',
-    img: "../Img/microCementoParedes.jpg",
+    img: "../Img/stucco.png",
 
 }]
 
@@ -47,12 +47,12 @@ const revestimientoPedraFlex = [{
     descripcion3: 'Al ser un producto en lámina de bajo espesor y poco peso, que puede colocarse sobre cualquier superficie existente, lo único que necesitará será una pistola con cartucho de pegamento, herramientas de corte y una chocla. ',
     caracteristica4: 'MODELOS',
     descripcion4: 'Con más de 20 modelos a su disposición, puede realizar paredes únicas en cada sector de su hogar, salón o comercio! Pregunte a uno de nuestros asesores por el catálogo de modelos.',
-    img: "../Img/microCementoParedes.jpg",
+    img: "../Img/pedraFlex.png",
 
 }]
 
 console.log(revestimientoPedraFlex);
-
+/*
 const revestimientoTarquini = [{
     id: '4',
     nombre: 'TEXTURADO/TARQUINI',
@@ -67,7 +67,7 @@ const revestimientoTarquini = [{
 
 }]
 
-console.log(revestimientoTarquini);
+console.log(revestimientoTarquini); */
 
 
 

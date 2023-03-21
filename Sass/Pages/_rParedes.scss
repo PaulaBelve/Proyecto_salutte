@@ -343,7 +343,7 @@
         margin-top: 2rem;
 
 
-        .boxPisosResponsivo {
+        .boxParedesResponsivo {
 
             display: flex;
             flex-direction: column;
@@ -352,7 +352,7 @@
             text-align: center;
 
 
-            .boxPisos__imgResponsivo {
+            .boxParedes__imgResponsivo {
 
                 width: 400px;
 
@@ -361,7 +361,7 @@
             }
 
 
-            .boxPisos__infoResponsivo {
+            .boxParedes__infoResponsivo {
 
                 text-align: right;
                 margin-top: 3rem;
@@ -370,23 +370,23 @@
                 width: 300px;
             }
 
-            .boxPisos__titleResponsivo {
+            .boxParedes__titleResponsivo {
 
 
                 text-align: left;
                 font-family: $font-subtitulos;
-                font-size: $text-Medium;
+                font-size: $text-uniforme;
                 font-weight: 600
             }
 
-            .boxPisos__textResponsivo {
+            .boxParedes__textResponsivo {
 
 
                 text-align: justify;
                 margin: 3rem 0 3rem 0;
             }
 
-            .btn-rPisosResponsivo {
+            .btn-rParedesResponsivo {
 
                 margin: 3rem 0 3rem 0;
                 color: $color-principal;

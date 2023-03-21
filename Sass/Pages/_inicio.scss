@@ -199,7 +199,7 @@
 
 // SECCION NUESTROS PRODUCTOS
 
-.seccionProductos-responsivo {
+.seccionProductosInicio-responsivo {
 
     display: none
 }
@@ -496,7 +496,7 @@
 
     // SECCIÓN PRODUCTOS RESPONSIVO
 
-    .seccionProductos-responsivo {
+    .seccionProductosInicio-responsivo {
 
         display: block;
 
@@ -507,6 +507,7 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+
 
             .img-productosResponsivo {
 

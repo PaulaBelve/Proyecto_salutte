@@ -27,7 +27,7 @@ const revestimientosParedesResponsivo = [
         descripcion2: 'El stucco veneciano tiene una altísima durabilidad, el mismo producto habla por sí solo debido a que ya hace varios siglos que se utilizaba este producto y aún queda intacto en ruinas sin haberle dado mantenimiento. Con un mínimo espesor se puede colocar encima de paredes que tienen un fino realizado, o se encuentran pintadas. ',
         caracteristica3: '',
         descripcion3: '',
-        img: "../Img/microCementoParedes.jpg",
+        img: "../Img/stucco.png",
 
     },
 
@@ -43,23 +43,23 @@ const revestimientosParedesResponsivo = [
         descripcion3: 'Al ser un producto en lámina de bajo espesor y poco peso, que puede colocarse sobre cualquier superficie existente, lo único que necesitará será una pistola con cartucho de pegamento, herramientas de corte y una chocla. ',
         caracteristica4: 'MODELOS',
         descripcion4: 'Con más de 20 modelos a su disposición, puede realizar paredes únicas en cada sector de su hogar, salón o comercio! Pregunte a uno de nuestros asesores por el catálogo de modelos.',
-        img: "../Img/microCementoParedes.jpg",
+        img: "../Img/pedraFlex.png",
 
     },
 
-    {
-        id: '4',
-        nombre: 'TEXTURADO/TARQUINI',
-        texto: 'Es revestimiento plástico texturado, ideal para renovar fachadas al exterior.',
-        caracteristica1: '¿QUÉ ES? ',
-        descripcion1: 'Mayormente conocido como tarquini, el recubrimiento plástico para paredes está formulado a base de copolímeros acrílicos en emulsión, cargas minerales clasificadas y aditivos que al secar brinda una protección impermeable, resistente, durable y decorativa.',
-        caracteristica2: 'VENTAJAS',
-        descripcion2: 'Dibujo fino, mediano y grueso.Reemplaza al fino y la pintura en una sola aplicación.Disimula y minimiza las imperfecciones de la base. Espesor de entre 15-20 veces mayor a la pintura. Rápida y fácil aplicación. Impermeable, no se fisura ni cuartea.',
-        caracteristica3: 'COLORES:',
-        descripcion3: 'Con la amplia gama de colores disponibles, podés decorar tus espacios de la manera que más te guste.',
-        img: "../Img/microCementoParedes.jpg",
-
-    },
+    /*  {
+          id: '4',
+          nombre: 'TEXTURADO/<br>TARQUINI</br>',
+          texto: 'Es revestimiento plástico texturado, ideal para renovar fachadas al exterior.',
+          caracteristica1: '¿QUÉ ES? ',
+          descripcion1: 'Mayormente conocido como tarquini, el recubrimiento plástico para paredes está formulado a base de copolímeros acrílicos en emulsión, cargas minerales clasificadas y aditivos que al secar brinda una protección impermeable, resistente, durable y decorativa.',
+          caracteristica2: 'VENTAJAS',
+          descripcion2: 'Dibujo fino, mediano y grueso.Reemplaza al fino y la pintura en una sola aplicación.Disimula y minimiza las imperfecciones de la base. Espesor de entre 15-20 veces mayor a la pintura. Rápida y fácil aplicación. Impermeable, no se fisura ni cuartea.',
+          caracteristica3: 'COLORES:',
+          descripcion3: 'Con la amplia gama de colores disponibles, podés decorar tus espacios de la manera que más te guste.',
+          img: "../Img/microCementoParedes.jpg",
+  
+      }, */
 
 
 

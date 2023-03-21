@@ -1,6 +1,6 @@
 .flyer-kits {
 
-    background: url('../Img/banner3.png');
+    background: url('../Img/banner4.png');
     background-position: center;
     background-size: cover;
     height: 600px;
@@ -45,10 +45,9 @@
 .texto-kits {
 
     text-align: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin: 5rem 10rem 5rem 10rem;
+    font-size: $text-Base;
+
 
 }
 
@@ -83,6 +82,11 @@
             border: $color-principal;
             display: flex;
             align-items: center;
+
+            img {
+
+                width: 500px;
+            }
 
 
         }
@@ -194,7 +198,7 @@
         text-align: center;
         width: 100%;
         height: 100%;
-        margin-top: 2%;
+        margin-top: 4%;
         margin-bottom: 4%;
 
 
@@ -210,6 +214,7 @@
             .kit__imgResponsivo {
 
                 width: 300px;
+                margin-top: 5rem;
 
 
 
