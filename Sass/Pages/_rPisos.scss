@@ -1,21 +1,22 @@
-.flyer-RevestimientoPisos {
+.flyer-revestimientoPisos {
 
-    background: url('../Img/banner3.png');
+    background: url('../Img/banner4.png');
     background-position: center;
+    position: relative;
     background-size: cover;
     height: 600px;
     margin-top: 2rem;
-    position: relative;
 
     .section-flyers {
 
 
         text-align: center;
         position: absolute;
-        top: 50%;
-        left: 30%;
+
         transform: translate(-50%, -50%);
         font-family: $font-Title;
+        top: 50%;
+        left: 30%;
 
 
 
@@ -25,16 +26,15 @@
             text-align: center;
             padding: 2rem;
             color: $color-base;
-            margin: 0;
+
             font-weight: 600;
             display: inline-block;
             letter-spacing: 10px;
 
 
+
         }
     }
-
-
 
 
 }
@@ -227,19 +227,6 @@
     }
 }
 
-/*.section-modal {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.img-modal {
-
-    height: 60px;
-    width: 60px;
-} */
 
 .botones-modal {
 
@@ -275,18 +262,19 @@
 
 @media screen and (max-width: 480px) {
 
-    .flyer-RevestimientoPisos {
+    .flyer-revestimientoPisos {
 
         height: 400px;
 
+
         .section-flyers {
 
-            left: 2rem;
+            left: 1rem;
 
 
 
             h1 {
-                font-size: $text-Medium;
+                font-size: $text-uniforme;
 
 
 
@@ -294,7 +282,6 @@
 
             }
         }
-
 
     }
 
@@ -376,8 +363,8 @@
 
     .tituloRevestimientosResponsive {
 
-        font-size: $text-title !important;
-        font-family: $font-Title !important;
+        font-size: $text-Small ;
+        font-family: $font-Title ;
     }
 
     .sectionRevestimientosResponsive {

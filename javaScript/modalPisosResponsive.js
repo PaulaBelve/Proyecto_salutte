@@ -9,10 +9,8 @@ const mostrarCardsRevestimientoPisosResponsivo = (revestimientosPisosResponsivo)
 
         div.classList.add(`boxPisosResponsivo`);
 
-        div.innerHTML += `   <picture class="boxPisos__imgResponsivo">
-                       <img  src=${pisoResponsive.img}>
-                                 </picture>
-                    <article class="boxPisos__infoResponsivo">
+        div.innerHTML += `   
+        <article class="boxPisos__infoResponsivo">
                     <h3 class="boxPisos__titleResponsivo"> ${pisoResponsive.nombre} </h3>
                     <p class="boxPisos__textResponsivo">${pisoResponsive.texto} </p>
                     <b><a id="boxPisos__botonResponsivo${pisoResponsive.id}" class="btn-rPisosResponsivo"> + INFO </a></b>
@@ -20,6 +18,10 @@ const mostrarCardsRevestimientoPisosResponsivo = (revestimientosPisosResponsivo)
                     
                     
                     </article>
+        <picture class="boxPisos__imgResponsivo">
+                       <img  src=${pisoResponsive.img}>
+                                 </picture>
+                    
                    
                    ` ;
 

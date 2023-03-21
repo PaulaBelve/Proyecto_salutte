@@ -1,6 +1,6 @@
 // Array revestimiento para paredes
 
-const revestimientosParedesReponsivo = [
+const revestimientosParedesResponsivo = [
     {
         id: '1',
         nombre: ' MICROCEMENTO  ',

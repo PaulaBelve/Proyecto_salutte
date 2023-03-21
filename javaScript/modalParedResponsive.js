@@ -9,17 +9,19 @@ const mostrarCardsRevestimientoParedesResponsivo = (revestimientosParedesRespons
 
         div.classList.add(`boxParedesResponsivo`);
 
-        div.innerHTML += `   <picture class="boxParedes__imgResponsivo">
+        div.innerHTML += `  <article class="boxParedes__infoResponsivo">
+        <h3 class="boxParedes__titleResponsivo"> ${paredResponsive.nombre} </h3>
+        <p class="boxParedes__textResponsivo">${paredResponsive.texto} </p>
+        <b><a id="boxParedes__botonResponsivo${paredResponsive.id}" class="btn-rParedesResponsivo"> + INFO </a></b>
+
+        
+        
+        </article>
+        
+        <picture class="boxParedes__imgResponsivo">
                        <img  src=${paredResponsive.img}>
                                  </picture>
-                    <article class="boxParedes__infoResponsivo">
-                    <h3 class="boxParedes__titleResponsivo"> ${paredResponsive.nombre} </h3>
-                    <p class="boxParedes__textResponsivo">${paredResponsive.texto} </p>
-                    <b><a id="boxParedes__botonResponsivo${paredResponsive.id}" class="btn-rParedesResponsivo"> + INFO </a></b>
-
                     
-                    
-                    </article>
                    
                    ` ;
 

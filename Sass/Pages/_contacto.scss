@@ -5,7 +5,7 @@
 
     h1 {
 
-        color: $color-principal;
+        color: $color-titulos;
         font-family: $font-Title;
         text-align: center;
         margin-top: 3rem;
@@ -19,6 +19,7 @@
         font-family: $font-Title;
         font-size: $text-Base;
         font-weight: 600;
+        color: $color-titulos;
     }
 
     .consulta-contacto {
@@ -31,7 +32,7 @@
 
 
         margin-left: 5rem;
-        background: $color-principal;
+        background-color: $color-nosotros !important;
         color: $color-base;
         height: 30%;
         padding: 2%;
@@ -47,14 +48,14 @@
 
         margin-top: 4%;
 
-        color: $color-principal;
+        color: $color-titulos;
         font-size: $text-Base;
         font-family: $font-Title;
-        border: solid $color-principal;
+        border: solid $color-titulos;
         padding: 1%;
 
 
-        box-shadow: 0 0 5px $color-principal;
+        box-shadow: 0 0 5px $color-titulos;
     }
 
     .chat {
@@ -80,7 +81,7 @@
 
         margin-top: 1rem;
 
-        color: $color-principal;
+        color: $color-titulos;
     }
 }
 
@@ -130,7 +131,7 @@
     background-color: $color-principal;
     font-family: $font-Principal;
     font-size: $text-Base;
-    border: solid 1px $color-principal;
+    border: solid 1px $color-titulos;
     margin: 2rem;
     padding: 1rem;
 

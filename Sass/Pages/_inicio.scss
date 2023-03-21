@@ -367,8 +367,9 @@
         .section-banner {
 
 
-            font-size: $text-Medium;
-            margin-left: 3rem;
+            font-size: $text-Small;
+            margin-left: 2rem;
+            margin-top: 5rem;
 
         }
 
@@ -419,7 +420,7 @@
     .seccion-servicios {
 
         background-color: $color-principal;
-        height: 185rem;
+        height: 160rem;
         width: 100%;
 
         .cardServicios {
