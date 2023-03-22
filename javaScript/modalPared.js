@@ -369,8 +369,8 @@ function modalPared(pared) {
 
         <div class="botones-modal">
 <div class="boton-column">
-       <a href=https://wa.me/1162914596><img class="icon-wsp" src="../Img/whatsapp (1).png" alt=""></a> 
-       <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
+       <a href=https://wa.me/1149366532><img class="icon-wsp" src="../Img/whatsapp (1).png" alt=""></a> 
+       <a href=https://wa.me/1149366532><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-column">
       <a href="../Paginas/obrasParedes.html#pedraFlex" class="button-obras"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 

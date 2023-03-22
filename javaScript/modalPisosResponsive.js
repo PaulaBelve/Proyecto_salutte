@@ -88,8 +88,8 @@ function modalPisosResponsive(pisoResponsive) {
 
         <div class="botones-modalResponsive">
 <div class="boton-columnResponsive">
-       <a href=https://wa.me/1162914596><img class="icon-wspResponsive" src="../Img/whatsapp (1).png" alt=""></a> 
-       <a href=https://wa.me/1162914596><p>CONTACTANOS</p></a>
+       <a href=https://wa.me/1149366532><img class="icon-wspResponsive" src="../Img/whatsapp (1).png" alt=""></a> 
+       <a href=https://wa.me/1149366532><p>CONTACTANOS</p></a>
        </div>
        <div class="boton-columnResponsive">
       <a href="../Paginas/obrasPisos.html#microCementoPiso" class="button-obrasResponsive"><img class="icon-wsp" src="../Img/construccion.png" alt=""></a> 
