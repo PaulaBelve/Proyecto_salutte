@@ -104,7 +104,18 @@ li {
       font-size: 1.5em; }
     .header .navbar {
       font-family: "Montserrat", sans-serif;
-      text-align: start; } }
+      text-align: start; }
+  /*   .header {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 15%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: $text-header;
+        color: $color-principal;
+}  */ }
 
 /* Footer */
 footer {
@@ -141,7 +152,7 @@ footer {
         font-weight: 600;
         cursor: pointer; }
     footer .footer .divFooter {
-      margin-left: 15%;
+      margin-left: 20%;
       margin-top: 2rem; }
       footer .footer .divFooter p {
         color: #ffffff;
@@ -156,7 +167,7 @@ footer {
         width: 25px; }
     footer .footer .logo-footer img {
       width: 200px;
-      margin-top: 5rem; }
+      margin-top: 1rem; }
   footer .finFooter {
     background-color: #545E62;
     font-size: 0.7em;
@@ -195,7 +206,8 @@ footer {
         font-weight: 600;
         cursor: pointer; }
     footer .footer .divFooter {
-      margin-left: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
       margin-top: 2rem; }
       footer .footer .divFooter p {
         color: #ffffff;
@@ -1767,7 +1779,7 @@ footer {
 .form-control {
   width: 50rem; }
 
-#exampleFormControlTextarea1 {
+textarea {
   margin-top: 2rem; }
 
 .btn {

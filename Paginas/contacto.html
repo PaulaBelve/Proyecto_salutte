@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Sweet Alert-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" type="text/css" href="../Css/styles.css">
     <title>Contacto | salutte </title>
 </head>
@@ -131,52 +133,85 @@
 
                     <h1><b>CONTACTANOS</b></h1>
 
-                    <form class="containerContacto mt-4">
+                    <form class="containerContacto mt-4" id="form">
                         <div class="mb-3">
 
 
                             <label for="exampleInputName" placeholder="NOMBRE Y APELLIDO" class="form-label"></label>
                             <input placeholder="NOMBRE Y APELLIDO" type="Name" class="form-control"
-                                id="exampleInputName" aria-describedby="Nombre">
+                                aria-describedby="Nombre" name="name" required>
 
 
                             <label for="exampleInputEmail1" class="form-label"></label>
-                            <input placeholder="EMAIL" type="email" class="form-control" id="exampleInputEmail1">
+                            <input placeholder="EMAIL" type="email" class="form-control" name="email" required>
 
                             <label for="exampleInputTel" class="form-label"></label>
-                            <input placeholder="TÉLEFONO" type="telefono" class="form-control" id="exampleInputTel">
+                            <input placeholder="TÉLEFONO" type="number" class="form-control" name="phone" required>
 
-                            <select class="form-select" aria-label="Default select example">
+                            <select class="form-select" aria-label="Default select example" name="option1">
                                 <option selected>METROS CUADRADOS</option>
 
-                                <option value="1">+ 50 m2</option>
-                                <option value="2">+ 100 m2</option>
-                                <option value="3">+ 200 m2</option>
+                                <option value="50">+ 50 m2</option>
+                                <option value="100">+ 100 m2</option>
+                                <option value="200">+ 200 m2</option>
                             </select>
 
-                            <select class="form-select" aria-label="Default select example">
+                            <select class="form-select" aria-label="Default select example" name="option2">
                                 <option selected>ZONA</option>
-                                <option value="2">CABA</option>
-                                <option value="1">ZONA SUR</option>
-                                <option value="2">ZONA NORTE</option>
+                                <option value="CABA">CABA</option>
+                                <option value="SUR">ZONA SUR</option>
+                                <option value="NORTE">ZONA NORTE</option>
 
                             </select>
 
-                            <select class="form-select" aria-label="Default select example">
+                            <select class="form-select" aria-label="Default select example" name="option3">
                                 <option selected>MATERIAL</option>
-                                <option value="1">Porcelanato liquido</option>
-                                <option value="2">Microcemento</option>
-                                <option value="3">Stuco Veneziano</option>
-                                <option value="3">Texturado/tarquini</option>
-                                <option value="3">Pedra flex</option>
+                                <option value="PL">Porcelanato liquido</option>
+                                <option value="M">Microcemento</option>
+                                <option value="SV">Stuco Veneziano</option>
+                                <option value="PF">Pedra flex</option>
+                                <!--<option value="3">Texturado/tarquini</option>-->
+
 
                             </select>
 
-                            <textarea placeholder="DEJANOS TU CONSULTA" class="form-control"
-                                id="exampleFormControlTextarea1" rows="10"></textarea>
-                            <button type="submit" class="btn btn-secondary">Enviar</button>
+                            <textarea placeholder="DEJANOS TU CONSULTA" class="form-control" rows="10" name="message"
+                                required></textarea>
+                            <!--  <button type="submit" class="btn btn-secondary" id="button">Enviar</button> -->
+                            <input type="submit" class="btn btn-secondary" id="button" value="Enviar">
                         </div>
                     </form>
+
+                    <script> const btn = document.getElementById('button');
+
+                        document.getElementById('form')
+                            .addEventListener('submit', function (event) {
+                                event.preventDefault();
+
+                                btn.value = 'Enviando...';
+
+                                const serviceID = 'default_service';
+                                const templateID = 'template_a0wusu7';
+
+                                emailjs.sendForm(serviceID, templateID, this)
+                                    .then(() => {
+                                        btn.value = 'Enviar';
+
+                                        Swal.fire({
+                                            position: 'top-end',
+                                            icon: 'success',
+                                            title: 'Su mensaje ha sido enviado correctamente!',
+                                            showConfirmButton: false,
+                                            timer: 1500
+                                        });
+
+                                    }, (err) => {
+                                        btn.value = 'Enviar';
+                                        alert(JSON.stringify(err));
+                                    });
+                            });</script>
+
+
 
                     <h2>GRACIAS POR ELEGIRNOS!</h2>
 
@@ -208,7 +243,7 @@
 
                 <div class="col">
                     <p><b> + info:</b></p>
-                    <p> <img class="iconos" src="../Img/gmail.png" alt=""> Salutte-home&desing@gmail.com</p>
+                    <p> <img class="iconos" src="../Img/gmail.png" alt=""> Salutte.home@gmail.com</p>
 
                 </div>
                 <div class="col">
@@ -247,6 +282,14 @@
 
 
     </footer>
+
+    <!-- FORMULARIO -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('8w2FZ1HLu4cD-HVnU')
+    </script>
 
 
     <!-- JavaScript Bundle with Popper -->
