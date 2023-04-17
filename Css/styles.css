@@ -120,7 +120,7 @@ li {
 /* Footer */
 footer {
   background-color: #545E62;
-  height: 300px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,7 +166,7 @@ footer {
         height: 25px;
         width: 25px; }
     footer .footer .logo-footer img {
-      width: 200px;
+      width: 20rem;
       margin-top: 1rem; }
   footer .finFooter {
     background-color: #545E62;
@@ -249,27 +249,28 @@ footer {
       display: inline-block; }
 
 .inicio-pagina {
-  height: 850px;
+  height: 450px;
   width: 100%;
   text-align: center;
   margin-top: 3%; }
   .inicio-pagina .titulos {
     color: #A85A4B;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 10px; }
   .inicio-pagina .texto-inicio {
     margin-top: 5%; }
   .inicio-pagina .p-Quienes-Somos {
-    padding: 1%;
-    font-size: 1.8em; }
+    padding: 1%; }
   .inicio-pagina p {
     color: #A85A4B;
-    margin: 4% 8% 4% 8%; }
+    margin: 2% 15% 2% 15%;
+    text-align: justify;
+    font-size: 2em; }
 
 .seccion-servicios {
   background-color: #202529;
-  height: 85rem;
+  height: 100%;
   width: 100%; }
   .seccion-servicios .titulo-servicios {
     color: #ffffff;
@@ -294,6 +295,7 @@ footer {
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 20rem;
     transition: all 0.3s linear; }
   .cardServicios h3 {
     font-family: "Montserrat", sans-serif;
@@ -410,17 +412,17 @@ footer {
   font-size: 3.5em; }
   .parrafoBannerFin p {
     color: #ffffff;
-    margin-top: 10rem; }
+    margin-top: 15rem; }
 
 @media screen and (max-width: 768px) {
   .inicio-banner {
     height: 400px; }
     .inicio-banner .section-banner {
-      font-size: 1.5em;
+      font-size: 1.8em;
       margin-left: 2rem;
       margin-top: 5rem; }
   .inicio-pagina {
-    height: 650px;
+    height: 750px;
     width: 100%;
     text-align: center;
     margin-top: 4rem; }
@@ -450,7 +452,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        margin-bottom: 0; }
       .seccion-servicios .cardServicios h3 {
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
@@ -540,7 +543,17 @@ footer {
           text-align: center;
           text-decoration: none;
           font-weight: 600;
-          cursor: pointer; } }
+          cursor: pointer; }
+  .parrafoBannerFin {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5%;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3.5em; }
+    .parrafoBannerFin p {
+      color: #ffffff;
+      margin-top: 5rem; } }
 
 .flyer-servicios {
   background: url("../Img/banner3.png");
@@ -552,12 +565,12 @@ footer {
   .flyer-servicios .section-flyers {
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 35%;
+    top: 45%;
+    left: 36%;
     transform: translate(-50%, -50%);
     font-family: "Montserrat", sans-serif; }
     .flyer-servicios .section-flyers h1 {
-      font-size: 4em;
+      font-size: 5em;
       position: absolute;
       text-align: center;
       padding: 2rem;
@@ -578,7 +591,7 @@ footer {
     justify-content: center !important;
     align-items: center !important;
     text-align: end;
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 100%;
     height: 70%; }
   .inicio-servicios .paso-paso {
@@ -620,15 +633,14 @@ footer {
     align-items: center !important;
     text-align: end;
     margin-top: 3rem;
-    width: 100%; }
+    width: 100%;
+    background-color: #545E62; }
     .inicio-servicios .boxServicios-capacitaciones .paso-paso {
       width: 50%; }
     .inicio-servicios .boxServicios-capacitaciones .info-servicios {
       text-align: left;
       width: 50%;
-      background-color: #545E62;
-      color: #ffffff;
-      height: 764px; }
+      color: #ffffff; }
     .inicio-servicios .boxServicios-capacitaciones .titulos-servicios {
       text-align: left;
       margin-left: 10rem;
@@ -703,15 +715,15 @@ footer {
     .section-serviciosResponsivo .boxServiciosResponsivo {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      text-align: center;
       margin-top: 3rem; }
     .section-serviciosResponsivo .paso-pasoResponsivo {
+      width: 100%; }
+    .section-serviciosResponsivo .ImgResponsivo {
       width: 100%;
-      margin-top: 2rem; }
+      margin-bottom: 3rem; }
     .section-serviciosResponsivo .info-serviciosResponsivo {
-      text-align: left;
-      width: 350px; }
+      width: 350px;
+      margin-left: 2rem; }
     .section-serviciosResponsivo .titulos-serviciosResponsivo {
       text-align: left;
       font-family: "Montserrat", sans-serif;
@@ -720,16 +732,16 @@ footer {
       font-weight: 600; }
     .section-serviciosResponsivo .textos-serviciosResponsivo {
       text-align: justify;
-      margin: 3rem 0rem 3rem 0rem;
+      margin: 3rem 1rem 3rem 0rem;
       font-family: 1.2em; }
     .section-serviciosResponsivo .servicio-finalResponsivo {
       margin-top: 3rem;
       margin: 3rem 0 3rem 0;
       font-weight: 600; }
     .section-serviciosResponsivo .btns-serviciosResponsivo {
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
       text-align: right;
-      margin-left: 10rem; }
+      margin-right: 2rem; }
     .section-serviciosResponsivo .btn-contactanos-serviciosResponsivo {
       color: #202529;
       font-size: 1.8em;
@@ -741,15 +753,14 @@ footer {
     .section-serviciosResponsivo .boxServicios-CapacitacionesResponsivo {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      text-align: center;
       background-color: #545E62;
       margin-top: 3rem; }
       .section-serviciosResponsivo .boxServicios-CapacitacionesResponsivo .info-serviciosCapacitacionesResponsivo {
         text-align: right;
         width: 350px;
         color: #ffffff;
-        margin-top: 3rem; }
+        margin-top: 3rem;
+        margin-left: 2rem; }
       .section-serviciosResponsivo .boxServicios-CapacitacionesResponsivo .titulos-serviciosCapacitacionesResponsivo {
         text-align: left;
         font-family: "Montserrat", sans-serif;
@@ -763,7 +774,7 @@ footer {
         font-family: 1.2em;
         color: #ffffff; }
       .section-serviciosResponsivo .boxServicios-CapacitacionesResponsivo .servicio-finalCapacitacionesResponsivo {
-        margin: 2rem 0 2rem 0;
+        margin: 2rem 0 0 0;
         font-weight: 600;
         text-align: justify; }
         .section-serviciosResponsivo .boxServicios-CapacitacionesResponsivo .servicio-finalCapacitacionesResponsivo p {
@@ -776,7 +787,10 @@ footer {
         padding: 2%;
         text-decoration: none;
         font-weight: 600;
-        text-align: right; }
+        text-align: right;
+        margin-bottom: 4rem;
+        margin-left: 20rem;
+        margin-right: 2rem; }
       .section-serviciosResponsivo .boxServicios-CapacitacionesResponsivo .paso-pasoCapacitacionesResponsivo {
         width: 350px; } }
 
@@ -792,10 +806,10 @@ footer {
     position: absolute;
     transform: translate(-50%, -50%);
     font-family: "Montserrat", sans-serif;
-    top: 50%;
+    top: 45%;
     left: 30%; }
     .flyer-revestimientoPisos .section-flyers h1 {
-      font-size: 4em;
+      font-size: 5em;
       position: absolute;
       text-align: center;
       padding: 2rem;
@@ -1024,7 +1038,7 @@ footer {
     top: 40%;
     left: 40%; }
     .flyer-obras .section-flyers h1 {
-      font-size: 4em;
+      font-size: 5em;
       position: absolute;
       text-align: center;
       padding: 2rem;
@@ -1048,7 +1062,7 @@ footer {
     top: 40%;
     left: 35%; }
     .flyer-obrasParedes .section-flyers h1 {
-      font-size: 4em;
+      font-size: 5em;
       position: absolute;
       text-align: center;
       padding: 2rem;
@@ -1085,7 +1099,8 @@ footer {
   margin: 50px auto 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 30px; }
+  gap: 30px;
+  object-fit: cover; }
   .img-gallery img {
     width: 100%;
     cursor: pointer;
@@ -1096,7 +1111,7 @@ footer {
 .ful-img {
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
   left: 0;
@@ -1110,10 +1125,25 @@ footer {
     right: 5%;
     font-size: 3.2em;
     cursor: pointer;
-    color: #ffffff; }
+    background-color: #A85A4B;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
   .ful-img img {
     width: 90%;
     max-width: 600px; }
+  .ful-img .next {
+    display: block;
+    background-color: #A85A4B;
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.6 ease; }
 
 @media screen and (max-width: 768px) {
   .flyer-obras {
@@ -1141,10 +1171,10 @@ footer {
     position: absolute;
     transform: translate(-50%, -50%);
     font-family: "Montserrat", sans-serif;
-    top: 50%;
+    top: 45%;
     left: 30%; }
     .flyer-revestimientoParedes .section-flyers h1 {
-      font-size: 4em;
+      font-size: 5em;
       position: absolute;
       text-align: center;
       padding: 2rem;
@@ -1196,7 +1226,8 @@ footer {
       padding: 2%;
       text-align: left;
       text-decoration: none;
-      font-weight: 600; }
+      font-weight: 600;
+      cursor: pointer; }
   #seccion-rParedes .boxParedes-stuccoVeleziano {
     display: flex;
     flex-direction: row;
@@ -1233,7 +1264,8 @@ footer {
       padding: 2%;
       text-align: left;
       text-decoration: none;
-      font-weight: 600; }
+      font-weight: 600;
+      cursor: pointer; }
   #seccion-rParedes .boxParedes-pedraFlex {
     display: flex;
     flex-direction: row;
@@ -1270,7 +1302,8 @@ footer {
       padding: 2%;
       text-align: left;
       text-decoration: none;
-      font-weight: 600; }
+      font-weight: 600;
+      cursor: pointer; }
   #seccion-rParedes .boxParedes-tarquini {
     display: flex;
     flex-direction: row;
@@ -1307,7 +1340,8 @@ footer {
       padding: 2%;
       text-align: left;
       text-decoration: none;
-      font-weight: 600; }
+      font-weight: 600;
+      cursor: pointer; }
 
 @media screen and (max-width: 480px) {
   .flyer-revestimientoParedes {
@@ -1379,11 +1413,13 @@ footer {
     justify-content: center;
     gap: 5rem;
     margin-top: 5rem;
-    text-decoration: none !important; }
+    text-decoration: none !important;
+    cursor: pointer; }
   .boton-columnResponsive {
     display: flex;
     flex-direction: column;
-    font-weight: 600 !important; }
+    font-weight: 600 !important;
+    cursor: pointer; }
   .icon-wspResponsive {
     height: 70px;
     width: 70px;
@@ -1402,10 +1438,10 @@ footer {
     position: absolute;
     transform: translate(-50%, -50%);
     font-family: "Montserrat", sans-serif;
-    top: 50%;
-    left: 30%; }
+    top: 45%;
+    left: 35%; }
     .flyer-productos .section-flyers h1 {
-      font-size: 4em;
+      font-size: 5em;
       position: absolute;
       text-align: center;
       padding: 2rem;
@@ -1575,7 +1611,7 @@ footer {
     transform: translate(-50%, -50%);
     font-family: "Montserrat", sans-serif; }
     .flyer-kits .section-flyers h1 {
-      font-size: 4em;
+      font-size: 5em;
       position: absolute;
       text-align: center;
       padding: 2rem;
@@ -1585,10 +1621,10 @@ footer {
       display: inline-block;
       letter-spacing: 10px; }
 
-.texto-kits {
+.texto-kits p {
   text-align: center;
-  margin: 5rem 10rem 5rem 10rem;
-  font-size: 1.8em; }
+  margin: 6rem 15rem 0 15rem;
+  font-size: 2.5em; }
 
 .seccion-kitsResponsivo {
   display: none; }
@@ -1597,8 +1633,8 @@ footer {
   text-align: center;
   width: 100%;
   height: 100%;
-  margin-top: 2%;
-  margin-bottom: 4%; }
+  margin-top: 1%;
+  margin-bottom: 3%; }
   .seccion-kits .boxKit-microCemento {
     display: flex;
     flex-direction: row;
@@ -1609,7 +1645,8 @@ footer {
       width: 50%;
       border: #202529;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      margin-left: 5%; }
       .seccion-kits .boxKit-microCemento .kit__img img {
         width: 500px; }
     .seccion-kits .boxKit-microCemento .kit__info {
@@ -1655,9 +1692,13 @@ footer {
   .flyer-kits {
     height: 400px; }
     .flyer-kits .section-flyers {
-      left: 7rem; }
+      left: 9rem; }
       .flyer-kits .section-flyers h1 {
         font-size: 3.2em; }
+  .texto-kits p {
+    text-align: center;
+    margin: 6rem 0 0 0;
+    font-size: 2em; }
   .seccion-kits {
     display: none; }
   .seccion-kitsResponsivo {

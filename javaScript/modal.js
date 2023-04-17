@@ -162,7 +162,7 @@ const mostrarCardsPorcelanato = (porcelanatoLiquido) => {
         botonPisos.addEventListener('click', e => {
             e.preventDefault();
 
-            modalPisos(porcelanato);
+            modalPisosPorcelanato(porcelanato);
 
         })
 
@@ -172,7 +172,7 @@ const mostrarCardsPorcelanato = (porcelanatoLiquido) => {
 
 // MODAL PISOS
 
-function modalPisos(porcelanato) {
+function modalPisosPorcelanato(porcelanato) {
 
 
     Swal.fire({

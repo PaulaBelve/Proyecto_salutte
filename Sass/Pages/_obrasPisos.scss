@@ -23,7 +23,7 @@
 
 
         h1 {
-            font-size: $text-banner;
+            font-size: $text-Large;
             position: absolute;
             text-align: center;
             padding: 2rem;
@@ -64,7 +64,7 @@
 
 
         h1 {
-            font-size: $text-banner;
+            font-size: $text-Large;
             position: absolute;
             text-align: center;
             padding: 2rem;
@@ -133,6 +133,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 30px;
+    object-fit: cover;
 
     img {
 
@@ -149,7 +150,7 @@
 .ful-img {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
     left: 0;
@@ -166,13 +167,31 @@
         right: 5%;
         font-size: $text-Medium;
         cursor: pointer;
+        background-color: $color-nosotros;
         color: $color-base;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
     }
 
     img {
 
         width: 90%;
         max-width: 600px;
+    }
+
+    .next {
+
+        display: block;
+        background-color: $color-nosotros;
+        color: $color-base;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.6 ease;
     }
 
 

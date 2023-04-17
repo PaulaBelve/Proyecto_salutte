@@ -7,20 +7,21 @@
     margin-top: 2rem;
     position: relative;
 
+
     .section-flyers {
 
 
         text-align: center;
         position: absolute;
-        top: 50%;
-        left: 35%;
+        top: 45%;
+        left: 36%;
         transform: translate(-50%, -50%);
         font-family: $font-Title;
 
 
 
         h1 {
-            font-size: $text-banner;
+            font-size: $text-Large;
             position: absolute;
             text-align: center;
             padding: 2rem;
@@ -55,7 +56,7 @@
         justify-content: center !important;
         align-items: center !important;
         text-align: end;
-        margin-top: 5rem;
+        margin-top: 3rem;
         width: 100%;
         height: 70%;
     }
@@ -137,6 +138,7 @@
         text-align: end;
         margin-top: 3rem;
         width: 100%;
+        background-color: $color-titulos;
 
 
         .paso-paso {
@@ -150,9 +152,8 @@
 
             text-align: left;
             width: 50%;
-            background-color: $color-titulos;
             color: $color-base;
-            height: 764px;
+
 
         }
 
@@ -318,8 +319,8 @@
 
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: center;
+
+
             margin-top: 3rem;
 
         }
@@ -327,15 +328,20 @@
         .paso-pasoResponsivo {
 
             width: 100%;
-            margin-top: 2rem;
+
         }
 
+        .ImgResponsivo {
 
+            width: 100%;
+            margin-bottom: 3rem;
+        }
 
         .info-serviciosResponsivo {
 
-            text-align: left;
+
             width: 350px;
+            margin-left: 2rem;
 
         }
 
@@ -352,7 +358,7 @@
         .textos-serviciosResponsivo {
 
             text-align: justify;
-            margin: 3rem 0rem 3rem 0rem;
+            margin: 3rem 1rem 3rem 0rem;
             font-family: $text-header;
 
 
@@ -371,9 +377,12 @@
 
         .btns-serviciosResponsivo {
 
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             text-align: right;
-            margin-left: 10rem;
+
+
+
+            margin-right: 2rem;
 
         }
 
@@ -387,14 +396,13 @@
             text-decoration: none;
             font-weight: 600;
 
+
         }
 
         .boxServicios-CapacitacionesResponsivo {
 
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: center;
             background-color: $color-titulos;
             margin-top: 3rem;
 
@@ -405,6 +413,7 @@
 
                 color: $color-base;
                 margin-top: 3rem;
+                margin-left: 2rem;
 
 
             }
@@ -433,7 +442,7 @@
             .servicio-finalCapacitacionesResponsivo {
 
 
-                margin: 2rem 0 2rem 0;
+                margin: 2rem 0 0 0;
 
                 font-weight: 600;
                 text-align: justify;
@@ -453,6 +462,9 @@
                 text-decoration: none;
                 font-weight: 600;
                 text-align: right;
+                margin-bottom: 4rem;
+                margin-left: 20rem;
+                margin-right: 2rem;
 
             }
 

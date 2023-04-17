@@ -59,7 +59,7 @@ const microCementoPared = (revestimientoMicroCemento) => {
         botonParedes.addEventListener('click', e => {
             e.preventDefault();
 
-            modalPared(pared);
+            modalParedCementoPared(pared);
 
         })
 
@@ -75,7 +75,7 @@ microCementoPared(revestimientoMicroCemento)
 
 // MODAL PISOS
 
-function modalPared(pared) {
+function modalParedCementoPared(pared) {
 
 
     Swal.fire({
@@ -185,7 +185,7 @@ const stucoVeleziano = (revestimientoStuccoVeleziano) => {
         botonParedes.addEventListener('click', e => {
             e.preventDefault();
 
-            modalPared(pared);
+            modalParedStucco(pared);
 
         })
 
@@ -201,7 +201,7 @@ stucoVeleziano(revestimientoStuccoVeleziano)
 
 // MODAL PISOS
 
-function modalPared(pared) {
+function modalParedStucco(pared) {
 
 
     Swal.fire({
@@ -309,7 +309,7 @@ const pedraFlex = (revestimientoPedraFlex) => {
         botonParedes.addEventListener('click', e => {
             e.preventDefault();
 
-            modalPared(pared);
+            modalParedPedraFlex(pared);
 
         })
 
@@ -325,7 +325,7 @@ pedraFlex(revestimientoPedraFlex)
 
 // MODAL PISOS
 
-function modalPared(pared) {
+function modalParedPedraFlex(pared) {
 
 
     Swal.fire({
