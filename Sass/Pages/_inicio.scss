@@ -473,7 +473,7 @@
                 right: 0;
                 margin-left: 2%;
                 margin-right: 2%;
-                margin-top: 80%;
+                margin-top: 75%;
                 background-color: rgba(255, 255, 255, 0.856);
                 height: 38%;
                 text-align: left;
@@ -534,6 +534,7 @@
                 text-align: right;
                 width: 350px;
                 margin-bottom: 4rem;
+
 
                 h2 {
                     text-align: left;
@@ -644,6 +645,81 @@
         }
 
 
+    }
+
+}
+
+// AGREGAR SECCIÓN DE PRODUCTOS
+
+@media screen and (max-width: 360px) {
+
+    .seccion-servicios {
+
+        background-color: $color-principal;
+        height: 150rem;
+        width: 100%;
+
+        .cardServicios {
+            margin-top: 3rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            .boxServicios {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 0;
+            }
+
+            h3 {
+
+                font-family: $font-Principal;
+                font-weight: 600;
+                margin: 1rem 1rem 0 1rem;
+
+
+            }
+
+            .boxServicios__img {
+
+
+                position: relative;
+                margin-bottom: 2rem;
+
+            }
+
+            .boxServicios__info {
+
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin-left: 2%;
+                margin-right: 2%;
+                margin-top: 75%;
+                background-color: rgba(255, 255, 255, 0.856);
+                height: 42%;
+                text-align: left;
+                font-size: 1em;
+                padding: 2%;
+                font-family: $font-Principal;
+                color: $color-principal;
+
+
+            }
+
+            .boxServicios__text {
+                margin: 1rem 1rem 1rem 1rem;
+            }
+
+        }
     }
 
 }

@@ -299,6 +299,65 @@
         margin-top: 2rem;
 
 
+        .boxPisosPorcelanatoResponsivo {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+            .boxPisos__imgResponsivo {
+
+                width: 400px;
+
+
+
+            }
+
+
+            .boxPisos__infoResponsivo {
+
+                text-align: right;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                width: 300px;
+            }
+
+            .boxPisos__titleResponsivo {
+
+
+                text-align: left;
+                font-family: $font-subtitulos;
+                font-size: $text-uniforme;
+                font-weight: 600
+            }
+
+            .boxPisos__textResponsivo {
+
+
+                text-align: justify;
+                margin: 3rem 0 3rem 0;
+            }
+
+            .btn-rPisosResponsivo {
+
+                margin: 3rem 0 3rem 0;
+                color: $color-principal;
+                font-size: $text-Base;
+                font-family: $font-Title;
+                border: solid 1px $color-principal;
+                padding: 2%;
+                text-decoration: none;
+                font-weight: 600;
+                cursor: pointer
+            }
+
+
+        }
+
         .boxPisosResponsivo {
 
             display: flex;
