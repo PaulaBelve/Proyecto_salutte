@@ -329,10 +329,151 @@
         }
 
     }
+}
+
+@media screen and (max-width: 360px) {
+
+
+    .flyer-productos {
+
+        height: 400px;
+
+
+        .section-flyers {
+
+            left: 1.5rem;
 
 
 
+            h1 {
+                font-size: $text-Medium;
 
+            }
+        }
+
+    }
+
+    .seccionProductos-responsivo {
+
+        display: block;
+        margin-top: 3rem;
+
+
+        .boxProductos-pisosResponsivo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .img-productosResponsivo {
+
+                img {
+                    width: 360px;
+
+                }
+
+
+            }
+
+
+            .info-boxProductosResponsivo {
+
+
+                text-align: right;
+                width: 300px;
+                margin-bottom: 4rem;
+
+                h2 {
+                    text-align: left;
+                    font-family: $font-subtitulos;
+                    font-size: $text-uniforme;
+                    font-weight: 600
+                }
+
+                p {
+
+                    text-align: justify;
+                    margin: 2rem 0rem 3rem 0rem;
+                }
+
+                .btn-productosResponsivo {
+
+
+                    margin: 2rem 0rem 4rem 0rem;
+                    color: $color-principal;
+                    font-size: $text-Base;
+                    font-family: $font-Title;
+                    border: solid 1px $color-principal;
+
+                    padding: 2%;
+                    text-align: center;
+                    text-decoration: none;
+                    font-weight: 600;
+                    cursor: pointer
+                }
+
+            }
+
+        }
+
+        .boxProductos-ParedesResponsivo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .img-productos-paredesResponsivo {
+
+                img {
+                    width: 360px;
+
+                }
+
+
+            }
+
+
+            .info-boxProductosParedesResponsivo {
+
+                text-align: right;
+                width: 300px;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                h2 {
+                    text-align: left;
+                    font-family: $font-subtitulos;
+                    font-size: $text-uniforme;
+                    font-weight: 600
+                }
+
+                p {
+
+                    text-align: justify;
+                    margin: 2rem 0rem 3rem 0rem;
+                }
+
+                .btn-productosResponsivo {
+
+
+                    margin: 2rem 0rem 4rem 0rem;
+                    color: $color-principal;
+                    font-size: $text-Base;
+                    font-family: $font-Title;
+                    border: solid 1px $color-principal;
+
+                    padding: 2%;
+                    text-align: center;
+                    text-decoration: none;
+                    font-weight: 600;
+                    cursor: pointer
+                }
+
+            }
+
+        }
+
+    }
 
 
 

@@ -588,3 +588,215 @@
 
 
 }
+
+@media screen and (max-width: 360px) {
+
+
+    .flyer-revestimientoParedes {
+
+        height: 400px;
+
+
+        .section-flyers {
+
+            left: 0;
+
+
+
+            h1 {
+                font-size: $text-uniforme;
+            }
+        }
+
+    }
+
+    #sectionParedes-Responsive {
+
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 2rem;
+
+
+        .boxParedesStuccoResponsivo {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+            .boxParedes__imgResponsivo {
+
+                width: 360px;
+
+
+
+            }
+
+
+            .boxParedes__infoResponsivo {
+
+                text-align: right;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                width: 300px;
+            }
+
+            .boxParedes__titleResponsivo {
+
+
+                text-align: left;
+                font-family: $font-subtitulos;
+                font-size: $text-uniforme;
+                font-weight: 600
+            }
+
+            .boxParedes__textResponsivo {
+
+
+                text-align: justify;
+                margin: 3rem 0 3rem 0;
+            }
+
+            .btn-rParedesResponsivo {
+
+                margin: 3rem 0 3rem 0;
+                color: $color-principal;
+                font-size: $text-Base;
+                font-family: $font-Title;
+                border: solid 1px $color-principal;
+                padding: 2%;
+                text-decoration: none;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+
+        }
+
+        .boxParedesResponsivo {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+            .boxParedes__imgResponsivo {
+
+                width: 360px;
+
+
+
+            }
+
+
+            .boxParedes__infoResponsivo {
+
+                text-align: right;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                width: 300px;
+            }
+
+            .boxParedes__titleResponsivo {
+
+
+                text-align: left;
+                font-family: $font-subtitulos;
+                font-size: $text-uniforme;
+                font-weight: 600
+            }
+
+            .boxParedes__textResponsivo {
+
+
+                text-align: justify;
+                margin: 3rem 0 3rem 0;
+            }
+
+            .btn-rParedesResponsivo {
+
+                margin: 3rem 0 3rem 0;
+                color: $color-principal;
+                font-size: $text-Base;
+                font-family: $font-Title;
+                border: solid 1px $color-principal;
+                padding: 2%;
+                text-decoration: none;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+
+        }
+
+        .boxParedesPedraResponsivo {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+            .boxParedes__imgResponsivo {
+
+                width: 360px;
+
+
+
+            }
+
+
+            .boxParedes__infoResponsivo {
+
+                text-align: right;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                width: 300px;
+            }
+
+            .boxParedes__titleResponsivo {
+
+
+                text-align: left;
+                font-family: $font-subtitulos;
+                font-size: $text-uniforme;
+                font-weight: 600
+            }
+
+            .boxParedes__textResponsivo {
+
+
+                text-align: justify;
+                margin: 3rem 0 3rem 0;
+            }
+
+            .btn-rParedesResponsivo {
+
+                margin: 3rem 0 3rem 0;
+                color: $color-principal;
+                font-size: $text-Base;
+                font-family: $font-Title;
+                border: solid 1px $color-principal;
+                padding: 2%;
+                text-decoration: none;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+
+        }
+    }
+
+
+
+}

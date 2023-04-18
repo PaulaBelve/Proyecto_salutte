@@ -292,3 +292,28 @@
 
 
 }
+
+@media screen and (max-width: 360px) {
+
+    .flyer-kits {
+
+        height: 400px;
+
+        .section-flyers {
+
+            left: 5.5rem;
+
+
+
+            h1 {
+
+                font-size: $text-Medium;
+            }
+        }
+
+
+    }
+
+
+
+}

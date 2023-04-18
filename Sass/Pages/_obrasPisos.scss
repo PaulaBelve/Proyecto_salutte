@@ -246,3 +246,55 @@
 
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    .flyer-obrasParedes {
+
+        height: 400px;
+
+
+        .section-flyers {
+
+            left: 5rem;
+
+
+
+            h1 {
+                font-size: $text-Medium;
+
+
+
+
+
+            }
+        }
+
+    }
+
+    .flyer-obras {
+
+        height: 400px;
+
+
+        .section-flyers {
+
+            left: 8rem;
+
+
+
+            h1 {
+                font-size: $text-Medium;
+
+
+
+
+
+            }
+        }
+
+    }
+
+
+
+}

@@ -239,3 +239,53 @@ footer {
 
 
 }
+
+
+@media screen and (max-width: 360px) {
+
+    footer {
+
+        .footer {
+
+            .asesoramiento-footer {
+
+                margin-top: 2rem;
+                margin-left: 10px;
+
+                h3 {
+
+                    color: $color-base ;
+                    margin-bottom: 3%;
+                    font-weight: 600;
+
+
+                }
+
+                p {
+                    color: $color-base ;
+                    font-size: $text-header;
+                    margin-bottom: 8%;
+
+                }
+
+                .btn-contactanos {
+
+                    color: $color-base;
+                    font-size: $text-xxSmall;
+                    font-family: $font-Title;
+                    border: solid 1px $color-base;
+                    background-color: $color-titulos ;
+
+                    padding: 3%;
+                    text-align: left;
+                    text-decoration: none;
+                    font-weight: 600;
+                    cursor: pointer
+                }
+            }
+
+        }
+
+    }
+
+}

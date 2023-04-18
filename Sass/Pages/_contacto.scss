@@ -187,3 +187,36 @@ textarea {
 
 
 }
+
+@media screen and (max-width: 360px) {
+
+    /* FORMULARIO */
+
+
+    .mb-3 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .form-select {
+
+            width: 35rem;
+            margin-top: 2rem;
+            font-family: $font-Principal;
+            font-size: $text-Small;
+        }
+    }
+
+    .form-control {
+
+        width: 35rem;
+
+
+    }
+
+
+
+
+}

@@ -310,7 +310,7 @@
 
             .boxPisos__imgResponsivo {
 
-                width: 400px;
+                width: 360px;
 
 
 
@@ -369,7 +369,7 @@
 
             .boxPisos__imgResponsivo {
 
-                width: 400px;
+                width: 360px;
 
 
 
@@ -479,9 +479,27 @@
     }
 
 
+}
+
+@media screen and (max-width: 360px) {
+
+    .flyer-revestimientoPisos {
+
+        height: 400px;
+
+
+        .section-flyers {
+
+            left: 0;
 
 
 
+            h1 {
+                font-size: $text-uniforme;
+            }
+        }
+
+    }
 
 
 

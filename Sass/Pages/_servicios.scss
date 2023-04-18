@@ -479,3 +479,200 @@
     }
 
 }
+
+@media screen and (max-width: 360px) {
+
+    .flyer-servicios {
+
+        height: 400px;
+
+        .section-flyers {
+
+            left: 2.5rem;
+
+
+
+            h1 {
+                font-size: $text-Medium;
+
+
+
+
+
+            }
+        }
+
+
+    }
+
+    .section-serviciosResponsivo {
+
+        display: block;
+
+
+        .boxServiciosResponsivo {
+
+            display: flex;
+            flex-direction: column;
+
+
+            margin-top: 3rem;
+
+        }
+
+        .paso-pasoResponsivo {
+
+            width: 100%;
+
+        }
+
+        .ImgResponsivo {
+
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+
+        .info-serviciosResponsivo {
+
+
+            width: 300px;
+            margin-left: 2rem;
+
+        }
+
+
+
+        .titulos-serviciosResponsivo {
+            text-align: left;
+            font-family: $font-subtitulos;
+            font-size: $text-Medium;
+            letter-spacing: 2px;
+            font-weight: 600
+        }
+
+        .textos-serviciosResponsivo {
+
+            text-align: justify;
+            margin: 3rem 1rem 3rem 0rem;
+            font-family: $text-header;
+
+
+
+
+        }
+
+        .servicio-finalResponsivo {
+            margin-top: 3rem;
+
+            margin: 3rem 0 3rem 0;
+
+            font-weight: 600
+        }
+
+
+        .btns-serviciosResponsivo {
+
+            margin-bottom: 2rem;
+            text-align: right;
+
+
+
+            margin-right: 2rem;
+
+        }
+
+        .btn-contactanos-serviciosResponsivo {
+
+            color: $color-principal;
+            font-size: $text-Base;
+            font-family: $font-Title;
+            border: solid 1px $color-principal;
+            padding: 2%;
+            text-decoration: none;
+            font-weight: 600;
+
+
+        }
+
+        .boxServicios-CapacitacionesResponsivo {
+
+            display: flex;
+            flex-direction: column;
+            background-color: $color-titulos;
+            margin-top: 3rem;
+
+            .info-serviciosCapacitacionesResponsivo {
+
+                text-align: right;
+                width: 300px;
+
+                color: $color-base;
+                margin-top: 3rem;
+                margin-left: 2rem;
+
+
+            }
+
+            .titulos-serviciosCapacitacionesResponsivo {
+                text-align: left;
+                font-family: $font-subtitulos;
+                font-size: $text-Medium;
+                letter-spacing: 2px;
+                font-weight: 600;
+                color: $color-base;
+
+            }
+
+            .textos-serviciosCapacitacionesResponsivo {
+
+                text-align: justify;
+                margin: 3rem 0rem 4rem 0rem;
+                font-family: $text-header;
+                color: $color-base;
+
+
+
+            }
+
+            .servicio-finalCapacitacionesResponsivo {
+
+
+                margin: 2rem 0 0 0;
+
+                font-weight: 600;
+                text-align: justify;
+
+                p {
+                    color: $color-base;
+                }
+            }
+
+            .btn-contactanos-serviciosCapacitacionesResponsivo {
+
+                color: $color-base;
+                font-size: $text-Base;
+                font-family: $font-Title;
+                border: solid 1px $color-base;
+                padding: 2%;
+                text-decoration: none;
+                font-weight: 600;
+                text-align: right;
+                margin-bottom: 4rem;
+                margin-left: 18rem;
+                margin-right: 2rem;
+
+            }
+
+            .paso-pasoCapacitacionesResponsivo {
+
+                width: 350px;
+            }
+
+        }
+
+
+    }
+
+
+
+}
