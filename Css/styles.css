@@ -292,6 +292,9 @@ footer {
     text-align: justify;
     font-size: 2em; }
 
+.cardServiciosMobile {
+  display: none; }
+
 .seccion-servicios {
   background-color: #202529;
   height: 100%;
@@ -465,31 +468,32 @@ footer {
       margin: 4% 8% 2% 8%; }
   .seccion-servicios {
     background-color: #202529;
-    height: 160rem;
-    width: 100%; }
+    height: 205rem; }
     .seccion-servicios .cardServicios {
+      display: none; }
+    .seccion-servicios .cardServiciosMobile {
+      display: block;
       margin-top: 3rem;
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      .seccion-servicios .cardServicios .serviciosBtnResponsive {
-        display: block; }
-      .seccion-servicios .cardServicios .boxServicios {
+      .seccion-servicios .cardServiciosMobile .boxServicios {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-bottom: 0; }
-      .seccion-servicios .cardServicios h3 {
+      .seccion-servicios .cardServiciosMobile h3 {
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         margin: 1rem 1rem 0 1rem; }
-      .seccion-servicios .cardServicios .boxServicios__img {
+      .seccion-servicios .cardServiciosMobile .boxServicios__img {
         position: relative;
-        margin-bottom: 2rem; }
-      .seccion-servicios .cardServicios .boxServicios__info {
+        margin-bottom: 2rem;
+        width: 90%; }
+      .seccion-servicios .cardServiciosMobile .boxServicios__info {
         display: block;
         position: absolute;
         top: 0;
@@ -498,15 +502,15 @@ footer {
         right: 0;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 75%;
+        margin-top: 83%;
         background-color: rgba(255, 255, 255, 0.856);
-        height: 38%;
+        height: 28%;
         text-align: left;
         font-size: 1em;
         padding: 2%;
         font-family: "Montserrat", sans-serif;
         color: #202529; }
-      .seccion-servicios .cardServicios .boxServicios__text {
+      .seccion-servicios .cardServiciosMobile .boxServicios__text {
         margin: 1rem 1rem 1rem 1rem; }
   .seccion-productos {
     display: none; }
@@ -586,31 +590,32 @@ footer {
 @media screen and (max-width: 360px) {
   .seccion-servicios {
     background-color: #202529;
-    height: 150rem;
+    height: 160rem;
     width: 100%; }
     .seccion-servicios .cardServicios {
+      display: none; }
+    .seccion-servicios .cardServiciosMobile {
+      display: block;
       margin-top: 3rem;
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      .seccion-servicios .cardServicios .serviciosBtnResponsive {
-        display: block; }
-      .seccion-servicios .cardServicios .boxServicios {
+      .seccion-servicios .cardServiciosMobile .boxServicios {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-bottom: 0; }
-      .seccion-servicios .cardServicios h3 {
+      .seccion-servicios .cardServiciosMobile h3 {
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         margin: 1rem 1rem 0 1rem; }
-      .seccion-servicios .cardServicios .boxServicios__img {
+      .seccion-servicios .cardServiciosMobile .boxServicios__img {
         position: relative;
         margin-bottom: 2rem; }
-      .seccion-servicios .cardServicios .boxServicios__info {
+      .seccion-servicios .cardServiciosMobile .boxServicios__info {
         display: block;
         position: absolute;
         top: 0;
@@ -619,15 +624,15 @@ footer {
         right: 0;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 75%;
+        margin-top: 78%;
         background-color: rgba(255, 255, 255, 0.856);
-        height: 42%;
+        height: 35%;
         text-align: left;
         font-size: 1em;
         padding: 2%;
         font-family: "Montserrat", sans-serif;
         color: #202529; }
-      .seccion-servicios .cardServicios .boxServicios__text {
+      .seccion-servicios .cardServiciosMobile .boxServicios__text {
         margin: 1rem 1rem 1rem 1rem; }
   .seccionProductosInicio-responsivo {
     display: block; }
