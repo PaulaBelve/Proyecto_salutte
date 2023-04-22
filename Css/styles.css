@@ -468,7 +468,7 @@ footer {
       margin: 4% 8% 2% 8%; }
   .seccion-servicios {
     background-color: #202529;
-    height: 205rem; }
+    height: 180rem; }
     .seccion-servicios .cardServicios {
       display: none; }
     .seccion-servicios .cardServiciosMobile {
@@ -502,9 +502,9 @@ footer {
         right: 0;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 83%;
+        margin-top: 85%;
         background-color: rgba(255, 255, 255, 0.856);
-        height: 28%;
+        height: 30%;
         text-align: left;
         font-size: 1em;
         padding: 2%;
@@ -594,6 +594,8 @@ footer {
     width: 100%; }
     .seccion-servicios .cardServicios {
       display: none; }
+    .seccion-servicios .titulo-servicios {
+      padding: 3.5rem; }
     .seccion-servicios .cardServiciosMobile {
       display: block;
       margin-top: 3rem;
