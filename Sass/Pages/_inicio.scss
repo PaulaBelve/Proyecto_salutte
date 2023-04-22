@@ -227,7 +227,7 @@
     display: none;
 }
 
-.seccion-productos {
+/*.seccion-productos {
 
 
     .box-pisos {
@@ -244,6 +244,9 @@
 
             width: 50%;
 
+            display: flex;
+            align-items: center;
+
 
         }
 
@@ -251,7 +254,7 @@
         .info-boxProductos {
 
 
-            text-align: left;
+            text-align: center;
             width: 50%;
         }
 
@@ -300,6 +303,8 @@
 
         .img-productos-paredes {
             width: 50%;
+            display: flex;
+            align-items: center;
 
         }
 
@@ -347,7 +352,7 @@
     }
 
 
-}
+}*/
 
 // Cierre de inicio estetica imagen
 

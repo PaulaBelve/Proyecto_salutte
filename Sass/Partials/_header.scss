@@ -78,44 +78,21 @@
 
 }
 
-//REVISAR PORQUE SE VA DE COSTADO
-
-.navbar-toggler-icon {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: $color-nosotros;
-}
-
-
+//REVISAR PORQUE SE VA DE COSTADO EL NAVBAR RESPONSIVE MOBILE
 
 @media screen and (max-width: 768px) {
 
-    .navbar-toggler-icon {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: $color-nosotros;
-
-
-    }
-
-    // LOGO
-
     .header {
 
-        display: flex;
+
+        /*    display: flex;
         flex-direction: row;
         justify-content: space-around;
         gap: 15%;
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: $text-header;
-        color: $color-principal;
+        color: $color-principal; */
 
 
         // LOGO
@@ -125,8 +102,8 @@
 
             display: flex;
             justify-content: flex-start;
-            margin-left: 0.1rem;
-            width: 150px;
+            margin-left: 0rem;
+            width: 135px;
             font-size: $text-Small ;
 
 
@@ -134,26 +111,11 @@
         }
 
 
-        .navbar {
-
-            font-family: $font-Principal;
-            text-align: start;
 
 
-        }
 
     }
 
-    /*   .header {
 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 15%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-size: $text-header;
-        color: $color-principal;
-}  */
 
 }
