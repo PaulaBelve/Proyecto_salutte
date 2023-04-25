@@ -12,7 +12,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Salutte | Obras Paredes </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title> Salutte | Obras-Revestimiento para paredes </title>
 </head>
 
 <body>
@@ -115,9 +116,11 @@
 
         <section class="container-fluid card-obras">
 
-            <div class="ful-img" id="fulImgBox">
-                <img src="../Img/carrouselmc1.png" alt="" id="fulImg">
-                <span onclick="closeImg()">X</span>
+            <div class="ful-img" id="fulImgBoxMicroCemento">
+                <i class='next bx bx-left-arrow-alt' id="left-btnMicroCemento"></i>
+                <img src="../Img/grandesObras.jpeg" id="fulImgMicroCemento">
+                <i class='next bx bx-right-arrow-alt' id="right-btnMicroCemento"></i>
+                <span id="closeImgMicroCemento">X</span>
             </div>
 
             <a name="microCementoPared" />
@@ -125,19 +128,26 @@
 
             <div class="img-gallery">
 
-                <img src="../Img/carrouselmc1.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPared1.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPared2.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCemento7.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPared5.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPared6.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPared7.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPared8.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/carrouselmc1.png" class="imgMicroCemento" data-id="1" alt="">
+                <img src="../Img/microCementoPared1.png" class="imgMicroCemento" data-id="2" alt="">
+                <img src="../Img/microCementoPared2.png" class="imgMicroCemento" data-id="3" alt="">
+                <img src="../Img/microCemento7.png" class="imgMicroCemento" data-id="4" alt="">
+                <img src="../Img/microCementoPared5.png" class="imgMicroCemento" data-id="5" alt="">
+                <img src="../Img/microCementoPared6.png" class="imgMicroCemento" data-id="6" alt="">
+                <img src="../Img/microCementoPared7.png" class="imgMicroCemento" data-id="7" alt="">
+                <img src="../Img/microCementoPared8.png" class="imgMicroCemento" data-id="8" alt="">
 
 
 
             </div>
             <a href="./contacto.html#contactanos" class="btn-contactanos-servicios">+ INFORMACIÓN</a>
+
+            <div class="ful-img" id="fulImgBoxStucco">
+                <i class='next bx bx-left-arrow-alt' id="left-btnStucco"></i>
+                <img src="../Img/grandesObras.jpeg" id="fulImgStucco">
+                <i class='next bx bx-right-arrow-alt' id="right-btnStucco"></i>
+                <span id="closeImgStucco">X</span>
+            </div>
 
 
             <a name="stuccoVeleziano" />
@@ -145,11 +155,11 @@
 
             <div class="img-gallery">
 
-                <img src="../Img/Stucco1.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/Stucco2.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/Stucco3.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/Stucco4.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/Stucco5.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/Stucco1.png" class="imgStucco" data-id="1" alt="">
+                <img src="../Img/Stucco2.png" class="imgStucco" data-id="2" alt="">
+                <img src="../Img/Stucco3.png" class="imgStucco" data-id="3" alt="">
+                <img src="../Img/Stucco4.png" class="imgStucco" data-id="4" alt="">
+                <img src="../Img/Stucco5.png" class="imgStucco" data-id="5" alt="">
 
 
 
@@ -158,20 +168,27 @@
 
             <a href="./contacto.html#contactanos" class="btn-contactanos-servicios">+ INFORMACIÓN</a>
 
+            <div class="ful-img" id="fulImgBoxPedraFlex">
+                <i class='next bx bx-left-arrow-alt' id="left-btnPedraFlex"></i>
+                <img src="../Img/grandesObras.jpeg" id="fulImgPedraFlex">
+                <i class='next bx bx-right-arrow-alt' id="right-btnPedraFlex"></i>
+                <span id="closeImgPedraFlex">X</span>
+            </div>
+
 
             <a name="pedraFlex" />
             <h1> GALERIA DE OBRAS CON PEDRAFLEX</h1>
 
             <div class="img-gallery">
 
-                <img src="../Img/pedraFlex1.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex2.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex3.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex4.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex5.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex6.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex7.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex8.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/pedraFlex1.png" class="imgPedraFlex" data-id="1" alt="">
+                <img src="../Img/pedraFlex2.png" class="imgPedraFlex" data-id="2" alt="">
+                <img src="../Img/pedraFlex3.png" class="imgPedraFlex" data-id="3" alt="">
+                <img src="../Img/pedraFlex4.png" class="imgPedraFlex" data-id="4" alt="">
+                <img src="../Img/pedraFlex5.png" class="imgPedraFlex" data-id="5" alt="">
+                <img src="../Img/pedraFlex6.png" class="imgPedraFlex" data-id="6" alt="">
+                <img src="../Img/pedraFlex7.png" class="imgPedraFlex" data-id="7" alt="">
+                <img src="../Img/pedraFlex8.png" class="imgPedraFlex" data-id="8" alt="">
 
 
 
@@ -283,7 +300,7 @@
 
     <!-- JavaScript -->
 
-    <script src="../javaScript/script.js"></script>
+    <script src="../javaScript/scriptParedes.js"></script>
 
 
 </body>

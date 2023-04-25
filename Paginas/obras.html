@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -120,23 +121,11 @@
         <section class="container-fluid card-obras">
 
             <div class="ful-img" id="fulImgBox">
-                <a href="" class="next" onclick="plusSlides(-1)"><i class="fas fa-arrow-left"></i></a>
-
-                <img src="../Img/carrouselmc1.png" alt="" class="slide" id="fulImg">
-
-                <div class="elements">
-                    <span class="quadrate" onclick="currentSlide(1)"></span>
-                    <span class="quadrate" onclick="currentSlide(2)"></span>
-                    <span class="quadrate" onclick="currentSlide(3)"></span>
-                    <span class="quadrate" onclick="currentSlide(4)"></span>
-
-                </div>
-
-                <span onclick="closeImg()">X</span>
-
-                <a href="" class="next" onclick="plusSlides(1)"><i class="fas fa-arrow-right"></i></a>
+                <i class='next bx bx-left-arrow-alt' id="left-btn"></i>
+                <img src="../Img/grandesObras.jpeg" id="fulImg">
+                <i class='next bx bx-right-arrow-alt' id="right-btn"></i>
+                <span id="closeImg">X</span>
             </div>
-
 
 
             <h1> GRANDES OBRAS</h1>
@@ -145,17 +134,17 @@
 
 
 
-                <img src="../Img/grandesObras1.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/grandesObras1.png" class="img" data-id="1" alt="">
 
 
 
-                <img src="../Img/grandesObras9.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/grandesObras9.png" class="img" data-id="2" alt="">
 
 
-                <img src="../Img/grandesObras3.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/grandesObras3.png" class="img" data-id="3" alt="">
 
 
-                <img src="../Img/grandesObras8.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/grandesObras8.png" class="img" data-id="4" alt="">
 
 
 
@@ -168,24 +157,23 @@
 
             <a href="./grandesObras.html" class="btn-contactanos-servicios">VER MÁS</a>
 
-
+            <div class="ful-img" id="fulImgBoxPiso">
+                <i class='next bx bx-left-arrow-alt' id="left-btnPiso"></i>
+                <img src="../Img/microCementoPiso.png" id="fulImgPiso">
+                <i class='next bx bx-right-arrow-alt' id="right-btnPiso"></i>
+                <span id="closeImgPiso">X</span>
+            </div>
 
 
             <h1> OBRAS DE REVESTIMIENTO PARA PISOS</h1>
             <div class="img-gallery">
 
-                <img src="../Img/microCementoPiso1.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPiso2.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/porcelanatoLiquido6.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/porcelanatoLiquido4.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/microCementoPiso1.png" class="imgPiso" data-id="1" alt="">
+                <img src="../Img/microCementoPiso2.png" class="imgPiso" data-id="2" alt="">
+                <img src="../Img/porcelanatoLiquido6.png" class="imgPiso" data-id="3" alt="">
+                <img src="../Img/porcelanatoLiquido4.png" class="imgPiso" data-id="4" alt="">
 
-                <div class="elements">
-                    <span class="quadrate" onclick="currentSlide(1)"></span>
-                    <span class="quadrate" onclick="currentSlide(2)"></span>
-                    <span class="quadrate" onclick="currentSlide(3)"></span>
-                    <span class="quadrate" onclick="currentSlide(4)"></span>
 
-                </div>
 
 
 
@@ -194,23 +182,23 @@
 
             <a href="./obrasPisos.html" class="btn-contactanos-servicios">VER MÁS</a>
 
+            <div class="ful-img" id="fulImgBoxPared">
+                <i class='next bx bx-left-arrow-alt' id="left-btnPared"></i>
+                <img src="../Img/microCementoPared1.png" id="fulImgPared">
+                <i class='next bx bx-right-arrow-alt' id="right-btnPared"></i>
+                <span id="closeImgPared">X</span>
+            </div>
+
 
             <h1> OBRAS DE REVESTIMIENTO PARA PAREDES</h1>
 
             <div class="img-gallery">
 
-                <img src="../Img/microCementoPared2.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/pedraFlex5.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/microCementoPared7.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/Stucco2.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/microCementoPared2.png" class="imgPared" data-id="1" alt="">
+                <img src="../Img/pedraFlex5.png" class="imgPared" data-id="2" alt="">
+                <img src="../Img/microCementoPared7.png" class="imgPared" data-id="3" alt="">
+                <img src="../Img/Stucco2.png" class="imgPared" data-id="4" alt="">
 
-                <div class="elements">
-                    <span class="quadrate" onclick="currentSlide(1)"></span>
-                    <span class="quadrate" onclick="currentSlide(2)"></span>
-                    <span class="quadrate" onclick="currentSlide(3)"></span>
-                    <span class="quadrate" onclick="currentSlide(4)"></span>
-
-                </div>
 
 
 
@@ -302,6 +290,7 @@
     </script>
 
     <script src="../javaScript/script.js"></script>
+
 
 </body>
 

@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -119,21 +120,25 @@
         <section class="container-fluid card-obras">
 
             <div class="ful-img" id="fulImgBox">
-                <img src="../Img/carrouselmc1.png" alt="" id="fulImg">
-                <span onclick="closeImg()">X</span>
+                <i class='next bx bx-left-arrow-alt' id="left-btn"></i>
+                <img src="../Img/grandesObras.jpeg" id="fulImg">
+                <i class='next bx bx-right-arrow-alt' id="right-btn"></i>
+                <span id="closeImg">X</span>
             </div>
+
+
             <a name="microCementoPared" />
             <h1> GALERIA DE NUESTRAS GRANDES OBRAS</h1>
             <div class="img-gallery">
 
-                <img src="../Img/grandesObras1.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/grandesObras2.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/grandesObras3.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/grandesObras4.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/grandesObras5.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/grandesObras6.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/grandesObras7.png" onclick="openFullImg(this.src)" alt="">
-                <img src="../Img/grandesObras8.png" onclick="openFullImg(this.src)" alt="">
+                <img src="../Img/grandesObras1.png" class="img" data-id="1" alt="">
+                <img src="../Img/grandesObras2.png" class="img" data-id="2" alt="">
+                <img src="../Img/grandesObras3.png" class="img" data-id="3" alt="">
+                <img src="../Img/grandesObras4.png" class="img" data-id="4" alt="">
+                <img src="../Img/grandesObras5.png" class="img" data-id="5" alt="">
+                <img src="../Img/grandesObras6.png" class="img" data-id="6" alt="">
+                <img src="../Img/grandesObras7.png" class="img" data-id="7" alt="">
+                <img src="../Img/grandesObras8.png" class="img" data-id="8" alt="">
 
 
 
@@ -226,7 +231,7 @@
 
     <!-- JavaScript -->
 
-    <script src="../javaScript/script.js"></script>
+    <script src="../javaScript/scriptGrandesObras.js"></script>
 
 </body>
 

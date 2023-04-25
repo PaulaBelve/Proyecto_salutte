@@ -12,7 +12,8 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <title> Obras-Revestimiento | Salutte </title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title> Salutte | Obras-Revestimiento para pisos </title>
 </head>
 
 <body>
@@ -113,24 +114,27 @@
 
     <section class="container-fluid card-obras">
 
-      <div class="ful-img" id="fulImgBox">
-        <img src="../Img/carrouselmc1.png" alt="" id="fulImg">
-        <span onclick="closeImg()">X</span>
+      <div class="ful-img" id="fulImgBoxMicroCemento">
+        <i class='next bx bx-left-arrow-alt' id="left-btnMicroCemento"></i>
+        <img src="../Img/grandesObras.jpeg" id="fulImgMicroCemento">
+        <i class='next bx bx-right-arrow-alt' id="right-btnMicroCemento"></i>
+        <span id="closeImgMicroCemento">X</span>
       </div>
+
       <a name="microCementoPiso" />
       <h1> GALERIA DE OBRAS CON MICROCEMENTO</h1>
 
       <div class="img-gallery">
 
 
-        <img src="../Img/microCementoPiso1.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/carrouselmc2.png.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/grandesObras9.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/microCemento7.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/microCemento8.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/microCementoPiso2.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/microCementoPiso3.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/microCementoPiso4.png" onclick="openFullImg(this.src)" alt="">
+        <img src="../Img/microCementoPiso1.png" class="imgMicroCemento" data-id="1" alt="">
+        <img src="../Img/carrouselmc2.png.png" class="imgMicroCemento" data-id="2" alt="">
+        <img src="../Img/grandesObras9.png" class="imgMicroCemento" data-id="3" alt="">
+        <img src="../Img/microCemento7.png" class="imgMicroCemento" data-id="4" alt="">
+        <img src="../Img/microCemento8.png" class="imgMicroCemento" data-id="5" alt="">
+        <img src="../Img/microCementoPiso2.png" class="imgMicroCemento" data-id="6" alt="">
+        <img src="../Img/microCementoPiso3.png" class="imgMicroCemento" data-id="7" alt="">
+        <img src="../Img/microCementoPiso4.png" class="imgMicroCemento" data-id="8" alt="">
 
 
 
@@ -138,20 +142,27 @@
 
       <a href="./contacto.html#contactanos" class="btn-contactanos-servicios">+ INFORMACIÓN</a>
 
+      <div class="ful-img" id="fulImgBoxPorcelanato">
+        <i class='next bx bx-left-arrow-alt' id="left-btnPorcelanato"></i>
+        <img src="../Img/grandesObras.jpeg" id="fulImgPorcelanato">
+        <i class='next bx bx-right-arrow-alt' id="right-btnPorcelanato"></i>
+        <span id="closeImgPorcelanato">X</span>
+      </div>
+
       <a name="porcelanato" />
       <h1> GALERIA DE OBRAS CON PORCELANATO LIQUIDO</h1>
 
       <div class="img-gallery">
 
 
-        <img src="../Img/porcelanatoLiquido10.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/porcelanatoLiquido2.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/pocelanatoLiquido5.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/porcelanatoLiquido4.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/porcelanatoLiquido6.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/porcelanatoLiquido7.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/porcelanatoLiquido8.png" onclick="openFullImg(this.src)" alt="">
-        <img src="../Img/porcelanatoLiquido9.png" onclick="openFullImg(this.src)" alt="">
+        <img src="../Img/porcelanatoLiquido10.png" class="imgPorcelanato" data-id="1" alt="">
+        <img src="../Img/porcelanatoLiquido2.png" class="imgPorcelanato" data-id="2" alt="">
+        <img src="../Img/pocelanatoLiquido5.png" class="imgPorcelanato" data-id="3" alt="">
+        <img src="../Img/porcelanatoLiquido4.png" class="imgPorcelanato" data-id="4" alt="">
+        <img src="../Img/porcelanatoLiquido6.png" class="imgPorcelanato" data-id="5" alt="">
+        <img src="../Img/porcelanatoLiquido7.png" class="imgPorcelanato" data-id="6" alt="">
+        <img src="../Img/porcelanatoLiquido8.png" class="imgPorcelanato" data-id="7" alt="">
+        <img src="../Img/porcelanatoLiquido9.png" class="imgPorcelanato" data-id="8" alt="">
 
 
 
@@ -239,7 +250,7 @@
     AOS.init();
   </script>
 
-  <script src="../javaScript/script.js"></script>
+  <script src="../javaScript/scriptPisos.js"></script>
 
 </body>
 
