@@ -167,7 +167,7 @@
         right: 5%;
         font-size: $text-Medium;
         cursor: pointer;
-        background-color: $color-nosotros;
+        background-color: $color-titulos;
         color: $color-base;
         width: 50px;
         height: 50px;
@@ -183,14 +183,15 @@
     .next {
 
         display: block;
-        background-color: $color-nosotros;
         color: $color-base;
-        height: 30px;
-        width: 30px;
-        line-height: 30px;
+        height: 35px;
+        width: 35px;
+        line-height: 40px;
         text-decoration: none;
         text-align: center;
+        font-size: 4.5rem;
         cursor: pointer;
+        font-weight: 600;
         transition: 0.6 ease;
     }
 
@@ -245,6 +246,18 @@
         }
 
     }
+
+    .ful-img {
+
+
+        img {
+
+            width: 80%;
+
+        }
+
+    }
+
 }
 
 @media screen and (max-width: 360px) {
