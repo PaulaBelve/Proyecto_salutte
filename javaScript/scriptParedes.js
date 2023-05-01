@@ -42,6 +42,9 @@ leftBtnMicroCemento.addEventListener("click", e => {
 })
 
 closeImgMicroCemento.addEventListener("click", e => fulImgBoxMicroCemento.style.display = "none")
+fulImgBoxMicroCemento.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBoxMicroCemento.style.display = "none";
+})
 
 
 // SCRIPT PARA STUCCO
@@ -88,6 +91,9 @@ leftBtnStucco.addEventListener("click", e => {
 })
 
 closeImgStucco.addEventListener("click", e => fulImgBoxStucco.style.display = "none")
+fulImgBoxStucco.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBoxStucco.style.display = "none";
+})
 
 // SCRIPT PARA PEDRAFLEX
 
@@ -133,3 +139,6 @@ leftBtnPedraFlex.addEventListener("click", e => {
 })
 
 closeImgPedraFlex.addEventListener("click", e => fulImgBoxPedraFlex.style.display = "none")
+fulImgBoxPedraFlex.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBoxPedraFlex.style.display = "none";
+})

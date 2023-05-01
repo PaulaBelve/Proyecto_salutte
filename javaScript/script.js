@@ -42,6 +42,9 @@ leftBtn.addEventListener("click", e => {
 })
 
 closeImg.addEventListener("click", e => fulImgBox.style.display = "none")
+fulImgBox.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBox.style.display = "none";
+})
 
 // SCRIPT PISOS
 
@@ -87,6 +90,9 @@ leftBtnPisos.addEventListener("click", e => {
 })
 
 closeImgPisos.addEventListener("click", e => fulImgBoxPisos.style.display = "none")
+fulImgBoxPisos.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBoxPisos.style.display = "none";
+})
 
 // SCRIPT PAREDES
 
@@ -132,6 +138,9 @@ leftBtnPared.addEventListener("click", e => {
 })
 
 closeImgPared.addEventListener("click", e => fulImgBoxPared.style.display = "none")
+fulImgBoxPared.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBoxPared.style.display = "none";
+})
 
 
 

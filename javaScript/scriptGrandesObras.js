@@ -42,3 +42,6 @@ leftBtn.addEventListener("click", e => {
 })
 
 closeImg.addEventListener("click", e => fulImgBox.style.display = "none")
+fulImgBox.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBox.style.display = "none";
+})

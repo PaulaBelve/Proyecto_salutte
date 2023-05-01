@@ -42,6 +42,9 @@ leftBtnMicroCemento.addEventListener("click", e => {
 })
 
 closeImgMicroCemento.addEventListener("click", e => fulImgBoxMicroCemento.style.display = "none")
+fulImgBoxMicroCemento.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBoxMicroCemento.style.display = "none";
+})
 
 // SCRIPT PORCELANATO
 
@@ -89,3 +92,6 @@ leftBtnPorcelanato.addEventListener("click", e => {
 })
 
 closeImgPorcelanato.addEventListener("click", e => fulImgBoxPorcelanato.style.display = "none")
+fulImgBoxPorcelanato.addEventListener("click", e => {
+    if (e.target.classList.contains("ful-img")) fulImgBoxPorcelanato.style.display = "none";
+})
